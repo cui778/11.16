@@ -1,0 +1,43 @@
+{
+  "checkpoint": "e:\\11.16\\script2_new\\outputs\\model_checkpoints\\best_model_process_diagnosis_hydraulic_inverse_deepattn_time_gated_node_sensor_v2_rebuild_residual8_scenario_seed123.pth",
+  "subdir": "time_gated_node_sensor_v2_rebuild",
+  "model_type": "hydraulic_inverse_deepattn",
+  "split_mode": "scenario",
+  "seed": 123,
+  "features": [
+    "depth_residual",
+    "total_outflow_residual",
+    "pollut_NH4_residual",
+    "pollut_TSSs_residual",
+    "depth_residual_rel",
+    "total_outflow_residual_rel",
+    "pollut_NH4_residual_rel",
+    "pollut_TSSs_residual_rel"
+  ],
+  "best_on_val": {
+    "n_samples": 710,
+    "mrr": 0.451701596049423,
+    "top1": 0.3704225352112676,
+    "top3": 0.4619718309859155,
+    "top5": 0.5253521126760563,
+    "top10": 0.5788732394366197,
+    "top20": 0.7929577464788733,
+    "tau": 2.0,
+    "topk": 5,
+    "c_value": 10.0,
+    "candidate_onehot": true,
+    "embedding_dim": 16,
+    "train_shortlist_samples": 1463,
+    "val_shortlist_samples": 373
+  },
+  "test_with_best_val_setting": {
+    "n_samples": 693,
+    "mrr": 0.39090075917647416,
+    "top1": 0.3189033189033189,
+    "top3": 0.38961038961038963,
+    "top5": 0.43001443001443,
+    "top10": 0.5440115440115441,
+    "top20": 0.6565656565656566
+  },
+  "embedding_dim": 16
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "seed": 42,
+    "total_loc_windows": 732,
+    "top1_correct_windows": 214,
+    "top1_acc": 0.2923497267759563,
+    "error_windows": 518,
+    "hop_distribution": {
+      "0": 214,
+      "1": 12,
+      "2": 11,
+      "3": 15,
+      "4": 24,
+      "5": 10,
+      "6": 46,
+      "7": 53,
+      "8": 51,
+      "9": 38,
+      "10": 54,
+      "11": 64,
+      "12": 31,
+      "13": 25,
+      "14": 37,
+      "15": 22,
+      "16": 10,
+      "17": 3,
+      "18": 9,
+      "19": 3
+    },
+    "top_false_pred_nodes": [
+      {
+        "pred_node_id": "HS1316202",
+        "pred_node_idx": 63,
+        "false_top1_count": 182,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS2003046",
+        "pred_node_idx": 108,
+        "false_top1_count": 122,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1313471",
+        "pred_node_idx": 35,
+        "false_top1_count": 61,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1316585",
+        "pred_node_idx": 79,
+        "false_top1_count": 60,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1313618",
+        "pred_node_idx": 42,
+        "false_top1_count": 60,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1306601",
+        "pred_node_idx": 4,
+        "false_top1_count": 9,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1313025",
+        "pred_node_idx": 18,
+        "false_top1_count": 5,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1313925",
+        "pred_node_idx": 51,
+        "false_top1_count": 5,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1306904",
+        "pred_node_idx": 5,
+        "false_top1_count": 4,
+        "is_monitor": 0,
+        "is_candidate": 1
+      },
+      {
+        "pred_node_id": "HS1313205",
+        "pred_node_idx": 25,
+        "false_top1_count": 3,
+        "is_monitor": 0,
+        "is_candidate": 1
+      }
+    ],
+    "top_false_pairs": [
+      {
+        "true_node_id": "HS1313471",
+        "pred_node_id": "HS1316202",
+        "count": 24
+      },
+      {
+        "true_node_id": "HS1344902",
+        "pred_node_id": "HS1316202",
+        "count": 17
+      },
+      {
+        "true_node_id": "HS1313140",
+        "pred_node_id": "HS1316202",
+        "count": 17
+      },
+      {
+        "true_node_id": "HS2003111",
+        "pred_node_id": "HS1316202",
+        "count": 17
+      },
+      {
+        "true_node_id": "HS1313471",
+        "pred_node_id": "HS2003046",
+        "count": 14
+      },
+      {
+        "true_node_id": "HS1313140",
+        "pred_node_id": "HS2003046",
+        "count": 14
+      },
+      {
+        "true_node_id": "HS1344902",
+        "pred_node_id": "HS2003046",
+        "count": 12
+      },
+      {
+        "true_node_id": "HS1313618",
+        "pred_node_id": "HS1316202",
+        "count": 11
+      },
+      {
+        "true_node_id": "HS2003111",
+        "pred_node_id": "HS2003046",
+        "count": 11
+      },
+      {
+        "true_node_id": "HS1316415",
+        "pred_node_id": "HS1316202",
+        "count": 10
+      }
+    ]
+  }
+]

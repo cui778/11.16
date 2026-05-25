@@ -1,0 +1,68 @@
+{
+  "mrr": 0.8129511666714971,
+  "top1": 0.6632653061224489,
+  "top3": 0.967930029154519,
+  "top5": 0.9825072886297376,
+  "seed": 123,
+  "subdir": "time_gated_observability",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 210,
+      "n_windows": 8820,
+      "n_defect_nodes": 45,
+      "loc_enabled": 3069,
+      "loc_enabled_ratio": 0.3479591836734694
+    },
+    "val": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 29,
+      "loc_enabled": 711,
+      "loc_enabled_ratio": 0.3761904761904762
+    },
+    "test": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 29,
+      "loc_enabled": 686,
+      "loc_enabled_ratio": 0.362962962962963
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "MH0242782"
+    ],
+    "test_only_defect_nodes_sample": [
+      "MH0101924"
+    ]
+  },
+  "config_snapshot": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "soft_label_sigma": 1.0,
+    "lambda_type": 0.0,
+    "model_type": "gru_gcn",
+    "time_hidden_dim": 128,
+    "spatial_hidden_dim": 256,
+    "num_time_layers": 1,
+    "num_spatial_layers": 2,
+    "n_features": 9,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file": "monitor_nodes_degree_N25.json",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated_observability\\node_timeseries.parquet"
+  },
+  "by_type_top1": {
+    "I": 0.7306397306397306,
+    "E": 0.7400881057268722,
+    "P": 0.43209876543209874
+  }
+}

@@ -1,0 +1,2409 @@
+{
+  "junctions": {
+    "HS1306471": {
+      "elevation": 23.42,
+      "type": "JUNCTION"
+    },
+    "HS1306554": {
+      "elevation": 19.35,
+      "type": "JUNCTION"
+    },
+    "HS1306571": {
+      "elevation": 19.22,
+      "type": "JUNCTION"
+    },
+    "HS1306601": {
+      "elevation": 18.793,
+      "type": "JUNCTION"
+    },
+    "HS1308259": {
+      "elevation": 19.84,
+      "type": "JUNCTION"
+    },
+    "HS1308301": {
+      "elevation": 18.248,
+      "type": "JUNCTION"
+    },
+    "HS1308302": {
+      "elevation": 18.194,
+      "type": "JUNCTION"
+    },
+    "HS1308324": {
+      "elevation": 17.9,
+      "type": "JUNCTION"
+    },
+    "HS1311284": {
+      "elevation": 21.17,
+      "type": "JUNCTION"
+    },
+    "HS1311288": {
+      "elevation": 21.26,
+      "type": "JUNCTION"
+    },
+    "HS1311339": {
+      "elevation": 22.13,
+      "type": "JUNCTION"
+    },
+    "HS1311349": {
+      "elevation": 22.24,
+      "type": "JUNCTION"
+    },
+    "HS1311473": {
+      "elevation": 22.97,
+      "type": "JUNCTION"
+    },
+    "HS1311475": {
+      "elevation": 22.17,
+      "type": "JUNCTION"
+    },
+    "HS1311887": {
+      "elevation": 20.56,
+      "type": "JUNCTION"
+    },
+    "HS1313001": {
+      "elevation": 20.54,
+      "type": "JUNCTION"
+    },
+    "HS1313025": {
+      "elevation": 20.3,
+      "type": "JUNCTION"
+    },
+    "HS1313026": {
+      "elevation": 20.7,
+      "type": "JUNCTION"
+    },
+    "HS1313044": {
+      "elevation": 20.102,
+      "type": "JUNCTION"
+    },
+    "HS1313083": {
+      "elevation": 20.09,
+      "type": "JUNCTION"
+    },
+    "HS1313123": {
+      "elevation": 20.05,
+      "type": "JUNCTION"
+    },
+    "HS1313140": {
+      "elevation": 20.09,
+      "type": "JUNCTION"
+    },
+    "HS1313167": {
+      "elevation": 19.998,
+      "type": "JUNCTION"
+    },
+    "HS1313205": {
+      "elevation": 19.22,
+      "type": "JUNCTION"
+    },
+    "HS1313220": {
+      "elevation": 18.885,
+      "type": "JUNCTION"
+    },
+    "HS1313253": {
+      "elevation": 20.27,
+      "type": "JUNCTION"
+    },
+    "HS1313283": {
+      "elevation": 21.05,
+      "type": "JUNCTION"
+    },
+    "HS1313290": {
+      "elevation": 19.6,
+      "type": "JUNCTION"
+    },
+    "HS1313298": {
+      "elevation": 19.685,
+      "type": "JUNCTION"
+    },
+    "HS1313343": {
+      "elevation": 19.87,
+      "type": "JUNCTION"
+    },
+    "HS1313391": {
+      "elevation": 18.907,
+      "type": "JUNCTION"
+    },
+    "HS1313415": {
+      "elevation": 20.1,
+      "type": "JUNCTION"
+    },
+    "HS1313471": {
+      "elevation": 20.8,
+      "type": "JUNCTION"
+    },
+    "HS1313487": {
+      "elevation": 20.47,
+      "type": "JUNCTION"
+    },
+    "HS1313508": {
+      "elevation": 20.86,
+      "type": "JUNCTION"
+    },
+    "HS1313534": {
+      "elevation": 19.97,
+      "type": "JUNCTION"
+    },
+    "HS1313569": {
+      "elevation": 20.29,
+      "type": "JUNCTION"
+    },
+    "HS1313597": {
+      "elevation": 19.92,
+      "type": "JUNCTION"
+    },
+    "HS1313613": {
+      "elevation": 20.36,
+      "type": "JUNCTION"
+    },
+    "HS1313618": {
+      "elevation": 22.38,
+      "type": "JUNCTION"
+    },
+    "HS1313640": {
+      "elevation": 21.642,
+      "type": "JUNCTION"
+    },
+    "HS1313676": {
+      "elevation": 20.36,
+      "type": "JUNCTION"
+    },
+    "HS1313740": {
+      "elevation": 20.75,
+      "type": "JUNCTION"
+    },
+    "HS1313794": {
+      "elevation": 18.692,
+      "type": "JUNCTION"
+    },
+    "HS1313803": {
+      "elevation": 18.787,
+      "type": "JUNCTION"
+    },
+    "HS1313835": {
+      "elevation": 18.47,
+      "type": "JUNCTION"
+    },
+    "HS1313839": {
+      "elevation": 20.34,
+      "type": "JUNCTION"
+    },
+    "HS1313865": {
+      "elevation": 20.11,
+      "type": "JUNCTION"
+    },
+    "HS1313925": {
+      "elevation": 21.42,
+      "type": "JUNCTION"
+    },
+    "HS1313959": {
+      "elevation": 20.25,
+      "type": "JUNCTION"
+    },
+    "HS1313965": {
+      "elevation": 22.12,
+      "type": "JUNCTION"
+    },
+    "HS1314210": {
+      "elevation": 20.02,
+      "type": "JUNCTION"
+    },
+    "HS1314237": {
+      "elevation": 19.73,
+      "type": "JUNCTION"
+    },
+    "HS1314268": {
+      "elevation": 19.07,
+      "type": "JUNCTION"
+    },
+    "HS1316010": {
+      "elevation": 21.73,
+      "type": "JUNCTION"
+    },
+    "HS1316177": {
+      "elevation": 18.302,
+      "type": "JUNCTION"
+    },
+    "HS1316202": {
+      "elevation": 18.203,
+      "type": "JUNCTION"
+    },
+    "HS1316207": {
+      "elevation": 18.126,
+      "type": "JUNCTION"
+    },
+    "HS1316267": {
+      "elevation": 19.14,
+      "type": "JUNCTION"
+    },
+    "HS1316302": {
+      "elevation": 21.53,
+      "type": "JUNCTION"
+    },
+    "HS1316334": {
+      "elevation": 22.88,
+      "type": "JUNCTION"
+    },
+    "HS1316344": {
+      "elevation": 19.77,
+      "type": "JUNCTION"
+    },
+    "HS1316396": {
+      "elevation": 20.39,
+      "type": "JUNCTION"
+    },
+    "HS1316415": {
+      "elevation": 20.2,
+      "type": "JUNCTION"
+    },
+    "HS1316417": {
+      "elevation": 19.19,
+      "type": "JUNCTION"
+    },
+    "HS1316445": {
+      "elevation": 19.74,
+      "type": "JUNCTION"
+    },
+    "HS1316467": {
+      "elevation": 21.36,
+      "type": "JUNCTION"
+    },
+    "HS1316530": {
+      "elevation": 18.107,
+      "type": "JUNCTION"
+    },
+    "HS1316532": {
+      "elevation": 18.614,
+      "type": "JUNCTION"
+    },
+    "HS1316554": {
+      "elevation": 19.08,
+      "type": "JUNCTION"
+    },
+    "HS1316563": {
+      "elevation": 19.09,
+      "type": "JUNCTION"
+    },
+    "HS1316566": {
+      "elevation": 19.37,
+      "type": "JUNCTION"
+    },
+    "HS1316585": {
+      "elevation": 20.032,
+      "type": "JUNCTION"
+    },
+    "HS1316643": {
+      "elevation": 22.13,
+      "type": "JUNCTION"
+    },
+    "HS1316671": {
+      "elevation": 22.98,
+      "type": "JUNCTION"
+    },
+    "HS1316676": {
+      "elevation": 22.37,
+      "type": "JUNCTION"
+    },
+    "HS1316677": {
+      "elevation": 22.24,
+      "type": "JUNCTION"
+    },
+    "HS1316707": {
+      "elevation": 21.68,
+      "type": "JUNCTION"
+    },
+    "HS1316721": {
+      "elevation": 20.39,
+      "type": "JUNCTION"
+    },
+    "HS1316726": {
+      "elevation": 20.28,
+      "type": "JUNCTION"
+    },
+    "HS1316786": {
+      "elevation": 20.22,
+      "type": "JUNCTION"
+    },
+    "HS1316811": {
+      "elevation": 21.973,
+      "type": "JUNCTION"
+    },
+    "HS1316814": {
+      "elevation": 22.95,
+      "type": "JUNCTION"
+    },
+    "HS1316835": {
+      "elevation": 22.41,
+      "type": "JUNCTION"
+    },
+    "HS1316849": {
+      "elevation": 22.12,
+      "type": "JUNCTION"
+    },
+    "HS1316892": {
+      "elevation": 22.58,
+      "type": "JUNCTION"
+    },
+    "HS1317102": {
+      "elevation": 20.62,
+      "type": "JUNCTION"
+    },
+    "HS1318293": {
+      "elevation": 19.548,
+      "type": "JUNCTION"
+    },
+    "HS1324403": {
+      "elevation": 20.0,
+      "type": "JUNCTION"
+    },
+    "HS1330826": {
+      "elevation": 19.35,
+      "type": "JUNCTION"
+    },
+    "HS1330842": {
+      "elevation": 19.31,
+      "type": "JUNCTION"
+    },
+    "HS1344159": {
+      "elevation": 18.414,
+      "type": "JUNCTION"
+    },
+    "HS1344166": {
+      "elevation": 20.16,
+      "type": "JUNCTION"
+    },
+    "HS1344261": {
+      "elevation": 21.61,
+      "type": "JUNCTION"
+    },
+    "HS1344263": {
+      "elevation": 20.55,
+      "type": "JUNCTION"
+    },
+    "HS1344902": {
+      "elevation": 23.19,
+      "type": "JUNCTION"
+    },
+    "HS1344920": {
+      "elevation": 21.17,
+      "type": "JUNCTION"
+    },
+    "HS2003070": {
+      "elevation": 18.4,
+      "type": "JUNCTION"
+    },
+    "HS2003085": {
+      "elevation": 18.372,
+      "type": "JUNCTION"
+    },
+    "HS2003111": {
+      "elevation": 18.513,
+      "type": "JUNCTION"
+    },
+    "HS2003125": {
+      "elevation": 18.677,
+      "type": "JUNCTION"
+    },
+    "MH0100334": {
+      "elevation": 19.911,
+      "type": "JUNCTION"
+    },
+    "MH0200661": {
+      "elevation": 20.17,
+      "type": "JUNCTION"
+    },
+    "MH0201597": {
+      "elevation": 19.471,
+      "type": "JUNCTION"
+    },
+    "MH0201629": {
+      "elevation": 19.87,
+      "type": "JUNCTION"
+    },
+    "MH0201710": {
+      "elevation": 19.59,
+      "type": "JUNCTION"
+    },
+    "MH0241587": {
+      "elevation": 20.23,
+      "type": "JUNCTION"
+    },
+    "MH0242298": {
+      "elevation": 18.887,
+      "type": "JUNCTION"
+    },
+    "MH0242303": {
+      "elevation": 18.637,
+      "type": "JUNCTION"
+    },
+    "MH0242782": {
+      "elevation": 22.527,
+      "type": "JUNCTION"
+    },
+    "MH0258475": {
+      "elevation": 23.118,
+      "type": "JUNCTION"
+    },
+    "VP0232532": {
+      "elevation": 20.15,
+      "type": "JUNCTION"
+    },
+    "YS2003067": {
+      "elevation": 18.183,
+      "type": "JUNCTION"
+    }
+  },
+  "outfalls": {
+    "MH0100819": {
+      "elevation": 17.24,
+      "type": "OUTFALL"
+    },
+    "1": {
+      "elevation": 17.5,
+      "type": "OUTFALL"
+    }
+  },
+  "storage": {
+    "HS1314512": {
+      "elevation": 17.59,
+      "type": "STORAGE"
+    },
+    "HS1314477": {
+      "elevation": 17.54,
+      "type": "STORAGE"
+    },
+    "HS2003013": {
+      "elevation": 17.846,
+      "type": "STORAGE"
+    },
+    "HS1314769": {
+      "elevation": 17.781,
+      "type": "STORAGE"
+    },
+    "HS1314505": {
+      "elevation": 17.663,
+      "type": "STORAGE"
+    },
+    "HS2003015": {
+      "elevation": 18.09,
+      "type": "STORAGE"
+    },
+    "HS2003023": {
+      "elevation": 18.17,
+      "type": "STORAGE"
+    },
+    "HS2003046": {
+      "elevation": 18.316,
+      "type": "STORAGE"
+    },
+    "HS1306904": {
+      "elevation": 18.297,
+      "type": "STORAGE"
+    },
+    "HS1313402": {
+      "elevation": 18.84,
+      "type": "STORAGE"
+    },
+    "MH0101924": {
+      "elevation": 19.702,
+      "type": "STORAGE"
+    },
+    "MH0100292": {
+      "elevation": 19.758,
+      "type": "STORAGE"
+    },
+    "HS2003014": {
+      "elevation": 17.642,
+      "type": "STORAGE"
+    }
+  },
+  "conduits": {
+    "HS1306554.1": {
+      "from_node": "HS1306554",
+      "to_node": "MH0201597",
+      "length": 256.870199
+    },
+    "HS1306554.2": {
+      "from_node": "HS1306554",
+      "to_node": "HS1306571",
+      "length": 210.786979
+    },
+    "HS1306571.1": {
+      "from_node": "HS1306571",
+      "to_node": "HS1306601",
+      "length": 274.704733
+    },
+    "HS1306601.1": {
+      "from_node": "HS1306601",
+      "to_node": "HS2003046",
+      "length": 321.608402
+    },
+    "HS1306904.1": {
+      "from_node": "HS1306904",
+      "to_node": "HS1308301",
+      "length": 260.719392
+    },
+    "HS1306904.2": {
+      "from_node": "HS1306904",
+      "to_node": "HS2003013",
+      "length": 281.634858
+    },
+    "HS1308259.1": {
+      "from_node": "HS1308259",
+      "to_node": "HS1308324",
+      "length": 138.031704
+    },
+    "HS1308301.1": {
+      "from_node": "HS1308301",
+      "to_node": "HS1308302",
+      "length": 53.211163
+    },
+    "HS1308302.1": {
+      "from_node": "HS1308302",
+      "to_node": "HS1308324",
+      "length": 257.465687
+    },
+    "HS1311288.1": {
+      "from_node": "HS1311288",
+      "to_node": "HS1311284",
+      "length": 67.769231
+    },
+    "HS1311349.2": {
+      "from_node": "HS1311349",
+      "to_node": "HS1311339",
+      "length": 265.772484
+    },
+    "HS1311887.1": {
+      "from_node": "HS1311887",
+      "to_node": "MH0100334",
+      "length": 220.600658
+    },
+    "HS1313026.1": {
+      "from_node": "HS1313026",
+      "to_node": "HS1313025",
+      "length": 20.0
+    },
+    "HS1313044.1": {
+      "from_node": "HS1313044",
+      "to_node": "HS1313140",
+      "length": 300.0
+    },
+    "HS1313083.1": {
+      "from_node": "HS1313083",
+      "to_node": "HS1313123",
+      "length": 212.711921
+    },
+    "HS1313083.2": {
+      "from_node": "HS1313083",
+      "to_node": "HS1344166",
+      "length": 150.27772
+    },
+    "HS1313123.1": {
+      "from_node": "HS1313123",
+      "to_node": "HS1313044",
+      "length": 84.941327
+    },
+    "HS1313167.1": {
+      "from_node": "HS1313167",
+      "to_node": "HS1313205",
+      "length": 253.250437
+    },
+    "HS1313205.2": {
+      "from_node": "HS1313205",
+      "to_node": "HS1313391",
+      "length": 112.857058
+    },
+    "HS1313220.1": {
+      "from_node": "HS1313220",
+      "to_node": "HS1306601",
+      "length": 92.422206
+    },
+    "HS1313290.1": {
+      "from_node": "HS1313290",
+      "to_node": "HS1318293",
+      "length": 54.020172
+    },
+    "HS1313298.1": {
+      "from_node": "HS1313298",
+      "to_node": "HS1313290",
+      "length": 66.498135
+    },
+    "HS1313343.1": {
+      "from_node": "HS1313343",
+      "to_node": "HS1313298",
+      "length": 289.166806
+    },
+    "HS1313391.1": {
+      "from_node": "HS1313391",
+      "to_node": "HS1313402",
+      "length": 109.940915
+    },
+    "HS1313402.1": {
+      "from_node": "HS1313402",
+      "to_node": "HS1313803",
+      "length": 52.472086
+    },
+    "HS1313402.2": {
+      "from_node": "HS1313402",
+      "to_node": "HS1306904",
+      "length": 222.315517
+    },
+    "HS1313471.1": {
+      "from_node": "HS1313471",
+      "to_node": "HS1313487",
+      "length": 87.119865
+    },
+    "HS1313508.1": {
+      "from_node": "HS1313508",
+      "to_node": "HS1313487",
+      "length": 104.188451
+    },
+    "HS1313613.1": {
+      "from_node": "HS1313613",
+      "to_node": "HS1313597",
+      "length": 83.723124
+    },
+    "HS1313618.1": {
+      "from_node": "HS1313618",
+      "to_node": "HS1313640",
+      "length": 119.541045
+    },
+    "HS1313794.1": {
+      "from_node": "HS1313794",
+      "to_node": "HS1313835",
+      "length": 129.59384
+    },
+    "HS1313803.1": {
+      "from_node": "HS1313803",
+      "to_node": "HS1313794",
+      "length": 94.785129
+    },
+    "HS1313835.1": {
+      "from_node": "HS1313835",
+      "to_node": "HS1308301",
+      "length": 222.309909
+    },
+    "HS1313835.2": {
+      "from_node": "HS1313835",
+      "to_node": "HS1344159",
+      "length": 55.675621
+    },
+    "HS1313839.1": {
+      "from_node": "HS1313839",
+      "to_node": "MH0241587",
+      "length": 109.348329
+    },
+    "HS1313965.1": {
+      "from_node": "HS1313965",
+      "to_node": "HS1313959",
+      "length": 183.095697
+    },
+    "HS1314210.1": {
+      "from_node": "HS1314210",
+      "to_node": "HS1314237",
+      "length": 134.560773
+    },
+    "HS1314237.1": {
+      "from_node": "HS1314237",
+      "to_node": "HS1314268",
+      "length": 165.708059
+    },
+    "HS1314268.1": {
+      "from_node": "HS1314268",
+      "to_node": "HS2003111",
+      "length": 61.433549
+    },
+    "HS1314505.1": {
+      "from_node": "HS1314505",
+      "to_node": "HS1314512",
+      "length": 147.204783
+    },
+    "HS1314769.1": {
+      "from_node": "HS1314769",
+      "to_node": "HS1314505",
+      "length": 200.680546
+    },
+    "HS1316177.1": {
+      "from_node": "HS1316177",
+      "to_node": "HS1316202",
+      "length": 99.993535
+    },
+    "HS1316202.1": {
+      "from_node": "HS1316202",
+      "to_node": "HS1316207",
+      "length": 76.902839
+    },
+    "HS1316207.1": {
+      "from_node": "HS1316207",
+      "to_node": "HS1316530",
+      "length": 18.817958
+    },
+    "HS1316267.1": {
+      "from_node": "HS1316267",
+      "to_node": "HS1316177",
+      "length": 256.523104
+    },
+    "HS1316302.1": {
+      "from_node": "HS1316302",
+      "to_node": "HS1316267",
+      "length": 205.677601
+    },
+    "HS1316415.1": {
+      "from_node": "HS1316415",
+      "to_node": "HS1316445",
+      "length": 187.421762
+    },
+    "HS1316417.1": {
+      "from_node": "HS1316417",
+      "to_node": "HS1313835",
+      "length": 232.319558
+    },
+    "HS1316445.1": {
+      "from_node": "HS1316445",
+      "to_node": "HS1316202",
+      "length": 46.886485
+    },
+    "HS1316467.1": {
+      "from_node": "HS1316467",
+      "to_node": "HS1316563",
+      "length": 194.09987
+    },
+    "HS1316467.2": {
+      "from_node": "HS1316467",
+      "to_node": "HS1316707",
+      "length": 108.499904
+    },
+    "HS1316532.1": {
+      "from_node": "HS1316532",
+      "to_node": "HS1316207",
+      "length": 10.0
+    },
+    "HS1316554.1": {
+      "from_node": "HS1316554",
+      "to_node": "HS1316532",
+      "length": 163.838206
+    },
+    "HS1316563.1": {
+      "from_node": "HS1316563",
+      "to_node": "HS1316554",
+      "length": 82.421616
+    },
+    "HS1316566.1": {
+      "from_node": "HS1316566",
+      "to_node": "HS1316563",
+      "length": 40.580973
+    },
+    "HS1316585.1": {
+      "from_node": "HS1316585",
+      "to_node": "HS1316566",
+      "length": 112.703542
+    },
+    "HS1316671.1": {
+      "from_node": "HS1316671",
+      "to_node": "HS1316643",
+      "length": 162.699096
+    },
+    "HS1316676.1": {
+      "from_node": "HS1316676",
+      "to_node": "HS1316643",
+      "length": 32.806216
+    },
+    "HS1316677.1": {
+      "from_node": "HS1316677",
+      "to_node": "HS1316676",
+      "length": 10.0
+    },
+    "HS1316721.1": {
+      "from_node": "HS1316721",
+      "to_node": "HS1316786",
+      "length": 49.91195
+    },
+    "HS1316726.1": {
+      "from_node": "HS1316726",
+      "to_node": "HS1308259",
+      "length": 213.172669
+    },
+    "HS1316786.1": {
+      "from_node": "HS1316786",
+      "to_node": "HS1316532",
+      "length": 141.325734
+    },
+    "HS1316811.1": {
+      "from_node": "HS1316811",
+      "to_node": "HS1316721",
+      "length": 249.849013
+    },
+    "HS1316814.1": {
+      "from_node": "HS1316814",
+      "to_node": "HS1316835",
+      "length": 84.431712
+    },
+    "HS1316835.1": {
+      "from_node": "HS1316835",
+      "to_node": "HS1316849",
+      "length": 60.34503
+    },
+    "HS1316849.1": {
+      "from_node": "HS1316849",
+      "to_node": "HS1316707",
+      "length": 82.595464
+    },
+    "HS1317102.1": {
+      "from_node": "HS1317102",
+      "to_node": "HS1313253",
+      "length": 50.865402
+    },
+    "HS1318293.1": {
+      "from_node": "HS1318293",
+      "to_node": "HS1313205",
+      "length": 280.800741
+    },
+    "HS1318293.2": {
+      "from_node": "HS1318293",
+      "to_node": "HS1306571",
+      "length": 217.954587
+    },
+    "HS1344159.1": {
+      "from_node": "HS1344159",
+      "to_node": "HS1316177",
+      "length": 111.504787
+    },
+    "HS1344261.1": {
+      "from_node": "HS1344261",
+      "to_node": "HS1316302",
+      "length": 13.527624
+    },
+    "HS1344263.1": {
+      "from_node": "HS1344263",
+      "to_node": "HS1316585",
+      "length": 177.719201
+    },
+    "HS1344902.1": {
+      "from_node": "HS1344902",
+      "to_node": "HS1316676",
+      "length": 224.265839
+    },
+    "HS2003013.1": {
+      "from_node": "HS2003013",
+      "to_node": "HS1314769",
+      "length": 44.841583
+    },
+    "HS2003015.1": {
+      "from_node": "HS2003015",
+      "to_node": "HS2003013",
+      "length": 40.463476
+    },
+    "HS2003023.1": {
+      "from_node": "HS2003023",
+      "to_node": "HS2003015",
+      "length": 116.489897
+    },
+    "HS2003046.1": {
+      "from_node": "HS2003046",
+      "to_node": "HS2003023",
+      "length": 146.137421
+    },
+    "HS2003070.1": {
+      "from_node": "HS2003070",
+      "to_node": "HS2003046",
+      "length": 145.104715
+    },
+    "HS2003085.1": {
+      "from_node": "HS2003085",
+      "to_node": "YS2003067",
+      "length": 126.081542
+    },
+    "HS2003125.1": {
+      "from_node": "HS2003125",
+      "to_node": "HS2003111",
+      "length": 104.543037
+    },
+    "MH0100292.1": {
+      "from_node": "MH0100292",
+      "to_node": "MH0101924",
+      "length": 72.446242
+    },
+    "MH0101924.1": {
+      "from_node": "MH0101924",
+      "to_node": "HS1313402",
+      "length": 183.753367
+    },
+    "MH0201597.1": {
+      "from_node": "MH0201597",
+      "to_node": "MH0201629",
+      "length": 217.074803
+    },
+    "MH0201710.1": {
+      "from_node": "MH0201710",
+      "to_node": "MH0201597",
+      "length": 96.210811
+    },
+    "MH0241587.1": {
+      "from_node": "MH0241587",
+      "to_node": "HS1313865",
+      "length": 53.492281
+    },
+    "MH0242298.1": {
+      "from_node": "MH0242298",
+      "to_node": "MH0242303",
+      "length": 75.400657
+    },
+    "MH0242303.1": {
+      "from_node": "MH0242303",
+      "to_node": "HS1314505",
+      "length": 101.763137
+    },
+    "MH0242782.1": {
+      "from_node": "MH0242782",
+      "to_node": "HS1344263",
+      "length": 208.035749
+    },
+    "MH0258475.1": {
+      "from_node": "MH0258475",
+      "to_node": "MH0242782",
+      "length": 207.854217
+    },
+    "VP0232532.1": {
+      "from_node": "VP0232532",
+      "to_node": "MH0200661",
+      "length": 324.097853
+    },
+    "YS2003067.1": {
+      "from_node": "YS2003067",
+      "to_node": "HS2003070",
+      "length": 10.0
+    },
+    "HS2003014.2": {
+      "from_node": "HS2003013",
+      "to_node": "HS2003014",
+      "length": 21.479264
+    },
+    "HS2003014.1": {
+      "from_node": "HS2003014",
+      "to_node": "MH0100819",
+      "length": 19.105481
+    },
+    "1": {
+      "from_node": "HS1314512",
+      "to_node": "HS1314477",
+      "length": 150.0
+    },
+    "2": {
+      "from_node": "HS1314477",
+      "to_node": "1",
+      "length": 400.0
+    },
+    "C_HS1313487_HS1313415": {
+      "from_node": "HS1313487",
+      "to_node": "HS1313415",
+      "length": 258.85
+    },
+    "link_3": {
+      "from_node": "HS1313415",
+      "to_node": "HS1313391",
+      "length": 120.0
+    },
+    "link_4": {
+      "from_node": "HS1313534",
+      "to_node": "MH0100292",
+      "length": 90.0
+    },
+    "link_6": {
+      "from_node": "HS1313865",
+      "to_node": "MH0100292",
+      "length": 70.0
+    },
+    "link_9": {
+      "from_node": "HS1313569",
+      "to_node": "HS1313597",
+      "length": 112.0
+    },
+    "link_10": {
+      "from_node": "HS1313597",
+      "to_node": "HS1313794",
+      "length": 117.0
+    },
+    "link_11": {
+      "from_node": "HS1313740",
+      "to_node": "HS1313597",
+      "length": 100.0
+    },
+    "5": {
+      "from_node": "HS1316010",
+      "to_node": "HS1313640",
+      "length": 76.0
+    },
+    "6": {
+      "from_node": "HS1313925",
+      "to_node": "HS1313959",
+      "length": 144.0
+    },
+    "7": {
+      "from_node": "HS1313959",
+      "to_node": "HS1316344",
+      "length": 144.0
+    },
+    "8": {
+      "from_node": "HS1316344",
+      "to_node": "HS1316267",
+      "length": 125.0
+    },
+    "9": {
+      "from_node": "HS1316267",
+      "to_node": "HS1316396",
+      "length": 98.0
+    },
+    "10": {
+      "from_node": "HS1316396",
+      "to_node": "HS1316563",
+      "length": 137.0
+    },
+    "11": {
+      "from_node": "HS1316334",
+      "to_node": "HS1316302",
+      "length": 121.0
+    },
+    "12": {
+      "from_node": "HS1313205",
+      "to_node": "HS1313220",
+      "length": 132.0
+    },
+    "13": {
+      "from_node": "HS1306601",
+      "to_node": "HS1306904",
+      "length": 222.8
+    },
+    "14": {
+      "from_node": "HS1313044",
+      "to_node": "HS1324403",
+      "length": 23.0
+    },
+    "15": {
+      "from_node": "HS1324403",
+      "to_node": "HS1318293",
+      "length": 236.0
+    },
+    "16": {
+      "from_node": "HS1313676",
+      "to_node": "HS1313298",
+      "length": 185.0
+    },
+    "17": {
+      "from_node": "HS1344920",
+      "to_node": "HS1313676",
+      "length": 60.0
+    },
+    "18": {
+      "from_node": "HS1311475",
+      "to_node": "VP0232532",
+      "length": 223.0
+    },
+    "19": {
+      "from_node": "HS1313025",
+      "to_node": "HS1313044",
+      "length": 112.5
+    },
+    "20": {
+      "from_node": "HS1311473",
+      "to_node": "HS1313001",
+      "length": 191.0
+    },
+    "21": {
+      "from_node": "HS1313001",
+      "to_node": "HS1313025",
+      "length": 198.0
+    },
+    "22": {
+      "from_node": "HS1311284",
+      "to_node": "HS1313001",
+      "length": 130.0
+    },
+    "23": {
+      "from_node": "HS1313253",
+      "to_node": "HS1313167",
+      "length": 134.0
+    },
+    "24": {
+      "from_node": "HS1313283",
+      "to_node": "HS1313253",
+      "length": 184.0
+    },
+    "25": {
+      "from_node": "MH0200661",
+      "to_node": "MH0201710",
+      "length": 357.0
+    },
+    "26": {
+      "from_node": "HS1330842",
+      "to_node": "HS1330826",
+      "length": 182.0
+    },
+    "28": {
+      "from_node": "HS1316643",
+      "to_node": "HS1316585",
+      "length": 200.0
+    },
+    "29": {
+      "from_node": "HS1316677",
+      "to_node": "HS1316467",
+      "length": 96.0
+    },
+    "30": {
+      "from_node": "HS1316892",
+      "to_node": "HS1316467",
+      "length": 175.0
+    },
+    "31": {
+      "from_node": "HS1316707",
+      "to_node": "HS1316721",
+      "length": 107.0
+    },
+    "32": {
+      "from_node": "HS1316530",
+      "to_node": "HS1308324",
+      "length": 221.0
+    },
+    "33": {
+      "from_node": "HS1308324",
+      "to_node": "HS1314477",
+      "length": 215.0
+    },
+    "34": {
+      "from_node": "HS1306471",
+      "to_node": "HS1316811",
+      "length": 154.0
+    },
+    "35": {
+      "from_node": "HS1311339",
+      "to_node": "HS1311887",
+      "length": 460.0
+    },
+    "36": {
+      "from_node": "HS1330842",
+      "to_node": "YS2003067",
+      "length": 166.0
+    },
+    "38": {
+      "from_node": "HS2003085",
+      "to_node": "HS2003111",
+      "length": 184.0
+    },
+    "39": {
+      "from_node": "HS2003085",
+      "to_node": "YS2003067",
+      "length": 400.0
+    },
+    "40": {
+      "from_node": "MH0100334",
+      "to_node": "MH0100292",
+      "length": 122.0
+    },
+    "41": {
+      "from_node": "HS1313640",
+      "to_node": "MH0241587",
+      "length": 200.0
+    }
+  },
+  "xsections": {
+    "HS1306554.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1306554.2": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1306571.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1306601.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1306904.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1306904.2": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.8,
+      "geom2": 0.8
+    },
+    "HS1308259.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1308301.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1308302.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1311288.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1311349.2": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1311887.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313026.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313044.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313083.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313083.2": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313123.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313167.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313205.2": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313220.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313290.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313298.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313343.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313391.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313402.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313402.2": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313471.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313508.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313613.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313618.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313794.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313803.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313835.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313835.2": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1313839.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1313965.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1314210.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1314237.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1314268.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1314505.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 2.0,
+      "geom2": 1.5
+    },
+    "HS1314769.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 1.5,
+      "geom2": 1.2
+    },
+    "HS1316177.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.8,
+      "geom2": 1.0
+    },
+    "HS1316202.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.8,
+      "geom2": 1.0
+    },
+    "HS1316207.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.8,
+      "geom2": 0.8
+    },
+    "HS1316267.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316302.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316415.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316417.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316445.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316467.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.6,
+      "geom2": 0.0
+    },
+    "HS1316467.2": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316532.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1316554.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316563.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316566.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316585.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316671.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316676.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316677.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316721.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316726.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316786.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316811.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316814.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316835.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1316849.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1317102.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1318293.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1318293.2": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1344159.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS1344261.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1344263.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS1344902.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "HS2003013.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 2.0,
+      "geom2": 1.5
+    },
+    "HS2003015.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 1.0,
+      "geom2": 0.8
+    },
+    "HS2003023.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS2003046.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS2003070.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS2003085.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS2003125.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "MH0100292.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "MH0101924.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "MH0201597.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "MH0201710.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "MH0241587.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.8,
+      "geom2": 0.0
+    },
+    "MH0242298.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "MH0242303.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "MH0242782.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "MH0258475.1": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "VP0232532.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "YS2003067.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "HS2003014.2": {
+      "shape": "RECT_CLOSED",
+      "geom1": 1.0,
+      "geom2": 0.8
+    },
+    "HS2003014.1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "1": {
+      "shape": "RECT_CLOSED",
+      "geom1": 1.5,
+      "geom2": 2.0
+    },
+    "2": {
+      "shape": "CIRCULAR",
+      "geom1": 1.0,
+      "geom2": 0.0
+    },
+    "C_HS1313487_HS1313415": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "link_3": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "link_4": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "link_6": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "link_9": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "link_10": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "link_11": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "5": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "6": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "7": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "8": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "9": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "10": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "11": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "12": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "13": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "14": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "15": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "16": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "17": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "18": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "19": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "20": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "21": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "22": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "23": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "24": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "25": {
+      "shape": "CIRCULAR",
+      "geom1": 0.6,
+      "geom2": 0.0
+    },
+    "26": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "28": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "29": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "30": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "31": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "32": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.8,
+      "geom2": 1.0
+    },
+    "33": {
+      "shape": "RECT_CLOSED",
+      "geom1": 1.2,
+      "geom2": 1.5
+    },
+    "34": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "35": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "36": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    },
+    "38": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "39": {
+      "shape": "CIRCULAR",
+      "geom1": 1.0,
+      "geom2": 0.0
+    },
+    "40": {
+      "shape": "RECT_CLOSED",
+      "geom1": 0.6,
+      "geom2": 0.8
+    },
+    "41": {
+      "shape": "CIRCULAR",
+      "geom1": 0.5,
+      "geom2": 0.0
+    }
+  },
+  "coordinates": {
+    "HS1306471": {
+      "x": 526922.926,
+      "y": 385280.162
+    },
+    "HS1306554": {
+      "x": 525420.69,
+      "y": 384515.696
+    },
+    "HS1306571": {
+      "x": 525609.67,
+      "y": 384609.05
+    },
+    "HS1306601": {
+      "x": 525856.568,
+      "y": 384729.481
+    },
+    "HS1308259": {
+      "x": 526691.442,
+      "y": 385139.641
+    },
+    "HS1308301": {
+      "x": 526289.497,
+      "y": 384940.498
+    },
+    "HS1308302": {
+      "x": 526337.734,
+      "y": 384962.962
+    },
+    "HS1308324": {
+      "x": 526569.315,
+      "y": 385075.461
+    },
+    "HS1311284": {
+      "x": 526050.881,
+      "y": 383912.51
+    },
+    "HS1311288": {
+      "x": 526196.386,
+      "y": 383961.566
+    },
+    "HS1311339": {
+      "x": 526838.951,
+      "y": 384300.26
+    },
+    "HS1311349": {
+      "x": 527110.196,
+      "y": 384462.063
+    },
+    "HS1311473": {
+      "x": 525750.232,
+      "y": 383794.477
+    },
+    "HS1311475": {
+      "x": 525737.621,
+      "y": 383800.137
+    },
+    "HS1311887": {
+      "x": 526436.38,
+      "y": 384095.571
+    },
+    "HS1313001": {
+      "x": 525922.159,
+      "y": 383867.078
+    },
+    "HS1313025": {
+      "x": 525844.405,
+      "y": 384060.973
+    },
+    "HS1313026": {
+      "x": 525973.866,
+      "y": 384110.932
+    },
+    "HS1313044": {
+      "x": 525799.411,
+      "y": 384167.165
+    },
+    "HS1313083": {
+      "x": 525524.274,
+      "y": 384053.723
+    },
+    "HS1313123": {
+      "x": 525720.2,
+      "y": 384136.51
+    },
+    "HS1313140": {
+      "x": 525997.431,
+      "y": 384265.012
+    },
+    "HS1313167": {
+      "x": 526057.838,
+      "y": 384300.898
+    },
+    "HS1313205": {
+      "x": 525947.258,
+      "y": 384526.879
+    },
+    "HS1313220": {
+      "x": 525892.531,
+      "y": 384649.103
+    },
+    "HS1313253": {
+      "x": 526119.436,
+      "y": 384172.976
+    },
+    "HS1313283": {
+      "x": 526202.898,
+      "y": 384002.483
+    },
+    "HS1313290": {
+      "x": 525647.295,
+      "y": 384385.733
+    },
+    "HS1313298": {
+      "x": 525587.619,
+      "y": 384356.394
+    },
+    "HS1313343": {
+      "x": 525327.258,
+      "y": 384230.608
+    },
+    "HS1313391": {
+      "x": 526050.778,
+      "y": 384579.514
+    },
+    "HS1313415": {
+      "x": 526108.856,
+      "y": 384464.694
+    },
+    "HS1313471": {
+      "x": 526300.678,
+      "y": 384271.887
+    },
+    "HS1313487": {
+      "x": 526223.03,
+      "y": 384232.386
+    },
+    "HS1313508": {
+      "x": 526127.845,
+      "y": 384190.069
+    },
+    "HS1313534": {
+      "x": 526187.211,
+      "y": 384357.24
+    },
+    "HS1313569": {
+      "x": 526240.97,
+      "y": 384530.05
+    },
+    "HS1313597": {
+      "x": 526344.349,
+      "y": 384574.762
+    },
+    "HS1313613": {
+      "x": 526416.559,
+      "y": 384615.833
+    },
+    "HS1313618": {
+      "x": 526554.88,
+      "y": 384182.312
+    },
+    "HS1313640": {
+      "x": 526501.156,
+      "y": 384289.092
+    },
+    "HS1313676": {
+      "x": 525644.657,
+      "y": 384178.966
+    },
+    "HS1313740": {
+      "x": 526391.562,
+      "y": 384488.99
+    },
+    "HS1313794": {
+      "x": 526282.959,
+      "y": 384690.066
+    },
+    "HS1313803": {
+      "x": 526197.237,
+      "y": 384649.668
+    },
+    "HS1313835": {
+      "x": 526399.137,
+      "y": 384747.378
+    },
+    "HS1313839": {
+      "x": 526495.491,
+      "y": 384509.729
+    },
+    "HS1313865": {
+      "x": 526349.57,
+      "y": 384437.892
+    },
+    "HS1313925": {
+      "x": 526491.165,
+      "y": 384359.697
+    },
+    "HS1313959": {
+      "x": 526602.875,
+      "y": 384417.53
+    },
+    "HS1313965": {
+      "x": 526696.606,
+      "y": 384260.262
+    },
+    "HS1314210": {
+      "x": 525457.947,
+      "y": 384559.83
+    },
+    "HS1314237": {
+      "x": 525371.635,
+      "y": 384662.133
+    },
+    "HS1314268": {
+      "x": 525268.159,
+      "y": 384791.287
+    },
+    "HS1316010": {
+      "x": 526598.062,
+      "y": 384334.755
+    },
+    "HS1316177": {
+      "x": 526549.64,
+      "y": 384819.78
+    },
+    "HS1316202": {
+      "x": 526642.345,
+      "y": 384856.947
+    },
+    "HS1316207": {
+      "x": 526708.829,
+      "y": 384886.71
+    },
+    "HS1316267": {
+      "x": 526678.458,
+      "y": 384600.662
+    },
+    "HS1316302": {
+      "x": 526786.375,
+      "y": 384426.5
+    },
+    "HS1316334": {
+      "x": 526847.972,
+      "y": 384321.537
+    },
+    "HS1316344": {
+      "x": 526575.124,
+      "y": 384548.995
+    },
+    "HS1316396": {
+      "x": 526774.442,
+      "y": 384639.191
+    },
+    "HS1316415": {
+      "x": 526716.327,
+      "y": 384634.88
+    },
+    "HS1316417": {
+      "x": 526519.608,
+      "y": 384548.768
+    },
+    "HS1316445": {
+      "x": 526659.675,
+      "y": 384813.523
+    },
+    "HS1316467": {
+      "x": 527025.45,
+      "y": 384846.1
+    },
+    "HS1316530": {
+      "x": 526679.361,
+      "y": 384923.0
+    },
+    "HS1316532": {
+      "x": 526721.329,
+      "y": 384874.504
+    },
+    "HS1316554": {
+      "x": 526832.159,
+      "y": 384762.882
+    },
+    "HS1316563": {
+      "x": 526891.504,
+      "y": 384705.685
+    },
+    "HS1316566": {
+      "x": 526920.648,
+      "y": 384677.446
+    },
+    "HS1316585": {
+      "x": 527001.638,
+      "y": 384599.072
+    },
+    "HS1316643": {
+      "x": 527134.393,
+      "y": 384746.899
+    },
+    "HS1316671": {
+      "x": 527248.781,
+      "y": 384638.351
+    },
+    "HS1316676": {
+      "x": 527115.624,
+      "y": 384765.017
+    },
+    "HS1316677": {
+      "x": 527098.397,
+      "y": 384780.366
+    },
+    "HS1316707": {
+      "x": 526945.914,
+      "y": 384919.791
+    },
+    "HS1316721": {
+      "x": 526866.129,
+      "y": 384993.909
+    },
+    "HS1316726": {
+      "x": 526854.569,
+      "y": 385003.699
+    },
+    "HS1316786": {
+      "x": 526831.9,
+      "y": 384957.583
+    },
+    "HS1316811": {
+      "x": 527035.794,
+      "y": 385177.276
+    },
+    "HS1316814": {
+      "x": 527100.795,
+      "y": 385086.207
+    },
+    "HS1316835": {
+      "x": 527042.725,
+      "y": 385024.951
+    },
+    "HS1316849": {
+      "x": 527001.707,
+      "y": 384980.692
+    },
+    "HS1316892": {
+      "x": 527144.13,
+      "y": 384976.139
+    },
+    "HS1317102": {
+      "x": 526021.264,
+      "y": 384129.851
+    },
+    "HS1318293": {
+      "x": 525695.894,
+      "y": 384409.319
+    },
+    "HS1324403": {
+      "x": 525766.044,
+      "y": 384242.11
+    },
+    "HS1330826": {
+      "x": 525567.48,
+      "y": 384628.626
+    },
+    "HS1330842": {
+      "x": 525535.051,
+      "y": 384807.811
+    },
+    "HS1344159": {
+      "x": 526449.563,
+      "y": 384770.979
+    },
+    "HS1344166": {
+      "x": 525396.868,
+      "y": 384000.57
+    },
+    "HS1344261": {
+      "x": 526828.56,
+      "y": 384451.451
+    },
+    "HS1344263": {
+      "x": 527127.986,
+      "y": 384474.107
+    },
+    "HS1344902": {
+      "x": 527262.014,
+      "y": 384934.412
+    },
+    "HS1344920": {
+      "x": 525671.255,
+      "y": 384125.946
+    },
+    "HS2003070": {
+      "x": 525550.635,
+      "y": 384946.984
+    },
+    "HS2003085": {
+      "x": 525414.841,
+      "y": 384903.538
+    },
+    "HS2003111": {
+      "x": 525246.278,
+      "y": 384847.449
+    },
+    "HS2003125": {
+      "x": 525147.608,
+      "y": 384813.069
+    },
+    "MH0100334": {
+      "x": 526325.919,
+      "y": 384292.248
+    },
+    "MH0200661": {
+      "x": 525386.816,
+      "y": 383995.636
+    },
+    "MH0201597": {
+      "x": 525194.89,
+      "y": 384405.245
+    },
+    "MH0201629": {
+      "x": 525051.32,
+      "y": 384669.729
+    },
+    "MH0201710": {
+      "x": 525237.146,
+      "y": 384318.811
+    },
+    "MH0241587": {
+      "x": 526403.197,
+      "y": 384467.486
+    },
+    "MH0242298": {
+      "x": 526266.673,
+      "y": 385004.242
+    },
+    "MH0242303": {
+      "x": 526241.743,
+      "y": 385075.4
+    },
+    "MH0242782": {
+      "x": 527256.905,
+      "y": 384632.546
+    },
+    "MH0258475": {
+      "x": 527367.771,
+      "y": 384808.104
+    },
+    "VP0232532": {
+      "x": 525529.834,
+      "y": 383704.82
+    },
+    "YS2003067": {
+      "x": 525519.512,
+      "y": 384938.28
+    },
+    "MH0100819": {
+      "x": 525912.201,
+      "y": 385405.111
+    },
+    "1": {
+      "x": 526438.522,
+      "y": 385291.004
+    },
+    "HS1314512": {
+      "x": 526317.995,
+      "y": 385209.223
+    },
+    "HS1314477": {
+      "x": 526422.572,
+      "y": 385237.147
+    },
+    "HS2003013": {
+      "x": 525973.95,
+      "y": 385093.968
+    },
+    "HS1314769": {
+      "x": 526016.554,
+      "y": 385107.898
+    },
+    "HS1314505": {
+      "x": 526207.029,
+      "y": 385171.006
+    },
+    "HS2003015": {
+      "x": 525935.618,
+      "y": 385081.008
+    },
+    "HS2003023": {
+      "x": 525825.8,
+      "y": 385042.156
+    },
+    "HS2003046": {
+      "x": 525687.252,
+      "y": 384995.686
+    },
+    "HS1306904": {
+      "x": 526055.383,
+      "y": 384825.789
+    },
+    "HS1313402": {
+      "x": 526150.125,
+      "y": 384626.564
+    },
+    "MH0101924": {
+      "x": 526238.59,
+      "y": 384466.088
+    },
+    "MH0100292": {
+      "x": 526267.889,
+      "y": 384399.839
+    },
+    "HS2003014": {
+      "x": 525978.892,
+      "y": 385114.871
+    }
+  },
+  "boundary_inlets": []
+}

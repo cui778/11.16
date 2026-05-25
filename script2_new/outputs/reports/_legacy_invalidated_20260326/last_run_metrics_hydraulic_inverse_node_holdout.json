@@ -1,0 +1,85 @@
+{
+  "mrr": 0.9299290279672963,
+  "top1": 0.8988621997471555,
+  "top3": 0.9443742098609356,
+  "top5": 0.9810366624525917,
+  "seed": 42,
+  "subdir": "time_gated",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 170,
+      "n_windows": 7140,
+      "n_defect_nodes": 37,
+      "loc_enabled": 2548,
+      "loc_enabled_ratio": 0.3568627450980392
+    },
+    "val": {
+      "n_scenarios": 36,
+      "n_windows": 1512,
+      "n_defect_nodes": 23,
+      "loc_enabled": 538,
+      "loc_enabled_ratio": 0.3558201058201058
+    },
+    "test": {
+      "n_scenarios": 57,
+      "n_windows": 2394,
+      "n_defect_nodes": 9,
+      "loc_enabled": 791,
+      "loc_enabled_ratio": 0.3304093567251462
+    },
+    "val_defect_nodes_subset_train": true,
+    "test_defect_nodes_subset_train": false,
+    "test_only_defect_nodes_sample": [
+      "HS1306904",
+      "HS1311288",
+      "HS1311339",
+      "HS1313298",
+      "HS1344263",
+      "HS2003046",
+      "HS2003111",
+      "MH0200661",
+      "MH0258475"
+    ]
+  },
+  "config_snapshot": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "soft_label_sigma": 1.0,
+    "lambda_type": 0.0,
+    "model_type": "hydraulic_inverse",
+    "time_hidden_dim": 128,
+    "spatial_hidden_dim": 256,
+    "num_time_layers": 1,
+    "num_spatial_layers": 2,
+    "n_features": 27,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file": "monitor_nodes_degree_N25.json",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated\\node_timeseries_with_residuals.parquet"
+  },
+  "by_type_top1": {
+    "I": 0.9509433962264151,
+    "E": 0.8586387434554974,
+    "P": 0.9097222222222222
+  },
+  "seen_nodes": {
+    "n": 0,
+    "mrr": 0.0,
+    "top1": 0.0,
+    "top3": 0.0
+  },
+  "unseen_nodes": {
+    "n": 791,
+    "mrr": 0.9299290266104718,
+    "top1": 0.8988621997471555,
+    "top3": 0.9443742098609356
+  }
+}

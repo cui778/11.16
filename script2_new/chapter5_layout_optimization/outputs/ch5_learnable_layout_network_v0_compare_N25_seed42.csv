@@ -1,0 +1,5 @@
+split_mode,method,mrr,top1,top3,top5,event_level_top1,event_level_top3,event_level_top5,metrics_file
+scenario,learnable_layout_network_v0_balanced,0.8437809141541863,0.7246207701283547,0.9579929988331388,0.9848308051341891,0.8095238095238095,0.9682539682539683,1.0,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_llnv0_bal_scen_N25_s42.json
+node_holdout,learnable_layout_network_v0_balanced,0.20792873332890335,0.02260738507912585,0.2343632253202713,0.38206480783722685,0.011111111111111112,0.24444444444444444,0.4111111111111111,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_llnv0_bal_nh_N25_s42.json
+scenario,learnable_layout_network_v0_generalization,0.9097835754012839,0.8401400233372228,0.9754959159859977,0.9941656942823804,0.8571428571428571,0.9841269841269841,1.0,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_llnv0_gen_scen_N25_s42.json
+node_holdout,learnable_layout_network_v0_generalization,0.2863856592379123,0.10474755086661643,0.33232856066315,0.4747550866616428,0.1111111111111111,0.3888888888888889,0.4666666666666667,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_llnv0_gen_nh_N25_s42.json

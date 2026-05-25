@@ -1,0 +1,7 @@
+section,setting,split_or_mode,mrr,top1,top3,top5,active_period_recall,detection_latency_mean,event_level_top1,event_level_top3,event_level_top5,source
+formal_mainline,hydraulic_inverse_deepattn,scenario_split_mean,0.7778,0.6426,0.9033,0.9503,0.9590,,0.6614,0.9365,0.9735,chapter1_restart_fullgraph_degree_ie420_multiseed.csv
+strict_generalization,hydraulic_inverse_deepattn,node_holdout_mean,0.2609,0.0983,0.3047,0.4934,0.9122,0.2879,0.1083,0.3011,0.4969,chapter1_restart_nodehold_multiseed.csv
+time_dimension,time_gated_baseline,seed42,0.7933,0.6721,0.8926,0.9545,0.9708,0.1111,0.7302,0.9365,0.9841,chapter1_restart_time_dimension_seed42.csv
+time_dimension,time_gated_no_time_pos,seed42,0.8088,0.7071,0.8798,0.9475,0.9790,0.0952,0.7143,0.9048,0.9683,chapter1_restart_time_dimension_seed42.csv
+time_dimension,time_gated_with_trend,seed42,0.1032,0.0128,0.1015,0.1459,0.6359,1.2909,0.0317,0.1429,0.1905,chapter1_restart_time_dimension_seed42.csv
+time_dimension,always_on,seed42,0.3615,0.2668,0.3719,0.4293,1.0000,0.0000,0.6667,0.8730,0.9524,chapter1_restart_time_dimension_seed42.csv

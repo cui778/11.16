@@ -1,0 +1,92 @@
+{
+  "mrr": 0.4111548787490888,
+  "top1": 0.28236914600550966,
+  "top3": 0.4297520661157025,
+  "top5": 0.5564738292011019,
+  "active_acc": 0.9878306878306878,
+  "active_period_recall": 0.9752066115702479,
+  "detection_latency_mean": 0.2,
+  "event_level_top1": 0.28888888888888886,
+  "event_level_top3": 0.35555555555555557,
+  "event_level_top5": 0.5111111111111111,
+  "seed": 42,
+  "subdir": "time_gated",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 210,
+      "n_windows": 8820,
+      "n_defect_nodes": 45,
+      "loc_enabled": 3158,
+      "loc_enabled_ratio": 0.3580498866213152
+    },
+    "val": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 29,
+      "loc_enabled": 582,
+      "loc_enabled_ratio": 0.30793650793650795
+    },
+    "test": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 28,
+      "loc_enabled": 726,
+      "loc_enabled_ratio": 0.38412698412698415
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "HS1313205"
+    ],
+    "test_only_defect_nodes_sample": [
+      "HS1316643"
+    ]
+  },
+  "config_snapshot": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "soft_label_sigma": 1.0,
+    "use_time_pos_encoding": true,
+    "use_trend_feature": false,
+    "dataset_active_overlap_threshold": 0.5,
+    "dataset_transition_overlap_threshold": 0.0,
+    "dataset_active_signal_quantile": 0.95,
+    "dataset_transition_signal_quantile": 0.9,
+    "lambda_type": 0.0,
+    "model_type": "gru_only",
+    "time_hidden_dim": 128,
+    "spatial_hidden_dim": 256,
+    "num_time_layers": 1,
+    "num_spatial_layers": 2,
+    "n_features": 6,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated\\node_timeseries_with_residuals.parquet"
+  },
+  "by_type_top1": {
+    "I": 0.40532544378698226,
+    "E": 0.05963302752293578,
+    "P": 0.3235294117647059
+  },
+  "seen_nodes": {
+    "n": 714,
+    "mrr": 0.4156079107864386,
+    "top1": 0.28711484593837533,
+    "top3": 0.4369747899159664
+  },
+  "unseen_nodes": {
+    "n": 12,
+    "mrr": 0.14619934080016325,
+    "top1": 0.0,
+    "top3": 0.0
+  }
+}

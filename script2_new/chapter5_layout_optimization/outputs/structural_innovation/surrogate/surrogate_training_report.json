@@ -1,0 +1,76 @@
+{
+  "dataset_path": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\structural_innovation\\layout_quality_dataset_wide.csv",
+  "sample_count": 10,
+  "feature_count": 39,
+  "feature_columns": [
+    "n",
+    "direct",
+    "near",
+    "far",
+    "mean_hop",
+    "max_hop",
+    "overlap_count_static",
+    "monitor_dispersion_mean_hop",
+    "monitor_redundancy_mean_jaccard",
+    "signature_mean_nn",
+    "signature_min_nn",
+    "signature_p10_nn",
+    "objective_total",
+    "objective_candidate_observability",
+    "objective_candidate_separability",
+    "objective_global_coverage",
+    "objective_key_structure",
+    "objective_redundancy_penalty",
+    "representative_pool_size",
+    "representative_pool_candidate_overlap",
+    "key_node_count",
+    "core_total",
+    "objective_reconstruction",
+    "reconstruction_norm_rmse",
+    "reconstruction_r2",
+    "objective_failure_robustness",
+    "robustness_case_count",
+    "anneal_steps",
+    "sensitivity_mean_selected",
+    "objective_noncandidate_backbone",
+    "objective_coverage_balance",
+    "objective_monitor_dispersion",
+    "objective_overlap_penalty",
+    "noncandidate_backbone_count",
+    "overlap_anchor_target",
+    "selected_overlap_count",
+    "overlap_cap",
+    "fixed_overlap_target",
+    "global_mean_hop"
+  ],
+  "targets": {
+    "scenario_mrr": {
+      "sample_count": 10,
+      "mae": 0.026661928786590426,
+      "rmse": 0.03366190990421369,
+      "r2": -0.026287025908429573,
+      "alpha": 1.0
+    },
+    "scenario_top1": {
+      "sample_count": 10,
+      "mae": 0.039113281973306414,
+      "rmse": 0.04336613541137867,
+      "r2": 0.301086544486617,
+      "alpha": 1.0
+    },
+    "node_holdout_mrr": {
+      "sample_count": 10,
+      "mae": 0.05872055848331735,
+      "rmse": 0.0711291634441962,
+      "r2": -0.879856248895351,
+      "alpha": 1.0
+    },
+    "node_holdout_top1": {
+      "sample_count": 10,
+      "mae": 0.03655079790834918,
+      "rmse": 0.05453061226288873,
+      "r2": -0.649174281288476,
+      "alpha": 1.0
+    }
+  }
+}

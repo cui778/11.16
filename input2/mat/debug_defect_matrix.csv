@@ -1,0 +1,2 @@
+﻿defect_id,defect_type,node_id,link_id,intensity_pct,start_hour,duration_h,flow,BODf,NH4,DO,baseline_flow
+1,I,HS1313487,,30,1,2,50.0,119.39,7.26,1.81,7.0754

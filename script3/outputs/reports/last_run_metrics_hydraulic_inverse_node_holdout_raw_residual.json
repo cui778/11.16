@@ -1,0 +1,82 @@
+{
+  "mrr": 0.8383219030554733,
+  "top1": 0.8021638330757341,
+  "top3": 0.8377125193199382,
+  "top5": 0.9149922720247295,
+  "seed": 42,
+  "subdir": "time_gated_downstream",
+  "defect_csv": "E:\\11.16\\script3\\input_1\\defect_matrix_ie.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 137,
+      "n_windows": 5754,
+      "n_defect_nodes": 35,
+      "loc_enabled": 2002,
+      "loc_enabled_ratio": 0.34793187347931875
+    },
+    "val": {
+      "n_scenarios": 29,
+      "n_windows": 1218,
+      "n_defect_nodes": 21,
+      "loc_enabled": 466,
+      "loc_enabled_ratio": 0.3825944170771757
+    },
+    "test": {
+      "n_scenarios": 44,
+      "n_windows": 1848,
+      "n_defect_nodes": 9,
+      "loc_enabled": 647,
+      "loc_enabled_ratio": 0.3501082251082251
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "HS1313205",
+      "MH0101924"
+    ],
+    "test_only_defect_nodes_sample": [
+      "HS1306904",
+      "HS1311288",
+      "HS1311339",
+      "HS1313298",
+      "HS1344263",
+      "HS2003046",
+      "HS2003111",
+      "MH0200661",
+      "MH0258475"
+    ]
+  },
+  "config_snapshot": {
+    "model_type": "hydraulic_inverse",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "soft_label_sigma": 1.0,
+    "lambda_type": 0.2,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file": "monitor_nodes_downstream_N25.json",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated_downstream\\node_timeseries_with_residuals.parquet",
+    "localization_target": "node"
+  },
+  "by_type_top1": {
+    "I": 0.9962264150943396,
+    "E": 0.6675392670157068
+  },
+  "seen_nodes": {
+    "n": 0,
+    "mrr": 0.0,
+    "top1": 0.0,
+    "top3": 0.0
+  },
+  "unseen_nodes": {
+    "n": 647,
+    "mrr": 0.8383219007944361,
+    "top1": 0.8021638330757341,
+    "top3": 0.8377125193199382
+  }
+}

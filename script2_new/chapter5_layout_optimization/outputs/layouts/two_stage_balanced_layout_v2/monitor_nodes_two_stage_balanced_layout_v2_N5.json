@@ -1,0 +1,60 @@
+{
+  "monitor_nodes": [
+    "HS1306904",
+    "HS1316566",
+    "HS1316721",
+    "HS1316267",
+    "HS1316415"
+  ],
+  "strategy": "two_stage_balanced_layout_v2",
+  "n": 5,
+  "representative_pool_file": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\representative_pools\\two_stage_balanced_layout_v2\\representative_pool_two_stage_balanced_layout_v2_N5.json",
+  "protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "control-variable Chapter-5 layout study; only monitor layout changes"
+  },
+  "objective_meta": {
+    "stage1": "joint topology-response-sensitivity k-medoids compression",
+    "stage2": "greedy plus local swap plus simulated annealing",
+    "compression_ratio": 1.4,
+    "similarity_topology_weight": 0.5,
+    "similarity_response_weight": 0.4,
+    "similarity_sensitivity_weight": 0.1,
+    "topology_tau": 3.0,
+    "anneal_steps": 240,
+    "selected_representative_pool_size": 7,
+    "reference_checkpoint": "E:\\11.16\\script2_new\\outputs\\model_checkpoints\\best_model_ch5_tsbal25_s42.pth"
+  },
+  "layout_metrics": {
+    "direct": 3,
+    "near": 12,
+    "far": 35,
+    "mean_hop": 6.9,
+    "max_hop": 15.0,
+    "overlap_count": 3,
+    "monitor_dispersion_mean_hop": 15.0,
+    "monitor_redundancy_mean_jaccard": 0.041666666666666664,
+    "signature_mean_nn": 0.5345234870910645,
+    "signature_min_nn": 0.003215495962649584,
+    "signature_p10_nn": 0.008733951486647129,
+    "core_total": 0.29982546575292945,
+    "objective_candidate_observability": 0.18250000476837158,
+    "objective_candidate_separability": 0.25763793460094,
+    "objective_global_coverage": 0.24870634078979492,
+    "objective_key_structure": 0.37055492401123047,
+    "objective_redundancy_penalty": 0.22448531568050384,
+    "objective_reconstruction": 0.7611738100238099,
+    "reconstruction_norm_rmse": 0.32683122342568444,
+    "reconstruction_r2": 0.8931813601980516,
+    "objective_failure_robustness": 0.17737172957824734,
+    "robustness_case_count": 12,
+    "objective_total": 0.33884724626014384,
+    "anneal_steps": 240,
+    "representative_pool_size": 7,
+    "representative_pool_candidate_overlap": 4,
+    "key_node_count": 19,
+    "sensitivity_mean_selected": 0.08749021589756012
+  }
+}

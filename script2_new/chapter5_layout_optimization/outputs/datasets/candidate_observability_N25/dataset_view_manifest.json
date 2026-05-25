@@ -1,0 +1,16 @@
+{
+  "dataset_view_name": "candidate_observability_N25",
+  "shared_source_dataset_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+  "shared_source_manifest": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42\\dataset_manifest.json",
+  "shared_source_parquet": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42\\node_timeseries_with_residuals.parquet",
+  "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+  "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+  "monitor_nodes_file": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\layouts\\candidate_observability\\monitor_nodes_candidate_observability_N25.json",
+  "data_semantics": {
+    "scenarios_fixed": true,
+    "full_graph_data_fixed": true,
+    "defect_matrix_fixed": true,
+    "layout_changes_observed_mask_only": true
+  },
+  "note": "This is a lightweight Chapter-5 dataset view. The full-graph source data is shared; only monitor layout and observed mask change."
+}

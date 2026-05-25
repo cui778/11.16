@@ -1,0 +1,10 @@
+﻿set_name,count,description
+V_full_graph,128,128-node topology input space
+S_degree_N25_monitors,25,dynamic observation space
+C_candidate_defect_nodes,50,formal localization output space
+D_active_defect_nodes,50,active defect nodes in formal IE420 matrix
+S_intersect_C,12,monitor-candidate overlap
+C_intersect_D,50,candidate nodes activated by matrix
+I_active_nodes,50,I-type active nodes
+E_active_nodes,34,E-type legal active nodes
+E_missing_candidate_nodes,16,candidate nodes without legal E scenario

@@ -1,0 +1,27 @@
+{
+  "mrr": 0.620636283970428,
+  "top1": 0.47619047619047616,
+  "top3": 0.742296918767507,
+  "top5": 0.7605042016806722,
+  "type_macro_f1": 0.31999999999999995,
+  "seed": 42,
+  "subdir": "time_gated_downstream",
+  "defect_csv": "E:\\11.16\\script3\\input_1\\defect_matrix_ie.csv",
+  "config_snapshot": {
+    "task_mode": "segment",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "num_epochs": 1,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "lambda_type": 0.2,
+    "edge_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated_downstream\\edge_timeseries.parquet",
+    "segment_list_file": "E:\\11.16\\script3\\input_1\\segment_list.json"
+  },
+  "by_type_top1": {
+    "I": 0.7870370370370371,
+    "E": 0.12648809523809523
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "monitor_nodes": [
+    "HS1313044",
+    "HS1313487",
+    "HS1316721",
+    "HS1316676",
+    "HS1316835",
+    "MH0242303",
+    "HS1313640",
+    "HS1316415",
+    "HS1316302",
+    "HS1316417",
+    "MH0242782",
+    "HS1306601",
+    "VP0232532",
+    "HS1311288",
+    "HS1316585",
+    "HS1308259",
+    "HS1313402",
+    "HS1313253",
+    "HS2003013",
+    "MH0201597",
+    "HS1313298",
+    "HS1313959",
+    "HS2003111",
+    "HS1316267",
+    "HS1316563"
+  ],
+  "strategy": "learnable_layout_network_v0_scenario",
+  "n": 25,
+  "protocol": {
+    "note": "Chapter-5 structural innovation: learned node scorer plus constrained decoder",
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42"
+  },
+  "learning_meta": {
+    "preset": "scenario",
+    "seed": 42,
+    "fit_metrics": {
+      "train_mse": 0.0020653540268540382,
+      "train_mae": 0.023523885756731033,
+      "train_rmse": 0.045663803815841675
+    },
+    "node_score_file": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\structural_innovation\\learnable_layout_network_v0\\scenario\\node_scores.csv"
+  },
+  "layout_metrics": {
+    "direct": 14,
+    "near": 31,
+    "far": 5,
+    "mean_hop": 1.4,
+    "max_hop": 15.0,
+    "overlap_count": 14,
+    "monitor_dispersion_mean_hop": 13.886666666666667,
+    "monitor_redundancy_mean_jaccard": 0.01612698412698413,
+    "signature_mean_nn": 0.0,
+    "signature_min_nn": 0.0,
+    "signature_p10_nn": 0.0,
+    "overlap_anchor_target": 12,
+    "overlap_cap": 15,
+    "score_mean_selected": 0.5997813940048218,
+    "score_mean_all": 0.19268596172332764
+  }
+}

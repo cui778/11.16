@@ -1,0 +1,243 @@
+{
+  "seed": 42,
+  "profile": "mainrange",
+  "source_matrix": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v2e_dense.csv",
+  "output_matrix": "e:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v3c_curriculum_mainrange.csv",
+  "summary": {
+    "n_rows": 264,
+    "type_counts": {
+      "I": 144,
+      "E": 120
+    },
+    "type_unique_nodes": {
+      "E": 10,
+      "I": 12
+    },
+    "scenes_per_node": {
+      "count": {
+        "E": 10.0,
+        "I": 12.0
+      },
+      "mean": {
+        "E": 12.0,
+        "I": 12.0
+      },
+      "std": {
+        "E": 0.0,
+        "I": 0.0
+      },
+      "min": {
+        "E": 12.0,
+        "I": 12.0
+      },
+      "25%": {
+        "E": 12.0,
+        "I": 12.0
+      },
+      "50%": {
+        "E": 12.0,
+        "I": 12.0
+      },
+      "75%": {
+        "E": 12.0,
+        "I": 12.0
+      },
+      "max": {
+        "E": 12.0,
+        "I": 12.0
+      }
+    },
+    "intensity_stats": {
+      "count": {
+        "E": 120.0,
+        "I": 144.0
+      },
+      "mean": {
+        "E": 50.833,
+        "I": 50.0
+      },
+      "std": {
+        "E": 7.624,
+        "I": 8.193
+      },
+      "min": {
+        "E": 40.0,
+        "I": 40.0
+      },
+      "25%": {
+        "E": 47.5,
+        "I": 40.0
+      },
+      "50%": {
+        "E": 50.0,
+        "I": 50.0
+      },
+      "75%": {
+        "E": 60.0,
+        "I": 60.0
+      },
+      "max": {
+        "E": 60.0,
+        "I": 60.0
+      }
+    },
+    "difficulty_counts": {
+      "E:easy": 30,
+      "E:hard": 40,
+      "E:medium": 50,
+      "I:easy": 36,
+      "I:hard": 48,
+      "I:medium": 60
+    }
+  },
+  "templates": {
+    "I": [
+      {
+        "difficulty": "easy",
+        "intensity_pct": 60,
+        "start_hour": 6,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "easy",
+        "intensity_pct": 60,
+        "start_hour": 18,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "easy",
+        "intensity_pct": 60,
+        "start_hour": 10,
+        "duration_h": 18
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 6,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 14,
+        "duration_h": 18
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 10,
+        "duration_h": 12
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 60,
+        "start_hour": 22,
+        "duration_h": 12
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 40,
+        "start_hour": 18,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 40,
+        "start_hour": 10,
+        "duration_h": 12
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 40,
+        "start_hour": 14,
+        "duration_h": 6
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 50,
+        "start_hour": 18,
+        "duration_h": 6
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 40,
+        "start_hour": 22,
+        "duration_h": 6
+      }
+    ],
+    "E": [
+      {
+        "difficulty": "easy",
+        "intensity_pct": 60,
+        "start_hour": 4,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "easy",
+        "intensity_pct": 60,
+        "start_hour": 16,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "easy",
+        "intensity_pct": 60,
+        "start_hour": 8,
+        "duration_h": 18
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 0,
+        "duration_h": 24
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 4,
+        "duration_h": 18
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 12,
+        "duration_h": 18
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 50,
+        "start_hour": 8,
+        "duration_h": 12
+      },
+      {
+        "difficulty": "medium",
+        "intensity_pct": 60,
+        "start_hour": 20,
+        "duration_h": 12
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 40,
+        "start_hour": 0,
+        "duration_h": 12
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 40,
+        "start_hour": 12,
+        "duration_h": 6
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 40,
+        "start_hour": 20,
+        "duration_h": 6
+      },
+      {
+        "difficulty": "hard",
+        "intensity_pct": 50,
+        "start_hour": 16,
+        "duration_h": 6
+      }
+    ]
+  }
+}

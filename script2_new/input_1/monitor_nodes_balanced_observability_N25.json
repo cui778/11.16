@@ -1,0 +1,68 @@
+{
+  "monitor_nodes": [
+    "HS1308301",
+    "HS1313044",
+    "MH0201597",
+    "HS1316566",
+    "YS2003067",
+    "HS1313290",
+    "HS1316811",
+    "HS1314268",
+    "HS1316445",
+    "HS1314512",
+    "MH0100334",
+    "HS1313167",
+    "HS2003023",
+    "MH0242782",
+    "HS1313001",
+    "HS1313925",
+    "HS1344261",
+    "HS1316814",
+    "HS1313618",
+    "HS1308259",
+    "HS1313471",
+    "HS1344902",
+    "VP0232532",
+    "HS1344920",
+    "HS1313597"
+  ],
+  "strategy": "balanced_observability",
+  "n": 25,
+  "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+  "node_list_file": "E:\\11.16\\script2_new\\input_1\\node_list.json",
+  "graph_features_file": "E:\\11.16\\script2_new\\input_1\\graph_path_features.npz",
+  "exclude_nodes": [
+    "1",
+    "MH0100819"
+  ],
+  "constraints": {
+    "max_overlap": 12,
+    "min_noncandidate": 13
+  },
+  "objective": {
+    "primary": "maximize candidate nodes within 2 hops while respecting overlap cap",
+    "secondary": "increase direct coverage, preserve non-candidate backbone coverage, and keep monitor dispersion"
+  },
+  "overlap_count": 12,
+  "noncandidate_count": 13,
+  "overlap_nodes": [
+    "MH0242782",
+    "HS1313001",
+    "HS1313925",
+    "HS1344261",
+    "HS1316814",
+    "HS1313618",
+    "HS1308259",
+    "HS1313471",
+    "HS1344902",
+    "VP0232532",
+    "HS1344920",
+    "HS1313597"
+  ],
+  "observability_summary": {
+    "direct": 12,
+    "near": 38,
+    "far": 0,
+    "mean_hop": 0.92
+  }
+}

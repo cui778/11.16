@@ -1,0 +1,114 @@
+{
+  "mrr": 0.25580979397398285,
+  "top1": 0.1830601092896175,
+  "top3": 0.22404371584699453,
+  "top5": 0.29098360655737704,
+  "active_acc": 0.6915343915343916,
+  "active_period_recall": 0.2855191256830601,
+  "detection_latency_mean": 5.911764705882353,
+  "event_level_top1": 0.15555555555555556,
+  "event_level_top3": 0.2222222222222222,
+  "event_level_top5": 0.28888888888888886,
+  "seed": 42,
+  "subdir": "time_gated_downstream_node_sensor_v2_rebuild",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 211,
+      "n_windows": 8862,
+      "n_defect_nodes": 45,
+      "loc_enabled": 3122,
+      "loc_enabled_ratio": 0.3522906793048973
+    },
+    "val": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 32,
+      "loc_enabled": 612,
+      "loc_enabled_ratio": 0.3238095238095238
+    },
+    "test": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 29,
+      "loc_enabled": 732,
+      "loc_enabled_ratio": 0.3873015873015873
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "HS1313205"
+    ],
+    "test_only_defect_nodes_sample": [
+      "HS1316643"
+    ]
+  },
+  "config_snapshot": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "soft_label_sigma": 1.0,
+    "use_time_pos_encoding": true,
+    "use_trend_feature": false,
+    "dataset_active_overlap_threshold": 0.5,
+    "dataset_transition_overlap_threshold": 0.0,
+    "dataset_active_signal_quantile": 0.95,
+    "dataset_transition_signal_quantile": 0.9,
+    "lambda_type": 0.0,
+    "lambda_loc": 1.0,
+    "model_type": "hydraulic_inverse",
+    "time_hidden_dim": 128,
+    "spatial_hidden_dim": 256,
+    "num_time_layers": 1,
+    "num_spatial_layers": 2,
+    "n_features": 12,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file_config": "monitor_nodes_degree_N25.json",
+    "monitor_nodes_file_dataset": "script2_new\\input_1\\monitor_nodes_downstream_N25.json",
+    "monitor_node_count_dataset": 25,
+    "strict_monitor_only_dataset": true,
+    "training_data_subdir": "time_gated_downstream_node_sensor_v2_rebuild",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated_downstream_node_sensor_v2_rebuild\\node_timeseries_with_residuals.parquet",
+    "split_mode": "scenario",
+    "dataset_manifest": {
+      "base_inp_path": "E:\\11.16\\input_data\\2_tuned_v3_merged1.inp",
+      "defect_csv_path": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+      "output_dir": "script2_new\\training_data_new\\time_gated_downstream_node_sensor_v2_rebuild",
+      "sample_interval_minutes": 10,
+      "max_scenarios": null,
+      "time_gated": true,
+      "key_nodes_only": false,
+      "strict_monitor_only": true,
+      "monitor_node_count": 25,
+      "monitor_nodes_file": "script2_new\\input_1\\monitor_nodes_downstream_N25.json",
+      "node_timeseries_file": "script2_new\\training_data_new\\time_gated_downstream_node_sensor_v2_rebuild\\node_timeseries.parquet",
+      "scenario_summary_file": "script2_new\\training_data_new\\time_gated_downstream_node_sensor_v2_rebuild\\scenario_summary.csv",
+      "scenario_count": 301,
+      "unique_node_count": 25
+    }
+  },
+  "by_type_top1": {
+    "I": 0.12209302325581395,
+    "E": 0.22018348623853212,
+    "P": 0.25882352941176473
+  },
+  "seen_nodes": {
+    "n": 720,
+    "mrr": 0.25779154375533353,
+    "top1": 0.18611111111111112,
+    "top3": 0.22777777777777777
+  },
+  "unseen_nodes": {
+    "n": 12,
+    "mrr": 0.1369047619047619,
+    "top1": 0.0,
+    "top3": 0.0
+  }
+}

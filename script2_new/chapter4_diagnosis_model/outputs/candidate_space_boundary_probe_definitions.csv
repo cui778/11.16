@@ -1,0 +1,4 @@
+﻿probe,role,output_space,status
+C50_formal,mainline,50 candidate defect nodes,formal Chapter 4 task
+C128_full_graph,boundary_exploration,all 128 graph nodes,definition only; not promoted to main table
+C50_plus_hard_negatives,boundary_exploration,50 candidates plus non-candidate distractors,definition only; not promoted to main table

@@ -1,0 +1,24 @@
+{
+  "candidate_nodes_file": "e:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+  "monitor_nodes_file": "e:\\11.16\\script2_new\\input_1\\monitor_nodes_balanced_observability_N25.json",
+  "graph_features_file": "e:\\11.16\\script2_new\\input_1\\graph_path_features.npz",
+  "tier_rule": {
+    "direct": "candidate is monitored or nearest_monitor_hop == 0",
+    "near": "1 <= nearest_monitor_hop <= 2",
+    "far": "nearest_monitor_hop > 2"
+  },
+  "summary": [
+    {
+      "observability_tier": "direct",
+      "n_candidates": 12,
+      "monitored_share": 1.0,
+      "mean_hop": 0.0
+    },
+    {
+      "observability_tier": "near",
+      "n_candidates": 38,
+      "monitored_share": 0.0,
+      "mean_hop": 1.2105263157894737
+    }
+  ]
+}

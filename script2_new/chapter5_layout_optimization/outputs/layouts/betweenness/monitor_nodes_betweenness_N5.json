@@ -1,0 +1,33 @@
+{
+  "monitor_nodes": [
+    "HS1306904",
+    "HS1306601",
+    "HS1308301",
+    "HS1313835",
+    "HS1316177"
+  ],
+  "strategy": "betweenness",
+  "n": 5,
+  "frozen_protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "defect matrix fixed; only monitor layout changes"
+  },
+  "objective_meta": {
+    "rule": "top betweenness centrality"
+  },
+  "layout_metrics": {
+    "direct": 3,
+    "near": 10,
+    "far": 37,
+    "mean_hop": 8.12,
+    "max_hop": 15.0,
+    "overlap_count": 3,
+    "monitor_dispersion_mean_hop": 8.2,
+    "monitor_redundancy_mean_jaccard": 0.19158730158730158,
+    "signature_mean_nn": 0.4063333570957184,
+    "signature_min_nn": 0.0,
+    "signature_p10_nn": 0.0
+  }
+}

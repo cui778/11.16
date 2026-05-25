@@ -1,0 +1,5 @@
+model,mrr,top1,top3,top5,layout,notes
+hydraulic_inverse_deepattn,0.9404,0.8861,0.9938,1.0000,degree_N25,full-graph sparse-observation
+lstm_graphsage_edge,0.6060,0.5052,0.6335,0.6936,degree_N25,full-graph sparse-observation
+hydraulic_inverse,0.5516,0.4265,0.5901,0.6749,degree_N25,full-graph sparse-observation
+gru_gcn,0.2823,0.1718,0.3023,0.3437,degree_N25,full-graph sparse-observation

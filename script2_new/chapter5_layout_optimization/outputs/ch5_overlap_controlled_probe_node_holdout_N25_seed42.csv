@@ -1,0 +1,5 @@
+layout,mrr,top1,top3,top5,event_level_top1,event_level_top3,event_level_top5,overlap_count,metrics_file
+degree,0.36549113519888404,0.1544837980406933,0.5048982667671439,0.7249434815373021,0.17777777777777778,0.5222222222222223,0.7222222222222222,12,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_nh_deg25_s42.json
+candidate_observability,0.2936238245568333,0.0987189148455162,0.3873398643556895,0.5455915599095704,0.1111111111111111,0.4,0.5333333333333333,15,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_nh_cobs25_s42.json
+overlap_controlled_candidate_focus,0.24161129924886282,0.09570459683496609,0.2449133383571967,0.4385832705350414,,,12,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_probe_nh_occf_N25_s42.json
+overlap_controlled_balanced,0.2472972094215391,0.0828937452901281,0.28409947249434814,0.4604370761115298,,,12,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_probe_nh_ocb_N25_s42.json

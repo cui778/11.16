@@ -1,0 +1,1518 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.2 (Build 5.2.4)
+  PYSWMM TOOLKIT API - VERSION v1.0 (2025-11-18)
+  ------------------------------------------------------------
+
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... LPS
+  Process Models:
+    Rainfall/Runoff ........ NO
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ YES
+    Water Quality .......... YES
+  Flow Routing Method ...... DYNWAVE
+  Surcharge Method ......... EXTRAN
+  Starting Date ............ 01/01/2025 00:00:00
+  Ending Date .............. 01/03/2025 00:00:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:05:00
+  Routing Time Step ........ 60.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 10
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.001500 m
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        hectare-m      10^6 ltr
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.766         7.664
+  External Outflow .........         0.569         5.687
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.016         0.160
+  Final Stored Volume ......         0.218         2.178
+  Continuity Error (%) .....        -0.523
+  
+  
+  **************************          BODf          BODs           NH4           NO3            DO
+  Quality Routing Continuity            kg            kg            kg            kg            kg
+  **************************    ----------    ----------    ----------    ----------    ----------
+  Dry Weather Inflow .......         0.000         0.000         0.000         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000         0.000         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000         0.000         0.000         0.000
+  RDII Inflow ..............         0.000         0.000         0.000         0.000         0.000
+  External Inflow ..........       984.452       246.233       144.998         2.627        16.335
+  External Outflow .........       331.017       107.585        44.406         1.850        11.092
+  Flooding Loss ............         0.000         0.000         0.000         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000         0.000         0.000         0.000
+  Mass Reacted .............       398.511        70.248        67.866         0.000         0.980
+  Initial Stored Mass ......         0.000         0.000         0.000         0.000         0.000
+  Final Stored Mass ........       261.404        69.995        33.559         0.793         4.399
+  Continuity Error (%) .....        -0.658        -0.648        -0.575        -0.596        -0.831
+  
+  
+  **************************          TSSs          TSSn         TR_in         TR_ww
+  Quality Routing Continuity            kg            kg            kg            kg
+  **************************    ----------    ----------    ----------    ----------
+  Dry Weather Inflow .......         0.000         0.000         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000         0.000         0.000
+  RDII Inflow ..............         0.000         0.000         0.000         0.000
+  External Inflow ..........       731.307         0.000         0.000         0.000
+  External Outflow .........       281.801         0.000         0.000         0.000
+  Flooding Loss ............         0.000         0.000         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000         0.000         0.000
+  Mass Reacted .............       238.921         0.000         0.000         0.000
+  Initial Stored Mass ......         0.000         0.000         0.000         0.000
+  Final Stored Mass ........       214.905         0.000         0.000         0.000
+  Continuity Error (%) .....        -0.591         0.000         0.000         0.000
+  
+  
+  *************************
+  Highest Continuity Errors
+  *************************
+  Node VP0232532 (51.13%)
+  Node HS1316396 (43.31%)
+  Node HS1314512 (40.46%)
+  Node HS1314505 (36.14%)
+  Node HS1316393 (26.24%)
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  Link HS1313044.2 (92.17%)
+  Link HS1313300.1 (5.09%)
+  Link HS2003014.1 (1.80%)
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  All links are stable.
+  
+  
+  *********************************
+  Most Frequent Nonconverging Nodes
+  *********************************
+  Convergence obtained at all time steps.
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     2.31 sec
+  Average Time Step           :     4.51 sec
+  Maximum Time Step           :    12.08 sec
+  % of Time in Steady State   :     0.00
+  Average Iterations per Step :     2.00
+  % of Steps Not Converging   :     0.00
+  Time Step Frequencies       :
+     60.000 - 23.031 sec      :     0.00 %
+     23.031 -  8.841 sec      :     0.02 %
+      8.841 -  3.393 sec      :    99.93 %
+      3.393 -  1.303 sec      :     0.04 %
+      1.303 -  0.500 sec      :     0.00 %
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type       Meters   Meters   Meters  days hr:min      Meters
+  ---------------------------------------------------------------------------------
+  HS1306447            JUNCTION  -nan(ind)     0.00    23.17     0  00:00        0.00
+  HS1306449            JUNCTION  -nan(ind)     0.00    22.76     0  00:00        0.00
+  HS1306461            JUNCTION  -nan(ind)     0.00    22.64     0  00:00        0.00
+  HS1306471            JUNCTION  -nan(ind)     0.00    23.42     0  00:00        0.00
+  HS1306554            JUNCTION  -nan(ind)     0.00    19.35     0  00:00        0.00
+  HS1306571            JUNCTION  -nan(ind)     0.00    19.22     0  00:00        0.00
+  HS1306601            JUNCTION  -nan(ind)     0.00    18.79     0  00:00        0.00
+  HS1306611            JUNCTION  -nan(ind)     0.00    18.68     0  00:00        0.00
+  HS1308259            JUNCTION  -nan(ind)     0.00    19.84     0  00:00        0.00
+  HS1308282            JUNCTION  -nan(ind)     0.00    17.82     0  00:00        0.00
+  HS1308301            JUNCTION  -nan(ind)     0.00    18.25     0  00:00        0.00
+  HS1308302            JUNCTION  -nan(ind)     0.00    18.19     0  00:00        0.00
+  HS1308324            JUNCTION  -nan(ind)     0.00    17.90     0  00:00        0.00
+  HS1311200            JUNCTION  -nan(ind)     0.00    20.78     0  00:00        0.00
+  HS1311204            JUNCTION  -nan(ind)     0.00    20.68     0  00:00        0.00
+  HS1311269            JUNCTION  -nan(ind)     0.00    20.97     0  00:00        0.00
+  HS1311284            JUNCTION  -nan(ind)     0.00    21.17     0  00:00        0.00
+  HS1311288            JUNCTION  -nan(ind)     0.00    21.26     0  00:00        0.00
+  HS1311339            JUNCTION  -nan(ind)     0.00    22.13     0  00:00        0.00
+  HS1311349            JUNCTION  -nan(ind)     0.00    22.24     0  00:00        0.00
+  HS1311380            JUNCTION  -nan(ind)     0.00    20.93     0  00:00        0.00
+  HS1311392            JUNCTION  -nan(ind)     0.00    20.73     0  00:00        0.00
+  HS1311473            JUNCTION  -nan(ind)     0.00    22.97     0  00:00        0.00
+  HS1311475            JUNCTION  -nan(ind)     0.00    22.17     0  00:00        0.00
+  HS1311491            JUNCTION  -nan(ind)     0.00    20.67     0  00:00        0.00
+  HS1311887            JUNCTION  -nan(ind)     0.00    20.56     0  00:00        0.00
+  HS1313001            JUNCTION  -nan(ind)     0.00    20.54     0  00:00        0.00
+  HS1313016            JUNCTION  -nan(ind)     0.00    20.44     0  00:00        0.00
+  HS1313021            JUNCTION  -nan(ind)     0.00    22.19     0  00:00        0.00
+  HS1313025            JUNCTION  -nan(ind)     0.00    20.30     0  00:00        0.00
+  HS1313026            JUNCTION  -nan(ind)     0.00    20.70     0  00:00        0.00
+  HS1313037            JUNCTION  -nan(ind)     0.00    20.17     0  00:00        0.00
+  HS1313044            JUNCTION  -nan(ind)     0.00    20.10     0  00:00        0.00
+  HS1313045            JUNCTION  -nan(ind)     0.00    20.09     0  00:00        0.00
+  HS1313083            JUNCTION  -nan(ind)     0.00    20.09     0  00:00        0.00
+  HS1313123            JUNCTION  -nan(ind)     0.00    20.05     0  00:00        0.00
+  HS1313140            JUNCTION  -nan(ind)     0.00    20.09     0  00:00        0.00
+  HS1313162            JUNCTION  -nan(ind)     0.00    20.03     0  00:00        0.00
+  HS1313167            JUNCTION  -nan(ind)     0.00    20.00     0  00:00        0.00
+  HS1313205            JUNCTION  -nan(ind)     0.00    19.22     0  00:00        0.00
+  HS1313217            JUNCTION  -nan(ind)     0.00    18.90     0  00:00        0.00
+  HS1313218            JUNCTION  -nan(ind)     0.00    20.99     0  00:00        0.00
+  HS1313220            JUNCTION  -nan(ind)     0.00    18.88     0  00:00        0.00
+  HS1313240            JUNCTION  -nan(ind)     0.00    20.26     0  00:00        0.00
+  HS1313252            JUNCTION  -nan(ind)     0.00    20.27     0  00:00        0.00
+  HS1313253            JUNCTION  -nan(ind)     0.00    20.27     0  00:00        0.00
+  HS1313263            JUNCTION  -nan(ind)     0.00    20.42     0  00:00        0.00
+  HS1313283            JUNCTION  -nan(ind)     0.00    21.05     0  00:00        0.00
+  HS1313290            JUNCTION  -nan(ind)     0.00    19.60     0  00:00        0.00
+  HS1313298            JUNCTION  -nan(ind)     0.00    19.68     0  00:00        0.00
+  HS1313300            JUNCTION  -nan(ind)     0.00    19.70     0  00:00        0.00
+  HS1313343            JUNCTION  -nan(ind)     0.00    19.87     0  00:00        0.00
+  HS1313346            JUNCTION  -nan(ind)     0.00    19.96     0  00:00        0.00
+  HS1313391            JUNCTION  -nan(ind)     0.00    18.91     0  00:00        0.00
+  HS1313407            JUNCTION  -nan(ind)     0.00    19.88     0  00:00        0.00
+  HS1313411            JUNCTION  -nan(ind)     0.00    20.08     0  00:00        0.00
+  HS1313415            JUNCTION  -nan(ind)     0.00    20.10     0  00:00        0.00
+  HS1313447            JUNCTION  -nan(ind)     0.00    20.11     0  00:00        0.00
+  HS1313471            JUNCTION  -nan(ind)     0.00    20.80     0  00:00        0.00
+  HS1313487            JUNCTION  -nan(ind)     0.00    20.47     0  00:00        0.00
+  HS1313508            JUNCTION  -nan(ind)     0.00    20.86     0  00:00        0.00
+  HS1313534            JUNCTION  -nan(ind)     0.00    19.97     0  00:00        0.00
+  HS1313569            JUNCTION  -nan(ind)     0.00    20.29     0  00:00        0.00
+  HS1313572            JUNCTION  -nan(ind)     0.00    20.36     0  00:00        0.00
+  HS1313587            JUNCTION  -nan(ind)     0.00    20.21     0  00:00        0.00
+  HS1313588            JUNCTION  -nan(ind)     0.00    20.15     0  00:00        0.00
+  HS1313591            JUNCTION  -nan(ind)     0.00    20.06     0  00:00        0.00
+  HS1313597            JUNCTION  -nan(ind)     0.00    19.92     0  00:00        0.00
+  HS1313613            JUNCTION  -nan(ind)     0.00    20.36     0  00:00        0.00
+  HS1313618            JUNCTION  -nan(ind)     0.00    22.38     0  00:00        0.00
+  HS1313640            JUNCTION  -nan(ind)     0.00    21.64     0  00:00        0.00
+  HS1313676            JUNCTION  -nan(ind)     0.00    20.36     0  00:00        0.00
+  HS1313677            JUNCTION  -nan(ind)     0.00    20.37     0  00:00        0.00
+  HS1313700            JUNCTION  -nan(ind)     0.00    21.32     0  00:00        0.00
+  HS1313709            JUNCTION  -nan(ind)     0.00    21.15     0  00:00        0.00
+  HS1313728            JUNCTION  -nan(ind)     0.00    20.72     0  00:00        0.00
+  HS1313730            JUNCTION  -nan(ind)     0.00    20.68     0  00:00        0.00
+  HS1313740            JUNCTION  -nan(ind)     0.00    20.75     0  00:00        0.00
+  HS1313756            JUNCTION  -nan(ind)     0.00    19.81     0  00:00        0.00
+  HS1313763            JUNCTION  -nan(ind)     0.00    19.79     0  00:00        0.00
+  HS1313794            JUNCTION  -nan(ind)     0.00    18.69     0  00:00        0.00
+  HS1313799            JUNCTION  -nan(ind)     0.00    19.10     0  00:00        0.00
+  HS1313803            JUNCTION  -nan(ind)     0.00    18.79     0  00:00        0.00
+  HS1313835            JUNCTION  -nan(ind)     0.00    18.47     0  00:00        0.00
+  HS1313839            JUNCTION  -nan(ind)     0.00    20.34     0  00:00        0.00
+  HS1313865            JUNCTION  -nan(ind)     0.00    20.11     0  00:00        0.00
+  HS1313873            JUNCTION  -nan(ind)     0.00    19.91     0  00:00        0.00
+  HS1313881            JUNCTION  -nan(ind)     0.00    20.85     0  00:00        0.00
+  HS1313913            JUNCTION  -nan(ind)     0.00    21.00     0  00:00        0.00
+  HS1313924            JUNCTION  -nan(ind)     0.00    21.07     0  00:00        0.00
+  HS1313925            JUNCTION  -nan(ind)     0.00    21.42     0  00:00        0.00
+  HS1313957            JUNCTION  -nan(ind)     0.00    20.25     0  00:00        0.00
+  HS1313959            JUNCTION  -nan(ind)     0.00    20.25     0  00:00        0.00
+  HS1313965            JUNCTION  -nan(ind)     0.00    22.12     0  00:00        0.00
+  HS1313984            JUNCTION  -nan(ind)     0.00    21.50     0  00:00        0.00
+  HS1313998            JUNCTION  -nan(ind)     0.00    21.65     0  00:00        0.00
+  HS1314210            JUNCTION  -nan(ind)     0.00    20.02     0  00:00        0.00
+  HS1314237            JUNCTION  -nan(ind)     0.00    19.73     0  00:00        0.00
+  HS1314268            JUNCTION  -nan(ind)     0.00    19.07     0  00:00        0.00
+  HS1314475            JUNCTION  -nan(ind)     0.00    18.02     0  00:00        0.00
+  HS1314992            JUNCTION  -nan(ind)     0.00    17.70     0  00:00        0.00
+  HS1316010            JUNCTION  -nan(ind)     0.00    21.73     0  00:00        0.00
+  HS1316014            JUNCTION  -nan(ind)     0.00    21.86     0  00:00        0.00
+  HS1316037            JUNCTION  -nan(ind)     0.00    21.45     0  00:00        0.00
+  HS1316045            JUNCTION  -nan(ind)     0.00    20.12     0  00:00        0.00
+  HS1316177            JUNCTION  -nan(ind)     0.00    18.30     0  00:00        0.00
+  HS1316202            JUNCTION  -nan(ind)     0.00    18.20     0  00:00        0.00
+  HS1316207            JUNCTION  -nan(ind)     0.00    18.13     0  00:00        0.00
+  HS1316244            JUNCTION  -nan(ind)     0.00    20.74     0  00:00        0.00
+  HS1316267            JUNCTION  -nan(ind)     0.00    19.14     0  00:00        0.00
+  HS1316302            JUNCTION  -nan(ind)     0.00    21.53     0  00:00        0.00
+  HS1316321            JUNCTION  -nan(ind)     0.00    22.32     0  00:00        0.00
+  HS1316332            JUNCTION  -nan(ind)     0.00    22.78     0  00:00        0.00
+  HS1316334            JUNCTION  -nan(ind)     0.00    22.88     0  00:00        0.00
+  HS1316341            JUNCTION  -nan(ind)     0.00    21.17     0  00:00        0.00
+  HS1316343            JUNCTION  -nan(ind)     0.00    21.40     0  00:00        0.00
+  HS1316344            JUNCTION  -nan(ind)     0.00    19.77     0  00:00        0.00
+  HS1316357            JUNCTION  -nan(ind)     0.00    19.73     0  00:00        0.00
+  HS1316361            JUNCTION  -nan(ind)     0.00    21.07     0  00:00        0.00
+  HS1316366            JUNCTION  -nan(ind)     0.00    20.24     0  00:00        0.00
+  HS1316368            JUNCTION  -nan(ind)     0.00    19.68     0  00:00        0.00
+  HS1316375            JUNCTION  -nan(ind)     0.00    21.17     0  00:00        0.00
+  HS1316377            JUNCTION  -nan(ind)     0.00    20.94     0  00:00        0.00
+  HS1316381            JUNCTION  -nan(ind)     0.00    20.42     0  00:00        0.00
+  HS1316382            JUNCTION  -nan(ind)     0.00    20.84     0  00:00        0.00
+  HS1316393            JUNCTION  -nan(ind)     0.00    20.36     0  00:00        0.00
+  HS1316395            JUNCTION  -nan(ind)     0.00    21.76     0  00:00        0.00
+  HS1316396            JUNCTION  -nan(ind)     0.00    20.39     0  00:00        0.00
+  HS1316397            JUNCTION  -nan(ind)     0.00    21.53     0  00:00        0.00
+  HS1316405            JUNCTION  -nan(ind)     0.00    21.85     0  00:00        0.00
+  HS1316407            JUNCTION  -nan(ind)     0.00    21.45     0  00:00        0.00
+  HS1316410            JUNCTION  -nan(ind)     0.00    20.35     0  00:00        0.00
+  HS1316415            JUNCTION  -nan(ind)     0.00    20.20     0  00:00        0.00
+  HS1316417            JUNCTION  -nan(ind)     0.00    19.19     0  00:00        0.00
+  HS1316445            JUNCTION  -nan(ind)     0.00    19.74     0  00:00        0.00
+  HS1316467            JUNCTION  -nan(ind)     0.00    21.36     0  00:00        0.00
+  HS1316505            JUNCTION  -nan(ind)     0.00    17.94     0  00:00        0.00
+  HS1316506            JUNCTION  -nan(ind)     0.00    20.10     0  00:00        0.00
+  HS1316530            JUNCTION  -nan(ind)     0.00    18.11     0  00:00        0.00
+  HS1316532            JUNCTION  -nan(ind)     0.00    18.71     0  00:00        0.00
+  HS1316554            JUNCTION  -nan(ind)     0.00    19.08     0  00:00        0.00
+  HS1316555            JUNCTION  -nan(ind)     0.00    21.38     0  00:00        0.00
+  HS1316563            JUNCTION  -nan(ind)     0.00    19.09     0  00:00        0.00
+  HS1316566            JUNCTION  -nan(ind)     0.00    19.37     0  00:00        0.00
+  HS1316585            JUNCTION  -nan(ind)     0.00    20.03     0  00:00        0.00
+  HS1316637            JUNCTION  -nan(ind)     0.00    21.75     0  00:00        0.00
+  HS1316643            JUNCTION  -nan(ind)     0.00    22.13     0  00:00        0.00
+  HS1316671            JUNCTION  -nan(ind)     0.00    22.98     0  00:00        0.00
+  HS1316676            JUNCTION  -nan(ind)     0.00    22.37     0  00:00        0.00
+  HS1316677            JUNCTION  -nan(ind)     0.00    22.24     0  00:00        0.00
+  HS1316688            JUNCTION  -nan(ind)     0.00    21.78     0  00:00        0.00
+  HS1316689            JUNCTION  -nan(ind)     0.00    22.93     0  00:00        0.00
+  HS1316694            JUNCTION  -nan(ind)     0.00    19.64     0  00:00        0.00
+  HS1316707            JUNCTION  -nan(ind)     0.00    21.68     0  00:00        0.00
+  HS1316717            JUNCTION  -nan(ind)     0.00    20.60     0  00:00        0.00
+  HS1316718            JUNCTION  -nan(ind)     0.00    20.49     0  00:00        0.00
+  HS1316721            JUNCTION  -nan(ind)     0.00    20.39     0  00:00        0.00
+  HS1316726            JUNCTION  -nan(ind)     0.00    20.28     0  00:00        0.00
+  HS1316786            JUNCTION  -nan(ind)     0.00    20.22     0  00:00        0.00
+  HS1316811            JUNCTION  -nan(ind)     0.00    21.97     0  00:00        0.00
+  HS1316814            JUNCTION  -nan(ind)     0.00    22.95     0  00:00        0.00
+  HS1316835            JUNCTION  -nan(ind)     0.00    22.41     0  00:00        0.00
+  HS1316849            JUNCTION  -nan(ind)     0.00    22.12     0  00:00        0.00
+  HS1316865            JUNCTION  -nan(ind)     0.00    22.06     0  00:00        0.00
+  HS1316867            JUNCTION  -nan(ind)     0.00    22.52     0  00:00        0.00
+  HS1316868            JUNCTION  -nan(ind)     0.00    22.31     0  00:00        0.00
+  HS1316892            JUNCTION  -nan(ind)     0.00    22.58     0  00:00        0.00
+  HS1317102            JUNCTION  -nan(ind)     0.00    20.62     0  00:00        0.00
+  HS1318293            JUNCTION  -nan(ind)     0.00    19.55     0  00:00        0.00
+  HS1318328            JUNCTION  -nan(ind)     0.00    20.22     0  00:00        0.00
+  HS1318412            JUNCTION  -nan(ind)     0.00    21.68     0  00:00        0.00
+  HS1324399            JUNCTION  -nan(ind)     0.00    19.81     0  00:00        0.00
+  HS1324400            JUNCTION  -nan(ind)     0.00    20.03     0  00:00        0.00
+  HS1324403            JUNCTION  -nan(ind)     0.00    20.00     0  00:00        0.00
+  HS1330826            JUNCTION  -nan(ind)     0.00    19.35     0  00:00        0.00
+  HS1330834            JUNCTION  -nan(ind)     0.00    19.40     0  00:00        0.00
+  HS1330842            JUNCTION  -nan(ind)     0.00    19.31     0  00:00        0.00
+  HS1330861            JUNCTION  -nan(ind)     0.00    18.65     0  00:00        0.00
+  HS1344037            JUNCTION  -nan(ind)     0.00    21.09     0  00:00        0.00
+  HS1344159            JUNCTION  -nan(ind)     0.00    18.41     0  00:00        0.00
+  HS1344166            JUNCTION  -nan(ind)     0.00    20.16     0  00:00        0.00
+  HS1344187            JUNCTION  -nan(ind)     0.00    19.87     0  00:00        0.00
+  HS1344198            JUNCTION  -nan(ind)     0.00    20.66     0  00:00        0.00
+  HS1344261            JUNCTION  -nan(ind)     0.00    21.61     0  00:00        0.00
+  HS1344263            JUNCTION  -nan(ind)     0.00    20.55     0  00:00        0.00
+  HS1344319            JUNCTION  -nan(ind)     0.00    22.54     0  00:00        0.00
+  HS1344902            JUNCTION  -nan(ind)     0.00    23.19     0  00:00        0.00
+  HS1344915            JUNCTION  -nan(ind)     0.00    20.90     0  00:00        0.00
+  HS1344920            JUNCTION  -nan(ind)     0.00    21.17     0  00:00        0.00
+  HS1344978            JUNCTION  -nan(ind)     0.00    20.84     0  00:00        0.00
+  HS2003070            JUNCTION  -nan(ind)     0.00    18.40     0  00:00        0.00
+  HS2003072            JUNCTION  -nan(ind)     0.00    18.30     0  00:00        0.00
+  HS2003083            JUNCTION  -nan(ind)     0.00    18.40     0  00:00        0.00
+  HS2003085            JUNCTION  -nan(ind)     0.00    18.37     0  00:00        0.00
+  HS2003086            JUNCTION  -nan(ind)     0.00    18.44     0  00:00        0.00
+  HS2003087            JUNCTION  -nan(ind)     0.00    18.57     0  00:00        0.00
+  HS2003088            JUNCTION  -nan(ind)     0.00    18.84     0  00:00        0.00
+  HS2003091            JUNCTION  -nan(ind)     0.00    18.44     0  00:00        0.00
+  HS2003093            JUNCTION  -nan(ind)     0.00    18.46     0  00:00        0.00
+  HS2003095            JUNCTION  -nan(ind)     0.00    18.49     0  00:00        0.00
+  HS2003109            JUNCTION  -nan(ind)     0.00    18.60     0  00:00        0.00
+  HS2003111            JUNCTION  -nan(ind)     0.00    18.51     0  00:00        0.00
+  HS2003113            JUNCTION  -nan(ind)     0.00    18.54     0  00:00        0.00
+  HS2003125            JUNCTION  -nan(ind)     0.00    18.68     0  00:00        0.00
+  HS2003142            JUNCTION  -nan(ind)     0.00    18.72     0  00:00        0.00
+  HS2003144            JUNCTION  -nan(ind)     0.00    18.74     0  00:00        0.00
+  MH0100330            JUNCTION  -nan(ind)     0.00    19.83     0  00:00        0.00
+  MH0100334            JUNCTION  -nan(ind)     0.00    19.91     0  00:00        0.00
+  MH0101923            JUNCTION  -nan(ind)     0.00    19.84     0  00:00        0.00
+  MH0103033            JUNCTION  -nan(ind)     0.00    22.00     0  00:00        0.00
+  MH0200659            JUNCTION  -nan(ind)     0.00    19.97     0  00:00        0.00
+  MH0200661            JUNCTION  -nan(ind)     0.00    20.17     0  00:00        0.00
+  MH0201597            JUNCTION  -nan(ind)     0.00    19.47     0  00:00        0.00
+  MH0201629            JUNCTION  -nan(ind)     0.00    19.87     0  00:00        0.00
+  MH0201710            JUNCTION  -nan(ind)     0.00    19.59     0  00:00        0.00
+  MH0216418            JUNCTION  -nan(ind)     0.00    19.97     0  00:00        0.00
+  MH0241587            JUNCTION  -nan(ind)     0.00    20.23     0  00:00        0.00
+  MH0241590            JUNCTION  -nan(ind)     0.00    19.90     0  00:00        0.00
+  MH0241603            JUNCTION  -nan(ind)     0.00    19.88     0  00:00        0.00
+  MH0241642            JUNCTION  -nan(ind)     0.00    20.55     0  00:00        0.00
+  MH0242298            JUNCTION  -nan(ind)     0.00    18.89     0  00:00        0.00
+  MH0242303            JUNCTION  -nan(ind)     0.00    18.64     0  00:00        0.00
+  MH0242782            JUNCTION  -nan(ind)     0.00    22.53     0  00:00        0.00
+  MH0258475            JUNCTION  -nan(ind)     0.00    23.12     0  00:00        0.00
+  VP0232532            JUNCTION  -nan(ind)     0.00    20.15     0  00:00        0.00
+  YS2003067            JUNCTION  -nan(ind)     0.00    18.18     0  00:00        0.00
+  MH0100819            OUTFALL   -nan(ind)     0.00    17.24     0  00:00        0.00
+  1                    OUTFALL   -nan(ind)     0.00    17.50     0  00:00        0.00
+  HS1314512            STORAGE   -nan(ind)     0.00    17.59     0  00:00        0.00
+  HS1314477            STORAGE   -nan(ind)     0.00    17.54     0  00:00        0.00
+  HS2003013            STORAGE   -nan(ind)     0.00    17.85     0  00:00        0.00
+  HS1314769            STORAGE   -nan(ind)     0.00    17.78     0  00:00        0.00
+  HS1314505            STORAGE   -nan(ind)     0.00    17.66     0  00:00        0.00
+  HS2003015            STORAGE   -nan(ind)     0.00    18.09     0  00:00        0.00
+  HS2003020            STORAGE   -nan(ind)     0.00    18.18     0  00:00        0.00
+  HS2003023            STORAGE   -nan(ind)     0.00    18.17     0  00:00        0.00
+  HS2003028            STORAGE   -nan(ind)     0.00    18.15     0  00:00        0.00
+  HS2003029            STORAGE   -nan(ind)     0.00    18.26     0  00:00        0.00
+  HS2003046            STORAGE   -nan(ind)     0.00    18.32     0  00:00        0.00
+  HS1306904            STORAGE   -nan(ind)     0.00    18.30     0  00:00        0.00
+  HS1306618            STORAGE   -nan(ind)     0.00    18.53     0  00:00        0.00
+  HS1313402            STORAGE   -nan(ind)     0.00    18.84     0  00:00        0.00
+  MH0101924            STORAGE   -nan(ind)     0.00    19.70     0  00:00        0.00
+  MH0100292            STORAGE   -nan(ind)     0.00    19.76     0  00:00        0.00
+  HS2003014            STORAGE   -nan(ind)     0.00    17.64     0  00:00        0.00
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           LPS      LPS  days hr:min    10^6 ltr    10^6 ltr     Percent
+  -------------------------------------------------------------------------------------------------
+  HS1306447            JUNCTION      0.00     0.00     0  00:00           0       0.027       0.307
+  HS1306449            JUNCTION      0.00     0.00     0  00:00           0      0.0269       2.211
+  HS1306461            JUNCTION      0.00     0.00     0  00:00           0      0.0263       0.568
+  HS1306471            JUNCTION      0.00     0.00     0  00:00           0      0.0271       0.365
+  HS1306554            JUNCTION      0.00     0.00     0  00:00           0       0.359       6.555
+  HS1306571            JUNCTION      0.00     0.00     0  00:00           0        1.47       3.694
+  HS1306601            JUNCTION      0.00     0.00     0  00:00           0        1.81       2.881
+  HS1306611            JUNCTION      0.00     0.00     0  00:00           0        1.58       1.919
+  HS1308259            JUNCTION      0.00     0.00     0  00:00           0        0.16       2.859
+  HS1308282            JUNCTION      0.00     0.00     0  00:00           0        2.78       1.009
+  HS1308301            JUNCTION      0.00     0.00     0  00:00           0       0.103       6.522
+  HS1308302            JUNCTION      0.00     0.00     0  00:00           0       0.162       3.260
+  HS1308324            JUNCTION      0.00     0.00     0  00:00           0         2.8       0.707
+  HS1311200            JUNCTION      0.00     0.00     0  00:00           0      0.0157       0.385
+  HS1311204            JUNCTION      0.00     0.00     0  00:00           0      0.0379       1.211
+  HS1311269            JUNCTION      0.00     0.00     0  00:00           0      0.0159       2.508
+  HS1311284            JUNCTION      0.00     0.00     0  00:00           0      0.0163       7.078
+  HS1311288            JUNCTION      0.00     0.00     0  00:00           0     0.00598       3.978
+  HS1311339            JUNCTION      0.00     0.00     0  00:00           0      0.0734       7.212
+  HS1311349            JUNCTION      0.00     0.00     0  00:00           0      0.0316       7.159
+  HS1311380            JUNCTION      0.00     0.00     0  00:00           0           0       0.000 ltr
+  HS1311392            JUNCTION      0.00     0.00     0  00:00           0      0.0693       3.166
+  HS1311473            JUNCTION      0.00     0.00     0  00:00           0      0.0226       1.534
+  HS1311475            JUNCTION      0.00     0.00     0  00:00           0       0.018       2.281
+  HS1311491            JUNCTION      0.00     0.00     0  00:00           0      0.0186       1.412
+  HS1311887            JUNCTION      0.00     0.00     0  00:00           0       0.176       1.987
+  HS1313001            JUNCTION      0.00     0.00     0  00:00           0      0.0694       1.827
+  HS1313016            JUNCTION      0.00     0.00     0  00:00           0       0.105       2.345
+  HS1313021            JUNCTION      0.00     0.00     0  00:00           0      0.0373       0.092
+  HS1313025            JUNCTION      0.00     0.00     0  00:00           0       0.376       0.810
+  HS1313026            JUNCTION      0.00     0.00     0  00:00           0       0.273       0.051
+  HS1313037            JUNCTION      0.00     0.00     0  00:00           0       0.377       0.793
+  HS1313044            JUNCTION      0.00     0.00     0  00:00           0       0.796       0.607
+  HS1313045            JUNCTION      0.00     0.00     0  00:00           0        0.79       0.253
+  HS1313083            JUNCTION      0.00     0.00     0  00:00           0       0.296       5.708
+  HS1313123            JUNCTION      0.00     0.00     0  00:00           0       0.304       5.545
+  HS1313140            JUNCTION      0.00     0.00     0  00:00           0       0.134       0.277
+  HS1313162            JUNCTION      0.00     0.00     0  00:00           0     0.00753       5.704
+  HS1313167            JUNCTION      0.00     0.00     0  00:00           0       0.227       1.826
+  HS1313205            JUNCTION      0.00     0.00     0  00:00           0       0.824       3.019
+  HS1313217            JUNCTION      0.00     0.00     0  00:00           0      0.0874       3.569
+  HS1313218            JUNCTION      0.00     0.00     0  00:00           0           0       0.000 ltr
+  HS1313220            JUNCTION      0.00     0.00     0  00:00           0       0.348       0.781
+  HS1313240            JUNCTION      0.00     0.00     0  00:00           0       0.224       1.880
+  HS1313252            JUNCTION      0.00     0.00     0  00:00           0       0.128       1.141
+  HS1313253            JUNCTION      0.00     0.00     0  00:00           0       0.128       2.197
+  HS1313263            JUNCTION      0.00     0.00     0  00:00           0       0.129       1.167
+  HS1313283            JUNCTION      0.00     0.00     0  00:00           0       0.116       1.487
+  HS1313290            JUNCTION      0.00     0.00     0  00:00           0       0.546       1.156
+  HS1313298            JUNCTION      0.00     0.00     0  00:00           0       0.469       3.106
+  HS1313300            JUNCTION      0.00     0.00     0  00:00           0       0.307       0.961
+  HS1313343            JUNCTION      0.00     0.00     0  00:00           0       0.173       4.786
+  HS1313346            JUNCTION      0.00     0.00     0  00:00           0     0.00794       0.710
+  HS1313391            JUNCTION      0.00     0.00     0  00:00           0       0.896       2.676
+  HS1313407            JUNCTION      0.00     0.00     0  00:00           0       0.181       0.420
+  HS1313411            JUNCTION      0.00     0.00     0  00:00           0       0.177       0.809
+  HS1313415            JUNCTION      0.00     0.00     0  00:00           0       0.155       1.833
+  HS1313447            JUNCTION      0.00     0.00     0  00:00           0        0.12       2.745
+  HS1313471            JUNCTION      0.00     0.00     0  00:00           0      0.0561       0.814
+  HS1313487            JUNCTION      0.00     0.00     0  00:00           0       0.108       3.784
+  HS1313508            JUNCTION      0.00     0.00     0  00:00           0      0.0261       1.361
+  HS1313534            JUNCTION      0.00     0.00     0  00:00           0      0.0157       2.963
+  HS1313569            JUNCTION      0.00     0.00     0  00:00           0     0.00916       3.040
+  HS1313572            JUNCTION      0.00     0.00     0  00:00           0      0.0429       1.558
+  HS1313587            JUNCTION      0.00     0.00     0  00:00           0      0.0422       0.960
+  HS1313588            JUNCTION      0.00     0.00     0  00:00           0    0.000231     515.465
+  HS1313591            JUNCTION      0.00     0.00     0  00:00           0      0.0417       0.249
+  HS1313597            JUNCTION      0.00     0.00     0  00:00           0      0.0845       1.163
+  HS1313613            JUNCTION      0.00     0.00     0  00:00           0      0.0347       0.717
+  HS1313618            JUNCTION      0.00     0.00     0  00:00           0       0.068       0.632
+  HS1313640            JUNCTION      0.00     0.00     0  00:00           0      0.0756       1.591
+  HS1313676            JUNCTION      0.00     0.00     0  00:00           0       0.309       0.838
+  HS1313677            JUNCTION      0.00     0.00     0  00:00           0      0.0501       1.943
+  HS1313700            JUNCTION      0.00     0.00     0  00:00           0       0.113       0.558
+  HS1313709            JUNCTION      0.00     0.00     0  00:00           0      0.0766       0.201
+  HS1313728            JUNCTION      0.00     0.00     0  00:00           0      0.0386       1.217
+  HS1313730            JUNCTION      0.00     0.00     0  00:00           0      0.0383       0.125
+  HS1313740            JUNCTION      0.00     0.00     0  00:00           0      0.0224       0.505
+  HS1313756            JUNCTION      0.00     0.00     0  00:00           0      0.0235      14.361
+  HS1313763            JUNCTION      0.00     0.00     0  00:00           0       0.109       0.632
+  HS1313794            JUNCTION      0.00     0.00     0  00:00           0       0.556       2.218
+  HS1313799            JUNCTION      0.00     0.00     0  00:00           0    0.000191       0.941
+  HS1313803            JUNCTION      0.00     0.00     0  00:00           0       0.455       1.750
+  HS1313835            JUNCTION      0.00     0.00     0  00:00           0       0.788       2.374
+  HS1313839            JUNCTION      0.00     0.00     0  00:00           0      0.0561       4.382
+  HS1313865            JUNCTION      0.00     0.00     0  00:00           0       0.132       4.893
+  HS1313873            JUNCTION      0.00     0.00     0  00:00           0       0.127       0.826
+  HS1313881            JUNCTION      0.00     0.00     0  00:00           0       0.106       0.725
+  HS1313913            JUNCTION      0.00     0.00     0  00:00           0      0.0912       0.280
+  HS1313924            JUNCTION      0.00     0.00     0  00:00           0      0.0819       0.518
+  HS1313925            JUNCTION      0.00     0.00     0  00:00           0      0.0233       1.177
+  HS1313957            JUNCTION      0.00     0.00     0  00:00           0      0.0338       4.527
+  HS1313959            JUNCTION      0.00     0.00     0  00:00           0      0.0756       1.730
+  HS1313965            JUNCTION      0.00     0.00     0  00:00           0      0.0441       2.066
+  HS1313984            JUNCTION      0.00     0.00     0  00:00           0     0.00197       1.030
+  HS1313998            JUNCTION      0.00     0.00     0  00:00           0     0.00851       4.065
+  HS1314210            JUNCTION      0.00     0.00     0  00:00           0      0.0338       2.752
+  HS1314237            JUNCTION      0.00     0.00     0  00:00           0       0.319       1.609
+  HS1314268            JUNCTION      0.00     0.00     0  00:00           0       0.321       0.962
+  HS1314475            JUNCTION      0.00     0.00     0  00:00           0      0.0184       0.207
+  HS1314992            JUNCTION      0.00     0.00     0  00:00           0        2.75       3.157
+  HS1316010            JUNCTION      0.00     0.00     0  00:00           0     0.00858       0.835
+  HS1316014            JUNCTION      0.00     0.00     0  00:00           0     0.00723       0.974
+  HS1316037            JUNCTION      0.00     0.00     0  00:00           0      0.0109       1.387
+  HS1316045            JUNCTION      0.00     0.00     0  00:00           0        0.13       1.913
+  HS1316177            JUNCTION      0.00     0.00     0  00:00           0        1.18       1.759
+  HS1316202            JUNCTION      0.00     0.00     0  00:00           0        1.25       1.539
+  HS1316207            JUNCTION      0.00     0.00     0  00:00           0         2.2       0.663
+  HS1316244            JUNCTION      0.00     0.00     0  00:00           0      0.0174       0.161
+  HS1316267            JUNCTION      0.00     0.00     0  00:00           0       0.493       4.167
+  HS1316302            JUNCTION      0.00     0.00     0  00:00           0       0.269       0.871
+  HS1316321            JUNCTION      0.00     0.00     0  00:00           0       0.229       0.451
+  HS1316332            JUNCTION      0.00     0.00     0  00:00           0     0.00897       1.130
+  HS1316334            JUNCTION      0.00     0.00     0  00:00           0     0.00176       0.766
+  HS1316341            JUNCTION      0.00     0.00     0  00:00           0    0.000383     382.838 ltr
+  HS1316343            JUNCTION      0.00     0.00     0  00:00           0    3.53e-05       0.893
+  HS1316344            JUNCTION      0.00     0.00     0  00:00           0       0.137       3.171
+  HS1316357            JUNCTION      0.00     0.00     0  00:00           0       0.153       1.080
+  HS1316361            JUNCTION      0.00     0.00     0  00:00           0     0.00297       0.287
+  HS1316366            JUNCTION      0.00     0.00     0  00:00           0     0.00592       0.262
+  HS1316368            JUNCTION      0.00     0.00     0  00:00           0       0.157       0.573
+  HS1316375            JUNCTION      0.00     0.00     0  00:00           0      0.0221       0.223
+  HS1316377            JUNCTION      0.00     0.00     0  00:00           0      0.0224       0.163
+  HS1316381            JUNCTION      0.00     0.00     0  00:00           0      0.0236       0.617
+  HS1316382            JUNCTION      0.00     0.00     0  00:00           0           0       0.000 ltr
+  HS1316393            JUNCTION      0.00     0.00     0  00:00           0      0.0017      35.573
+  HS1316395            JUNCTION      0.00     0.00     0  00:00           0     0.00292       0.346
+  HS1316396            JUNCTION      0.00     0.00     0  00:00           0     0.00353      76.406
+  HS1316397            JUNCTION      0.00     0.00     0  00:00           0     0.00062       0.286
+  HS1316405            JUNCTION      0.00     0.00     0  00:00           0     0.00525       0.346
+  HS1316407            JUNCTION      0.00     0.00     0  00:00           0     0.00524       0.285
+  HS1316410            JUNCTION      0.00     0.00     0  00:00           0      0.0723       0.221
+  HS1316415            JUNCTION      0.00     0.00     0  00:00           0      0.0726       2.189
+  HS1316417            JUNCTION      0.00     0.00     0  00:00           0       0.103       2.918
+  HS1316445            JUNCTION      0.00     0.00     0  00:00           0      0.0865       1.113
+  HS1316467            JUNCTION      0.00     0.00     0  00:00           0       0.259       0.919
+  HS1316505            JUNCTION      0.00     0.00     0  00:00           0        2.39       1.586
+  HS1316506            JUNCTION      0.00     0.00     0  00:00           0    0.000454       0.537
+  HS1316530            JUNCTION      0.00     0.00     0  00:00           0        2.42       1.190
+  HS1316532            JUNCTION      0.00     0.00     0  00:00           0       0.977       0.249
+  HS1316554            JUNCTION      0.00     0.00     0  00:00           0       0.717       1.542
+  HS1316555            JUNCTION      0.00     0.00     0  00:00           0     0.00177       0.363
+  HS1316563            JUNCTION      0.00     0.00     0  00:00           0       0.736       3.002
+  HS1316566            JUNCTION      0.00     0.00     0  00:00           0        0.41       0.610
+  HS1316585            JUNCTION      0.00     0.00     0  00:00           0       0.348       1.964
+  HS1316637            JUNCTION      0.00     0.00     0  00:00           0       0.166       0.783
+  HS1316643            JUNCTION      0.00     0.00     0  00:00           0       0.153       0.728
+  HS1316671            JUNCTION      0.00     0.00     0  00:00           0        0.12       0.910
+  HS1316676            JUNCTION      0.00     0.00     0  00:00           0      0.0711       0.885
+  HS1316677            JUNCTION      0.00     0.00     0  00:00           0      0.0662       0.826
+  HS1316688            JUNCTION      0.00     0.00     0  00:00           0       0.066       0.448
+  HS1316689            JUNCTION      0.00     0.00     0  00:00           0    0.000321       0.913
+  HS1316694            JUNCTION      0.00     0.00     0  00:00           0       0.838       0.584
+  HS1316707            JUNCTION      0.00     0.00     0  00:00           0       0.103       1.608
+  HS1316717            JUNCTION      0.00     0.00     0  00:00           0       0.119       0.126
+  HS1316718            JUNCTION      0.00     0.00     0  00:00           0       0.122       0.124
+  HS1316721            JUNCTION      0.00     0.00     0  00:00           0       0.215       2.038
+  HS1316726            JUNCTION      0.00     0.00     0  00:00           0        0.15       2.674
+  HS1316786            JUNCTION      0.00     0.00     0  00:00           0       0.272       0.851
+  HS1316811            JUNCTION      0.00     0.00     0  00:00           0      0.0828       2.840
+  HS1316814            JUNCTION      0.00     0.00     0  00:00           0      0.0479       0.454
+  HS1316835            JUNCTION      0.00     0.00     0  00:00           0      0.0783       0.782
+  HS1316849            JUNCTION      0.00     0.00     0  00:00           0      0.0941       0.822
+  HS1316865            JUNCTION      0.00     0.00     0  00:00           0      0.0424       0.309
+  HS1316867            JUNCTION      0.00     0.00     0  00:00           0    3.46e-05       0.710
+  HS1316868            JUNCTION      0.00     0.00     0  00:00           0      0.0429       1.221
+  HS1316892            JUNCTION      0.00     0.00     0  00:00           0       0.032       4.220
+  HS1317102            JUNCTION      0.00     0.00     0  00:00           0           0       0.000 ltr
+  HS1318293            JUNCTION      0.00     0.00     0  00:00           0        1.48       2.345
+  HS1318328            JUNCTION      0.00     0.00     0  00:00           0       0.105       0.898
+  HS1318412            JUNCTION      0.00     0.00     0  00:00           0     0.00818       1.548
+  HS1324399            JUNCTION      0.00     0.00     0  00:00           0       0.827       0.434
+  HS1324400            JUNCTION      0.00     0.00     0  00:00           0     0.00106       0.825
+  HS1324403            JUNCTION      0.00     0.00     0  00:00           0       0.836       1.253
+  HS1330826            JUNCTION      0.00     0.00     0  00:00           0      0.0596       3.149
+  HS1330834            JUNCTION      0.00     0.00     0  00:00           0      0.0596       2.030
+  HS1330842            JUNCTION      0.00     0.00     0  00:00           0       0.136       1.022
+  HS1330861            JUNCTION      0.00     0.00     0  00:00           0       0.137       0.250
+  HS1344037            JUNCTION      0.00     0.00     0  00:00           0     0.00527       3.324
+  HS1344159            JUNCTION      0.00     0.00     0  00:00           0       0.721       1.629
+  HS1344166            JUNCTION      0.00     0.00     0  00:00           0      0.0275       0.000
+  HS1344187            JUNCTION      0.00     0.00     0  00:00           0      0.0947       0.148
+  HS1344198            JUNCTION      0.00     0.00     0  00:00           0    0.000442       0.575
+  HS1344261            JUNCTION      0.00     0.00     0  00:00           0      0.0408       0.184
+  HS1344263            JUNCTION      0.00     0.00     0  00:00           0       0.187       1.991
+  HS1344319            JUNCTION      0.00     0.00     0  00:00           0     0.00152      14.260
+  HS1344902            JUNCTION      0.00     0.00     0  00:00           0      0.0709       1.638
+  HS1344915            JUNCTION      0.00     0.00     0  00:00           0       0.103       0.632
+  HS1344920            JUNCTION      0.00     0.00     0  00:00           0      0.0498       0.306
+  HS1344978            JUNCTION      0.00     0.00     0  00:00           0      0.0957       0.370
+  HS2003070            JUNCTION      0.00     0.00     0  00:00           0       0.246       2.138
+  HS2003072            JUNCTION      0.00     0.00     0  00:00           0       0.265      10.333
+  HS2003083            JUNCTION      0.00     0.00     0  00:00           0       0.103       2.850
+  HS2003085            JUNCTION      0.00     0.00     0  00:00           0       0.264       6.284
+  HS2003086            JUNCTION      0.00     0.00     0  00:00           0       0.102       4.186
+  HS2003087            JUNCTION      0.00     0.00     0  00:00           0     0.00472       0.246
+  HS2003088            JUNCTION      0.00     0.00     0  00:00           0     0.00474       0.355
+  HS2003091            JUNCTION      0.00     0.00     0  00:00           0     0.00331       7.484
+  HS2003093            JUNCTION      0.00     0.00     0  00:00           0       0.264       1.325
+  HS2003095            JUNCTION      0.00     0.00     0  00:00           0       0.256       1.206
+  HS2003109            JUNCTION      0.00     0.00     0  00:00           0      0.0141       5.056
+  HS2003111            JUNCTION      0.00     0.00     0  00:00           0       0.336       3.284
+  HS2003113            JUNCTION      0.00     0.00     0  00:00           0        0.09       3.926
+  HS2003125            JUNCTION      0.00     0.00     0  00:00           0      0.0189       3.048
+  HS2003142            JUNCTION      0.00     0.00     0  00:00           0      0.0159      12.998
+  HS2003144            JUNCTION      0.00     0.00     0  00:00           0    0.000262      64.793
+  MH0100330            JUNCTION      0.00     0.00     0  00:00           0       0.276       0.558
+  MH0100334            JUNCTION      0.00     0.00     0  00:00           0       0.278       3.496
+  MH0101923            JUNCTION      0.00     0.00     0  00:00           0       0.268       0.971
+  MH0103033            JUNCTION      0.00     0.00     0  00:00           0     0.00455       6.533
+  MH0200659            JUNCTION      0.00     0.00     0  00:00           0      0.0381      12.169
+  MH0200661            JUNCTION      0.00     0.00     0  00:00           0      0.0383      14.952
+  MH0201597            JUNCTION      0.00     0.00     0  00:00           0       0.265      15.838
+  MH0201629            JUNCTION      0.00     0.00     0  00:00           0       0.121       0.000
+  MH0201710            JUNCTION      0.00     0.00     0  00:00           0       0.155       5.216
+  MH0216418            JUNCTION      0.00     0.00     0  00:00           0     0.00534       1.108
+  MH0241587            JUNCTION      0.00     0.00     0  00:00           0       0.107       9.546
+  MH0241590            JUNCTION      0.00     0.00     0  00:00           0       0.127       0.157
+  MH0241603            JUNCTION      0.00     0.00     0  00:00           0      0.0155       0.544
+  MH0241642            JUNCTION      0.00     0.00     0  00:00           0       0.105       0.091
+  MH0242298            JUNCTION      0.00     0.00     0  00:00           0       0.123       0.466
+  MH0242303            JUNCTION      0.00     0.00     0  00:00           0        0.21       0.628
+  MH0242782            JUNCTION      0.00     0.00     0  00:00           0       0.125       1.849
+  MH0258475            JUNCTION      0.00     0.00     0  00:00           0      0.0349       2.264
+  VP0232532            JUNCTION      0.00     0.00     0  00:00           0      0.0189     104.632
+  YS2003067            JUNCTION      0.00     0.00     0  00:00           0       0.254       9.484
+  MH0100819            OUTFALL       0.00     0.00     0  00:00           0        3.04       0.000
+  1                    OUTFALL       0.00     0.00     0  00:00           0        2.65       0.000
+  HS1314512            STORAGE       0.00     0.00     0  00:00           0       0.457      67.967
+  HS1314477            STORAGE       0.00     0.00     0  00:00           0        2.96       9.040
+  HS2003013            STORAGE       0.00     0.00     0  00:00           0        3.34       2.671
+  HS1314769            STORAGE       0.00     0.00     0  00:00           0       0.334      20.676
+  HS1314505            STORAGE       0.00     0.00     0  00:00           0       0.476      56.590
+  HS2003015            STORAGE       0.00     0.00     0  00:00           0       0.607       1.394
+  HS2003020            STORAGE       0.00     0.00     0  00:00           0       0.227       2.421
+  HS2003023            STORAGE       0.00     0.00     0  00:00           0         0.4       3.954
+  HS2003028            STORAGE       0.00     0.00     0  00:00           0       0.234       2.810
+  HS2003029            STORAGE       0.00     0.00     0  00:00           0       0.241       3.648
+  HS2003046            STORAGE       0.00     0.00     0  00:00           0       0.419       4.837
+  HS1306904            STORAGE       0.00     0.00     0  00:00           0        2.82       3.075
+  HS1306618            STORAGE       0.00     0.00     0  00:00           0        1.55       0.418
+  HS1313402            STORAGE       0.00     0.00     0  00:00           0         1.5       2.145
+  MH0101924            STORAGE       0.00     0.00     0  00:00           0       0.497       1.533
+  MH0100292            STORAGE       0.00     0.00     0  00:00           0       0.436       1.795
+  HS2003014            STORAGE       0.00     0.00     0  00:00           0        3.16      -0.019
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  No nodes were surcharged.
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  No nodes were flooded.
+  
+  
+  **********************
+  Storage Volume Summary
+  **********************
+  
+  ------------------------------------------------------------------------------------------------
+                         Average    Avg   Evap  Exfil     Maximum    Max    Time of Max    Maximum
+                          Volume   Pcnt   Pcnt   Pcnt      Volume   Pcnt     Occurrence    Outflow
+  Storage Unit           1000 m³   Full   Loss   Loss     1000 m³   Full    days hr:min        LPS
+  ------------------------------------------------------------------------------------------------
+  HS1314512            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS1314477            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003013            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS1314769            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS1314505            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003015            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003020            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003023            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003028            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003029            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003046            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS1306904            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS1306618            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS1313402            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  MH0101924            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  MH0100292            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  HS2003014            -nan(ind)  -nan(ind)    0.0    0.0       0.000    0.0       0  00:00       0.00
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                         Flow       Avg       Max       Total         Total         Total         Total         Total         Total         Total         Total         Total         Total
+                         Freq      Flow      Flow      Volume          BODf          BODs           NH4           NO3            DO          TSSs          TSSn         TR_in         TR_ww
+  Outfall Node           Pcnt       LPS       LPS    10^6 ltr            kg            kg            kg            kg            kg            kg            kg            kg            kg
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MH0100819           -nan(ind)      0.00      0.00       3.035         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  1                   -nan(ind)      0.00      0.00       2.652         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  System              -nan(ind)      0.00      0.00       5.687         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          LPS  days hr:min     m/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  HS1306447.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306449.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306461.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306471.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306554.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306554.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306571.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306601.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306601.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306611.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306618.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306904.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1306904.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1308259.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1308282.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1308301.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1308302.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1308324.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311200.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311204.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311269.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311284.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311288.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311339.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311349.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311380.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311392.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311473.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311475.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311491.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1311887.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313001.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313016.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313021.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313025.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313026.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313037.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313044.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313044.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313045.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313083.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313083.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313123.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313140.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313162.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313167.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313205.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313205.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313217.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313218.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313220.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313240.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313252.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313253.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313263.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313283.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313290.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313298.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313300.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313343.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313346.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313391.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313402.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313402.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313407.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313411.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313415.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313415.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313447.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313471.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313487.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313508.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313534.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313569.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313572.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313587.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313588.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313591.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313591.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313597.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313613.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313618.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313640.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313676.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313677.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313700.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313700.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313709.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313728.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313730.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313740.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313756.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313763.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313794.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313799.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313803.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313835.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313835.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313839.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313865.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313873.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313881.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313913.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313924.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313925.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313957.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313959.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313965.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313984.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1313998.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314210.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314237.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314268.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314475.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314505.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314769.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1314992.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316010.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316014.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316037.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316045.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316177.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316202.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316207.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316244.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316267.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316302.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316321.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316332.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316332.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316334.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316341.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316343.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316344.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316357.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316361.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316366.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316368.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316375.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316377.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316381.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316382.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316393.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316395.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316396.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316397.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316405.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316407.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316410.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316410.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316415.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316417.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316445.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316467.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316467.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316505.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316506.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316530.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316532.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316554.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316555.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316563.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316566.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316585.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316637.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316643.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316671.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316676.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316677.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316677.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316688.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316689.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316694.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316707.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316717.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316718.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316721.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316726.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316786.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316811.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316814.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316835.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316849.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316865.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316867.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316868.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1316892.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1317102.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1318293.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1318293.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1318328.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1318412.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1324399.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1324400.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1324403.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1330826.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1330834.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1330842.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1330861.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344037.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344159.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344187.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344198.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344261.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344263.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344319.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344902.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344915.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344920.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS1344978.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003013.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003015.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003020.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003023.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003028.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003029.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003046.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003070.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003072.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003083.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003085.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003086.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003087.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003088.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003091.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003093.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003095.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003109.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003111.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003111.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003113.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003125.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003142.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003144.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0100292.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0100330.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0100334.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0101923.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0101924.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0103033.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0200659.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0200661.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0201597.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0201710.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0216418.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0241587.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0241590.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0241603.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0241642.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0242298.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0242303.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0242782.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  MH0258475.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  VP0232532.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  YS2003067.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003014.2          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  HS2003014.1          CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  1                    CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  2                    CONDUIT      0.00     0  00:00      0.00    0.00    0.00
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  HS1306447.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306449.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306461.1             1.37   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306471.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306554.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306554.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306571.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306601.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306601.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306611.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306618.1             2.59   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306904.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1306904.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1308259.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1308282.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1308301.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1308302.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1308324.1             1.03   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311200.1             1.40   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311204.1             1.65   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311269.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311284.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311288.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311339.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311349.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311380.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311392.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311473.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311475.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311491.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1311887.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313001.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313016.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313021.1             1.36   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313025.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313026.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313037.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313044.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313044.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313045.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313083.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313083.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313123.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313140.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313162.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313167.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313205.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313205.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313217.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313218.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313220.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313240.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313252.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313253.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313263.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313283.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313290.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313298.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313300.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313343.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313346.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313391.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313402.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313402.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313407.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313411.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313415.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313415.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313447.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313471.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313487.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313508.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313534.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313569.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313572.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313587.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313588.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313591.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313591.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313597.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313613.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313618.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313640.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313676.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313677.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313700.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313700.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313709.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313728.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313730.1             1.05   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313740.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313756.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313763.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313794.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313799.1             1.20   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313803.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313835.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313835.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313839.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313865.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313873.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313881.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313913.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313924.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313925.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313957.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313959.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313965.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313984.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1313998.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314210.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314237.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314268.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314475.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314505.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314769.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1314992.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316010.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316014.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316037.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316045.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316177.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316202.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316207.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316244.1             1.28   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316267.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316302.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316321.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316332.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316332.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316334.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316341.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316343.1             1.89   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316344.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316357.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316361.1             1.53   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316366.1             1.72   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316368.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316375.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316377.1             1.26   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316381.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316382.1             1.18   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316393.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316395.1             1.77   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316396.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316397.1             1.85   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316405.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316407.1             1.22   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316410.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316410.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316415.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316417.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316445.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316467.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316467.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316505.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316506.1             2.02   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316530.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316532.1             2.74   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316554.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316555.1             1.89   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316563.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316566.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316585.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316637.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316643.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316671.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316676.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316677.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316677.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316688.1             1.31   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316689.1             1.21   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316694.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316707.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316717.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316718.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316721.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316726.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316786.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316811.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316814.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316835.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316849.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316865.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316867.1             1.27   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316868.1             1.01   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1316892.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1317102.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1318293.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1318293.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1318328.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1318412.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1324399.1             1.30   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1324400.1             1.08   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1324403.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1330826.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1330834.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1330842.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1330861.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344037.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344159.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344187.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344198.1             1.36   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344261.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344263.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344319.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344902.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344915.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344920.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS1344978.1             1.11   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003013.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003015.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003020.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003023.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003028.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003029.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003046.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003070.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003072.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003083.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003085.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003086.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003087.1             1.33   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003088.1             1.02   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003091.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003093.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003095.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003109.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003111.1             1.02   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003111.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003113.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003125.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003142.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003144.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0100292.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0100330.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0100334.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0101923.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0101924.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0103033.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0200659.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0200661.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0201597.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0201710.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0216418.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0241587.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0241590.1             1.08   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0241603.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0241642.1             1.48   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0242298.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0242303.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0242782.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  MH0258475.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  VP0232532.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  YS2003067.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003014.2             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  HS2003014.1             1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  1                       1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  2                       1.00   -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)  -nan(ind)
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  No conduits were surcharged.
+  
+  
+  ***************************
+  Link Pollutant Load Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+                                BODf          BODs           NH4           NO3            DO          TSSs          TSSn         TR_in         TR_ww
+  Link                            kg            kg            kg            kg            kg            kg            kg            kg            kg
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  HS1306447.1                  3.547         0.874         0.507         0.009         0.058         2.560         0.000         0.000         0.000
+  HS1306449.1                  3.459         0.854         0.495         0.009         0.057         2.484         0.000         0.000         0.000
+  HS1306461.1                  3.437         0.849         0.492         0.009         0.056         2.466         0.000         0.000         0.000
+  HS1306471.1                  3.560         0.877         0.509         0.009         0.058         2.572         0.000         0.000         0.000
+  HS1306554.1                 28.317         7.172         4.249         0.076         0.484        20.893         0.000         0.000         0.000
+  HS1306554.2                 42.166        10.639         6.285         0.112         0.719        30.945         0.000         0.000         0.000
+  HS1306571.1                177.571        44.823        26.518         0.474         3.025       130.130         0.000         0.000         0.000
+  HS1306601.1                 22.362         5.670         3.362         0.060         0.383        16.501         0.000         0.000         0.000
+  HS1306601.2                199.107        50.303        29.787         0.532         3.390       146.249         0.000         0.000         0.000
+  HS1306611.1                194.975        49.290        29.204         0.522         3.327       143.187         0.000         0.000         0.000
+  HS1306618.1                193.997        49.066        28.951         0.519         3.299       142.526         0.000         0.000         0.000
+  HS1306904.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1306904.2                341.543        86.497        49.908         0.916         5.707       251.058         0.000         0.000         0.000
+  HS1308259.1                 19.701         4.993         2.940         0.054         0.329        14.842         0.000         0.000         0.000
+  HS1308282.1                345.604        87.214        51.336         0.925         5.859       253.786         0.000         0.000         0.000
+  HS1308301.1                 11.944         3.033         1.759         0.032         0.201         8.856         0.000         0.000         0.000
+  HS1308302.1                 19.641         4.962         2.892         0.053         0.331        14.428         0.000         0.000         0.000
+  HS1308324.1                349.795        88.214        51.881         0.937         5.910       257.316         0.000         0.000         0.000
+  HS1311200.1                  1.976         0.499         0.294         0.005         0.033         1.463         0.000         0.000         0.000
+  HS1311204.1                  4.816         1.206         0.705         0.013         0.079         3.543         0.000         0.000         0.000
+  HS1311269.1                  1.964         0.496         0.292         0.005         0.033         1.455         0.000         0.000         0.000
+  HS1311284.1                  1.930         0.487         0.287         0.005         0.032         1.429         0.000         0.000         0.000
+  HS1311288.1                  0.724         0.182         0.108         0.002         0.012         0.537         0.000         0.000         0.000
+  HS1311339.1                  8.628         2.187         1.286         0.023         0.146         6.398         0.000         0.000         0.000
+  HS1311349.2                  3.698         0.936         0.553         0.010         0.063         2.756         0.000         0.000         0.000
+  HS1311380.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1311392.1                  8.440         2.142         1.260         0.023         0.143         6.268         0.000         0.000         0.000
+  HS1311473.1                  2.902         0.723         0.420         0.008         0.047         2.128         0.000         0.000         0.000
+  HS1311475.1                  2.269         0.570         0.336         0.006         0.037         1.682         0.000         0.000         0.000
+  HS1311491.1                  2.365         0.594         0.350         0.006         0.039         1.747         0.000         0.000         0.000
+  HS1311887.1                 21.895         5.536         3.254         0.058         0.370        16.065         0.000         0.000         0.000
+  HS1313001.1                  8.765         2.198         1.285         0.023         0.145         6.452         0.000         0.000         0.000
+  HS1313016.1                 13.243         3.309         1.939         0.035         0.220         9.674         0.000         0.000         0.000
+  HS1313021.1                  4.840         1.194         0.702         0.013         0.080         3.527         0.000         0.000         0.000
+  HS1313025.1                 47.616        11.899         7.016         0.127         0.796        35.053         0.000         0.000         0.000
+  HS1313026.1                 34.822         8.695         5.138         0.093         0.583        25.752         0.000         0.000         0.000
+  HS1313037.1                 47.706        11.931         7.036         0.127         0.799        35.086         0.000         0.000         0.000
+  HS1313044.1                 17.154         4.285         2.507         0.045         0.286        12.632         0.000         0.000         0.000
+  HS1313044.2                100.118        25.143        14.824         0.268         1.680        73.868         0.000         0.000         0.000
+  HS1313045.1                100.059        25.143        14.826         0.268         1.680        73.747         0.000         0.000         0.000
+  HS1313083.1                 35.180         8.894         5.252         0.094         0.590        26.055         0.000         0.000         0.000
+  HS1313083.2                  3.173         0.816         0.482         0.008         0.054         2.341         0.000         0.000         0.000
+  HS1313123.1                 36.687         9.287         5.491         0.099         0.618        27.169         0.000         0.000         0.000
+  HS1313140.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1313162.1                  0.908         0.227         0.134         0.002         0.015         0.673         0.000         0.000         0.000
+  HS1313167.1                 28.264         7.071         4.158         0.075         0.477        20.599         0.000         0.000         0.000
+  HS1313205.1                 10.628         2.675         1.577         0.028         0.180         7.773         0.000         0.000         0.000
+  HS1313205.2                 90.566        22.756        13.411         0.241         1.532        66.234         0.000         0.000         0.000
+  HS1313217.1                 11.112         2.798         1.648         0.029         0.188         8.097         0.000         0.000         0.000
+  HS1313218.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1313220.1                 43.382        10.990         6.493         0.117         0.726        32.280         0.000         0.000         0.000
+  HS1313240.1                 28.040         6.998         4.107         0.075         0.470        20.511         0.000         0.000         0.000
+  HS1313252.1                 16.021         4.023         2.366         0.043         0.270        11.806         0.000         0.000         0.000
+  HS1313253.1                 15.889         3.989         2.344         0.043         0.268        11.718         0.000         0.000         0.000
+  HS1313263.1                 16.219         4.066         2.389         0.043         0.272        11.972         0.000         0.000         0.000
+  HS1313283.1                 14.561         3.648         2.140         0.039         0.244        10.757         0.000         0.000         0.000
+  HS1313290.1                 68.787        17.279        10.206         0.182         1.156        50.395         0.000         0.000         0.000
+  HS1313298.1                 57.764        14.523         8.596         0.153         0.973        42.322         0.000         0.000         0.000
+  HS1313300.1                 38.945         9.761         5.762         0.103         0.652        28.526         0.000         0.000         0.000
+  HS1313343.1                 20.819         5.264         3.125         0.055         0.352        15.306         0.000         0.000         0.000
+  HS1313346.1                  0.993         0.248         0.148         0.003         0.017         0.739         0.000         0.000         0.000
+  HS1313391.1                110.212        27.714        16.347         0.294         1.866        80.672         0.000         0.000         0.000
+  HS1313402.1                 54.446        13.781         7.807         0.146         0.892        40.163         0.000         0.000         0.000
+  HS1313402.2                128.946        32.691        18.533         0.346         2.120        94.866         0.000         0.000         0.000
+  HS1313407.1                 22.954         5.761         3.396         0.061         0.383        16.918         0.000         0.000         0.000
+  HS1313411.1                 22.370         5.614         3.311         0.060         0.374        16.491         0.000         0.000         0.000
+  HS1313415.1                  9.707         2.434         1.437         0.026         0.162         7.143         0.000         0.000         0.000
+  HS1313415.2                  9.707         2.434         1.437         0.026         0.162         7.143         0.000         0.000         0.000
+  HS1313447.1                 14.940         3.751         2.211         0.040         0.250        10.988         0.000         0.000         0.000
+  HS1313471.1                  7.080         1.777         1.049         0.019         0.119         5.250         0.000         0.000         0.000
+  HS1313487.1                 13.269         3.325         1.960         0.035         0.222         9.798         0.000         0.000         0.000
+  HS1313508.1                  3.296         0.827         0.488         0.009         0.055         2.441         0.000         0.000         0.000
+  HS1313534.1                  1.978         0.491         0.288         0.005         0.033         1.439         0.000         0.000         0.000
+  HS1313569.1                  1.161         0.290         0.170         0.003         0.019         0.862         0.000         0.000         0.000
+  HS1313572.1                  5.443         1.360         0.796         0.014         0.090         4.012         0.000         0.000         0.000
+  HS1313587.1                  5.360         1.339         0.783         0.014         0.089         3.949         0.000         0.000         0.000
+  HS1313588.1                  0.036         0.009         0.005         0.000         0.001         0.025         0.000         0.000         0.000
+  HS1313591.1                  3.779         0.945         0.553         0.010         0.063         2.783         0.000         0.000         0.000
+  HS1313591.2                  1.592         0.398         0.233         0.004         0.026         1.173         0.000         0.000         0.000
+  HS1313597.1                 10.612         2.647         1.555         0.028         0.176         7.774         0.000         0.000         0.000
+  HS1313613.1                  4.438         1.109         0.653         0.012         0.074         3.276         0.000         0.000         0.000
+  HS1313618.1                  8.566         2.164         1.279         0.023         0.144         6.390         0.000         0.000         0.000
+  HS1313640.1                  9.425         2.381         1.407         0.025         0.158         7.015         0.000         0.000         0.000
+  HS1313676.1                 39.252         9.845         5.811         0.104         0.657        28.753         0.000         0.000         0.000
+  HS1313677.1                  6.359         1.594         0.944         0.017         0.106         4.686         0.000         0.000         0.000
+  HS1313700.1                  9.358         2.355         1.391         0.025         0.157         6.963         0.000         0.000         0.000
+  HS1313700.2                  4.869         1.228         0.725         0.013         0.082         3.611         0.000         0.000         0.000
+  HS1313709.1                  9.731         2.449         1.446         0.026         0.163         7.236         0.000         0.000         0.000
+  HS1313728.1                  4.833         1.219         0.720         0.013         0.081         3.585         0.000         0.000         0.000
+  HS1313730.1                  4.836         1.220         0.721         0.013         0.081         3.580         0.000         0.000         0.000
+  HS1313740.1                  2.912         0.722         0.423         0.008         0.048         2.099         0.000         0.000         0.000
+  HS1313756.1                  2.828         0.704         0.413         0.007         0.047         2.025         0.000         0.000         0.000
+  HS1313763.1                 13.920         3.474         2.042         0.037         0.232        10.173         0.000         0.000         0.000
+  HS1313794.1                 68.077        17.221         9.863         0.183         1.128        50.082         0.000         0.000         0.000
+  HS1313799.1                  0.023         0.006         0.003         0.000         0.000         0.017         0.000         0.000         0.000
+  HS1313803.1                 55.906        14.165         8.051         0.151         0.920        41.264         0.000         0.000         0.000
+  HS1313835.1                 12.784         3.241         1.878         0.035         0.214         9.461         0.000         0.000         0.000
+  HS1313835.2                 83.753        21.158        12.239         0.225         1.394        61.872         0.000         0.000         0.000
+  HS1313839.1                  6.699         1.706         1.023         0.018         0.115         5.018         0.000         0.000         0.000
+  HS1313865.1                 15.471         3.925         2.345         0.042         0.265        11.558         0.000         0.000         0.000
+  HS1313873.1                 15.669         3.975         2.376         0.043         0.269        11.708         0.000         0.000         0.000
+  HS1313881.1                 13.327         3.355         1.979         0.036         0.223         9.879         0.000         0.000         0.000
+  HS1313913.1                 11.578         2.913         1.718         0.031         0.193         8.597         0.000         0.000         0.000
+  HS1313924.1                 10.362         2.607         1.539         0.028         0.173         7.691         0.000         0.000         0.000
+  HS1313925.1                  2.972         0.744         0.440         0.008         0.049         2.180         0.000         0.000         0.000
+  HS1313957.1                  4.171         1.042         0.613         0.011         0.069         3.055         0.000         0.000         0.000
+  HS1313959.1                  9.503         2.403         1.418         0.026         0.157         7.174         0.000         0.000         0.000
+  HS1313965.1                  5.506         1.405         0.830         0.015         0.091         4.254         0.000         0.000         0.000
+  HS1313984.1                  0.249         0.063         0.037         0.001         0.004         0.187         0.000         0.000         0.000
+  HS1313998.1                  1.056         0.265         0.156         0.003         0.017         0.782         0.000         0.000         0.000
+  HS1314210.1                  4.094         1.049         0.627         0.011         0.069         3.126         0.000         0.000         0.000
+  HS1314237.1                 40.471        10.133         5.931         0.108         0.669        29.940         0.000         0.000         0.000
+  HS1314268.1                 40.843        10.231         5.991         0.109         0.677        30.177         0.000         0.000         0.000
+  HS1314475.1                  2.361         0.589         0.344         0.006         0.039         1.711         0.000         0.000         0.000
+  HS1314505.1                 35.063         9.442         3.504         0.096         0.544        26.266         0.000         0.000         0.000
+  HS1314769.1                 33.927         8.818         3.965         0.088         0.516        24.418         0.000         0.000         0.000
+  HS1314992.1                333.878        84.367        49.748         0.894         5.696       244.822         0.000         0.000         0.000
+  HS1316010.1                  1.102         0.277         0.163         0.003         0.018         0.817         0.000         0.000         0.000
+  HS1316014.1                  0.939         0.234         0.136         0.002         0.015         0.689         0.000         0.000         0.000
+  HS1316037.1                  1.397         0.350         0.204         0.004         0.023         1.024         0.000         0.000         0.000
+  HS1316045.1                 16.213         4.096         2.416         0.044         0.270        12.107         0.000         0.000         0.000
+  HS1316177.1                146.057        36.906        21.572         0.392         2.454       107.639         0.000         0.000         0.000
+  HS1316202.1                154.271        38.992        22.827         0.414         2.597       113.656         0.000         0.000         0.000
+  HS1316207.1                276.164        69.630        40.892         0.739         4.652       203.101         0.000         0.000         0.000
+  HS1316244.1                  2.230         0.557         0.329         0.006         0.037         1.652         0.000         0.000         0.000
+  HS1316267.1                 60.003        15.125         8.934         0.161         1.010        44.315         0.000         0.000         0.000
+  HS1316302.1                 33.861         8.513         5.041         0.091         0.571        25.052         0.000         0.000         0.000
+  HS1316321.1                 28.940         7.282         4.322         0.078         0.489        21.529         0.000         0.000         0.000
+  HS1316332.1                  0.563         0.143         0.084         0.002         0.009         0.418         0.000         0.000         0.000
+  HS1316332.2                  0.563         0.143         0.084         0.002         0.009         0.418         0.000         0.000         0.000
+  HS1316334.1                  0.218         0.055         0.033         0.001         0.004         0.166         0.000         0.000         0.000
+  HS1316341.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1316343.1                  0.004         0.001         0.001         0.000         0.000         0.003         0.000         0.000         0.000
+  HS1316344.1                 16.866         4.262         2.515         0.045         0.282        12.574         0.000         0.000         0.000
+  HS1316357.1                 19.230         4.854         2.862         0.052         0.321        14.297         0.000         0.000         0.000
+  HS1316361.1                  0.376         0.095         0.056         0.001         0.006         0.277         0.000         0.000         0.000
+  HS1316366.1                  0.763         0.190         0.111         0.002         0.013         0.563         0.000         0.000         0.000
+  HS1316368.1                 19.850         5.012         2.955         0.053         0.332        14.733         0.000         0.000         0.000
+  HS1316375.1                  2.876         0.718         0.420         0.008         0.047         2.130         0.000         0.000         0.000
+  HS1316377.1                  2.913         0.727         0.425         0.008         0.048         2.157         0.000         0.000         0.000
+  HS1316381.1                  3.031         0.760         0.445         0.008         0.050         2.231         0.000         0.000         0.000
+  HS1316382.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1316393.1                  0.149         0.038         0.023         0.000         0.003         0.113         0.000         0.000         0.000
+  HS1316395.1                  0.369         0.093         0.055         0.001         0.006         0.277         0.000         0.000         0.000
+  HS1316396.1                  0.210         0.054         0.032         0.001         0.004         0.157         0.000         0.000         0.000
+  HS1316397.1                  0.078         0.019         0.011         0.000         0.001         0.056         0.000         0.000         0.000
+  HS1316405.1                  0.675         0.168         0.099         0.002         0.011         0.496         0.000         0.000         0.000
+  HS1316407.1                  0.672         0.167         0.099         0.002         0.011         0.494         0.000         0.000         0.000
+  HS1316410.1                  0.037         0.009         0.006         0.000         0.001         0.028         0.000         0.000         0.000
+  HS1316410.2                  9.146         2.314         1.367         0.024         0.154         6.762         0.000         0.000         0.000
+  HS1316415.1                  9.096         2.275         1.349         0.024         0.151         6.753         0.000         0.000         0.000
+  HS1316417.1                 12.768         3.194         1.878         0.034         0.211         9.494         0.000         0.000         0.000
+  HS1316445.1                 10.919         2.735         1.621         0.029         0.182         8.123         0.000         0.000         0.000
+  HS1316467.1                 32.977         8.243         4.837         0.087         0.551        24.018         0.000         0.000         0.000
+  HS1316467.2                  0.699         0.176         0.103         0.002         0.012         0.510         0.000         0.000         0.000
+  HS1316505.1                295.857        74.594        43.889         0.792         5.002       217.303         0.000         0.000         0.000
+  HS1316506.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1316530.1                301.027        75.877        44.625         0.805         5.081       221.111         0.000         0.000         0.000
+  HS1316532.1                123.897        31.134        18.351         0.330         2.086        90.939         0.000         0.000         0.000
+  HS1316554.1                 89.594        22.499        13.273         0.238         1.513        65.525         0.000         0.000         0.000
+  HS1316555.1                  0.222         0.056         0.034         0.001         0.004         0.165         0.000         0.000         0.000
+  HS1316563.1                 90.944        22.822        13.456         0.241         1.532        66.574         0.000         0.000         0.000
+  HS1316566.1                 51.848        13.015         7.685         0.138         0.873        38.061         0.000         0.000         0.000
+  HS1316585.1                 43.459        10.898         6.435         0.115         0.732        31.857         0.000         0.000         0.000
+  HS1316637.1                 20.960         5.263         3.104         0.056         0.351        15.446         0.000         0.000         0.000
+  HS1316643.1                 19.345         4.850         2.859         0.052         0.324        14.291         0.000         0.000         0.000
+  HS1316671.1                 15.226         3.815         2.246         0.041         0.254        11.256         0.000         0.000         0.000
+  HS1316676.1                  4.173         1.048         0.621         0.011         0.070         3.076         0.000         0.000         0.000
+  HS1316677.1                  4.799         1.205         0.714         0.013         0.081         3.541         0.000         0.000         0.000
+  HS1316677.2                  8.385         2.098         1.238         0.022         0.141         6.162         0.000         0.000         0.000
+  HS1316688.1                  8.383         2.097         1.238         0.022         0.141         6.159         0.000         0.000         0.000
+  HS1316689.1                  0.041         0.010         0.006         0.000         0.001         0.030         0.000         0.000         0.000
+  HS1316694.1                105.553        26.536        15.655         0.282         1.777        77.624         0.000         0.000         0.000
+  HS1316707.1                 12.235         3.067         1.801         0.032         0.204         9.007         0.000         0.000         0.000
+  HS1316717.1                 15.181         3.807         2.240         0.040         0.254        11.194         0.000         0.000         0.000
+  HS1316718.1                 15.529         3.894         2.290         0.041         0.259        11.447         0.000         0.000         0.000
+  HS1316721.1                 27.074         6.791         3.984         0.072         0.450        19.917         0.000         0.000         0.000
+  HS1316726.1                 18.523         4.687         2.757         0.050         0.308        13.971         0.000         0.000         0.000
+  HS1316786.1                 34.400         8.659         5.091         0.092         0.574        25.488         0.000         0.000         0.000
+  HS1316811.1                 10.417         2.612         1.523         0.027         0.171         7.638         0.000         0.000         0.000
+  HS1316814.1                  6.063         1.527         0.898         0.016         0.103         4.468         0.000         0.000         0.000
+  HS1316835.1                  9.948         2.496         1.465         0.026         0.167         7.318         0.000         0.000         0.000
+  HS1316849.1                 11.981         3.001         1.761         0.032         0.200         8.802         0.000         0.000         0.000
+  HS1316865.1                  5.369         1.355         0.801         0.014         0.090         3.991         0.000         0.000         0.000
+  HS1316867.1                  0.004         0.001         0.001         0.000         0.000         0.003         0.000         0.000         0.000
+  HS1316868.1                  5.395         1.360         0.804         0.014         0.090         4.016         0.000         0.000         0.000
+  HS1316892.1                  3.884         0.981         0.582         0.010         0.065         2.892         0.000         0.000         0.000
+  HS1317102.1                  0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000         0.000
+  HS1318293.1                 60.039        15.106         8.923         0.160         1.016        43.890         0.000         0.000         0.000
+  HS1318293.2                122.596        30.848        18.235         0.327         2.072        89.771         0.000         0.000         0.000
+  HS1318328.1                 13.231         3.316         1.955         0.035         0.221         9.761         0.000         0.000         0.000
+  HS1318412.1                  1.027         0.259         0.152         0.003         0.017         0.757         0.000         0.000         0.000
+  HS1324399.1                104.346        26.218        15.461         0.279         1.755        76.748         0.000         0.000         0.000
+  HS1324400.1                  0.135         0.034         0.020         0.000         0.002         0.099         0.000         0.000         0.000
+  HS1324403.1                104.707        26.307        15.513         0.280         1.760        77.016         0.000         0.000         0.000
+  HS1330826.1                  7.442         1.863         1.092         0.020         0.123         5.483         0.000         0.000         0.000
+  HS1330834.1                  7.503         1.880         1.102         0.020         0.124         5.524         0.000         0.000         0.000
+  HS1330842.1                 17.214         4.318         2.557         0.046         0.285        12.820         0.000         0.000         0.000
+  HS1330861.1                 17.330         4.351         2.577         0.047         0.287        12.877         0.000         0.000         0.000
+  HS1344037.1                  0.646         0.164         0.096         0.002         0.011         0.477         0.000         0.000         0.000
+  HS1344159.1                 88.988        22.487        13.037         0.239         1.486        65.608         0.000         0.000         0.000
+  HS1344187.1                 12.182         3.039         1.785         0.032         0.203         8.928         0.000         0.000         0.000
+  HS1344198.1                  0.055         0.014         0.008         0.000         0.001         0.041         0.000         0.000         0.000
+  HS1344261.1                  5.316         1.314         0.767         0.014         0.086         3.911         0.000         0.000         0.000
+  HS1344263.1                 23.486         5.877         3.470         0.062         0.395        17.172         0.000         0.000         0.000
+  HS1344319.1                  0.186         0.047         0.027         0.000         0.003         0.136         0.000         0.000         0.000
+  HS1344902.1                  8.898         2.234         1.323         0.024         0.150         6.565         0.000         0.000         0.000
+  HS1344915.1                 13.005         3.274         1.931         0.035         0.217         9.641         0.000         0.000         0.000
+  HS1344920.1                  6.377         1.596         0.946         0.017         0.106         4.716         0.000         0.000         0.000
+  HS1344978.1                 12.202         3.059         1.796         0.032         0.204         8.981         0.000         0.000         0.000
+  HS2003013.1                 34.727         8.652         4.684         0.086         0.551        24.174         0.000         0.000         0.000
+  HS2003015.1                 72.109        18.769         8.474         0.200         1.046        54.284         0.000         0.000         0.000
+  HS2003020.1                 26.376         6.939         2.721         0.074         0.359        20.097         0.000         0.000         0.000
+  HS2003023.1                 46.903        12.108         5.983         0.129         0.707        35.018         0.000         0.000         0.000
+  HS2003028.1                 27.307         7.118         3.062         0.076         0.384        20.650         0.000         0.000         0.000
+  HS2003029.1                 28.858         7.316         4.104         0.078         0.469        21.289         0.000         0.000         0.000
+  HS2003046.1                 49.420        12.611         6.967         0.134         0.803        36.527         0.000         0.000         0.000
+  HS2003070.1                 29.999         7.590         4.486         0.080         0.515        21.975         0.000         0.000         0.000
+  HS2003072.1                 30.089         7.584         4.497         0.081         0.511        22.095         0.000         0.000         0.000
+  HS2003083.1                 12.461         3.149         1.857         0.033         0.212         9.120         0.000         0.000         0.000
+  HS2003085.1                 31.380         7.934         4.679         0.083         0.534        22.893         0.000         0.000         0.000
+  HS2003086.1                 12.336         3.107         1.827         0.033         0.207         9.068         0.000         0.000         0.000
+  HS2003087.1                  0.601         0.150         0.088         0.002         0.010         0.440         0.000         0.000         0.000
+  HS2003088.1                  0.606         0.151         0.089         0.002         0.010         0.446         0.000         0.000         0.000
+  HS2003091.1                  0.394         0.099         0.059         0.001         0.007         0.288         0.000         0.000         0.000
+  HS2003093.1                 33.089         8.332         4.896         0.088         0.555        24.274         0.000         0.000         0.000
+  HS2003095.1                 32.236         8.107         4.759         0.086         0.538        23.736         0.000         0.000         0.000
+  HS2003109.1                  1.657         0.423         0.252         0.004         0.028         1.230         0.000         0.000         0.000
+  HS2003111.1                  9.824         2.462         1.441         0.026         0.163         7.277         0.000         0.000         0.000
+  HS2003111.2                 31.763         7.982         4.683         0.085         0.530        23.387         0.000         0.000         0.000
+  HS2003113.1                 10.899         2.749         1.616         0.029         0.183         8.023         0.000         0.000         0.000
+  HS2003125.1                  2.300         0.589         0.351         0.006         0.039         1.713         0.000         0.000         0.000
+  HS2003142.1                  1.744         0.445         0.265         0.005         0.030         1.295         0.000         0.000         0.000
+  HS2003144.1                  0.020         0.005         0.003         0.000         0.000         0.015         0.000         0.000         0.000
+  MH0100292.1                 53.200        13.593         7.271         0.145         0.830        39.623         0.000         0.000         0.000
+  MH0100330.1                 34.542         8.735         5.150         0.092         0.586        25.400         0.000         0.000         0.000
+  MH0100334.1                 33.896         8.566         5.046         0.091         0.573        24.945         0.000         0.000         0.000
+  MH0101923.1                 33.552         8.480         4.997         0.090         0.568        24.695         0.000         0.000         0.000
+  MH0101924.1                 60.754        15.532         8.236         0.165         0.942        45.237         0.000         0.000         0.000
+  MH0103033.1                  0.557         0.140         0.083         0.001         0.009         0.409         0.000         0.000         0.000
+  MH0200659.1                  4.028         1.022         0.608         0.011         0.068         2.997         0.000         0.000         0.000
+  MH0200661.1                  4.102         1.034         0.613         0.011         0.068         3.071         0.000         0.000         0.000
+  MH0201597.1                 14.881         3.754         2.216         0.040         0.253        10.902         0.000         0.000         0.000
+  MH0201710.1                 18.420         4.638         2.744         0.049         0.309        13.630         0.000         0.000         0.000
+  MH0216418.1                  0.677         0.170         0.100         0.002         0.011         0.507         0.000         0.000         0.000
+  MH0241587.1                 12.277         3.122         1.862         0.033         0.211         9.110         0.000         0.000         0.000
+  MH0241590.1                 15.755         3.997         2.388         0.043         0.270        11.768         0.000         0.000         0.000
+  MH0241603.1                  1.990         0.495         0.291         0.005         0.033         1.435         0.000         0.000         0.000
+  MH0241642.1                 13.314         3.352         1.977         0.036         0.223         9.865         0.000         0.000         0.000
+  MH0242298.1                 16.066         3.951         2.307         0.041         0.264        11.548         0.000         0.000         0.000
+  MH0242303.1                 27.102         6.690         3.915         0.071         0.448        19.510         0.000         0.000         0.000
+  MH0242782.1                 15.759         3.946         2.323         0.042         0.265        11.564         0.000         0.000         0.000
+  MH0258475.1                  4.306         1.096         0.652         0.012         0.072         3.230         0.000         0.000         0.000
+  VP0232532.1                  1.190         0.301         0.179         0.003         0.021         0.866         0.000         0.000         0.000
+  YS2003067.1                 29.293         7.409         4.374         0.078         0.501        21.458         0.000         0.000         0.000
+  HS2003014.2                369.465        94.396        51.840         1.006         6.009       274.809         0.000         0.000         0.000
+  HS2003014.1                  6.716        24.110         0.000         0.964         5.780        40.305         0.000         0.000         0.000
+  1                           38.605        10.628         4.055         0.106         0.628        29.357         0.000         0.000         0.000
+  2                          324.357        83.495        44.414         0.886         5.314       241.548         0.000         0.000         0.000
+  
+
+  Analysis begun on:  Thu Nov 27 21:15:17 2025
+  Analysis ended on:  Thu Nov 27 21:15:29 2025
+  Total elapsed time: 00:00:12

@@ -1,0 +1,18 @@
+{
+  "subdir": "time_gated_node_sensor_v2e_dense_ie",
+  "model_type": "hydraulic_inverse_deepattn",
+  "split_mode": "scenario",
+  "seed": 7,
+  "checkpoint": "e:\\11.16\\script2_new\\outputs\\model_checkpoints\\best_model_process_diagnosis_hydraulic_inverse_deepattn_time_gated_node_sensor_v2e_dense_ie_residual8_scenario_seed7.pth",
+  "candidate_tier_csv": "e:\\11.16\\script2_new\\outputs\\reports\\degree_n25_observability_candidate_tiers.csv",
+  "overall": {
+    "n_samples": 582,
+    "top1_rate": 0.40378006872852235,
+    "top3_rate": 0.5120274914089347,
+    "top5_rate": 0.5721649484536082,
+    "top10_rate": 0.7628865979381443,
+    "top20_rate": 1.0,
+    "mean_rank": 5.6048109965635735,
+    "median_rank": 3.0
+  }
+}

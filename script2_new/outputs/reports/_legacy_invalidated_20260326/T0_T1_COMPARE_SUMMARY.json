@@ -1,0 +1,150 @@
+{
+  "runs": [
+    {
+      "run_name": "hydraulic_inverse_full_injection_scenario_seed42",
+      "mrr": 0.1170606831750594,
+      "top1": 0.0371900826446281,
+      "top3": 0.08402203856749312,
+      "top5": 0.14738292011019283,
+      "seed": 42,
+      "subdir": "full_injection",
+      "model_type": "hydraulic_inverse",
+      "n_features": 18,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "loc_enabled_ratio_test": 0.38412698412698415,
+      "I_top1": 0.020710059171597635,
+      "E_top1": 0.09174311926605505,
+      "P_top1": 0.0
+    },
+    {
+      "run_name": "hydraulic_inverse_time_gated_scenario_seed42",
+      "mrr": 0.17501753559413036,
+      "top1": 0.07575757575757576,
+      "top3": 0.17768595041322313,
+      "top5": 0.2162534435261708,
+      "seed": 42,
+      "subdir": "time_gated",
+      "model_type": "hydraulic_inverse",
+      "n_features": 18,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "loc_enabled_ratio_test": 0.38412698412698415,
+      "I_top1": 0.11538461538461539,
+      "E_top1": 0.07339449541284404,
+      "P_top1": 0.0
+    },
+    {
+      "run_name": "gru_only_full_injection_scenario_seed42",
+      "mrr": 0.9908172644202703,
+      "top1": 0.9834710743801653,
+      "top3": 0.9986225895316805,
+      "top5": 0.9986225895316805,
+      "seed": 42,
+      "subdir": "full_injection",
+      "model_type": "gru_only",
+      "n_features": 18,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "loc_enabled_ratio_test": 0.38412698412698415,
+      "I_top1": 1.0,
+      "E_top1": 0.9587155963302753,
+      "P_top1": 0.9823529411764705
+    },
+    {
+      "run_name": "gru_only_time_gated_scenario_seed42",
+      "mrr": 0.9794256759412361,
+      "top1": 0.9655647382920111,
+      "top3": 0.9958677685950413,
+      "top5": 0.9958677685950413,
+      "seed": 42,
+      "subdir": "time_gated",
+      "model_type": "gru_only",
+      "n_features": 18,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "loc_enabled_ratio_test": 0.38412698412698415,
+      "I_top1": 0.9822485207100592,
+      "E_top1": 0.9495412844036697,
+      "P_top1": 0.9529411764705882
+    }
+  ],
+  "aggregates": [
+    {
+      "model_type": "gru_only",
+      "subdir": "full_injection",
+      "n_runs": 1,
+      "mean_mrr": 0.9908172644202703,
+      "std_mrr": 0.0,
+      "mean_top1": 0.9834710743801653,
+      "std_top1": 0.0,
+      "mean_top3": 0.9986225895316805,
+      "mean_top5": 0.9986225895316805,
+      "mean_I_top1": 1.0,
+      "mean_E_top1": 0.9587155963302753,
+      "mean_P_top1": 0.9823529411764705,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "n_features": 18,
+      "loc_enabled_ratio_test": 0.38412698412698415
+    },
+    {
+      "model_type": "gru_only",
+      "subdir": "time_gated",
+      "n_runs": 1,
+      "mean_mrr": 0.9794256759412361,
+      "std_mrr": 0.0,
+      "mean_top1": 0.9655647382920111,
+      "std_top1": 0.0,
+      "mean_top3": 0.9958677685950413,
+      "mean_top5": 0.9958677685950413,
+      "mean_I_top1": 0.9822485207100592,
+      "mean_E_top1": 0.9495412844036697,
+      "mean_P_top1": 0.9529411764705882,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "n_features": 18,
+      "loc_enabled_ratio_test": 0.38412698412698415
+    },
+    {
+      "model_type": "hydraulic_inverse",
+      "subdir": "full_injection",
+      "n_runs": 1,
+      "mean_mrr": 0.1170606831750594,
+      "std_mrr": 0.0,
+      "mean_top1": 0.0371900826446281,
+      "std_top1": 0.0,
+      "mean_top3": 0.08402203856749312,
+      "mean_top5": 0.14738292011019283,
+      "mean_I_top1": 0.020710059171597635,
+      "mean_E_top1": 0.09174311926605505,
+      "mean_P_top1": 0.0,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "n_features": 18,
+      "loc_enabled_ratio_test": 0.38412698412698415
+    },
+    {
+      "model_type": "hydraulic_inverse",
+      "subdir": "time_gated",
+      "n_runs": 1,
+      "mean_mrr": 0.17501753559413036,
+      "std_mrr": 0.0,
+      "mean_top1": 0.07575757575757576,
+      "std_top1": 0.0,
+      "mean_top3": 0.17768595041322313,
+      "mean_top5": 0.2162534435261708,
+      "mean_I_top1": 0.11538461538461539,
+      "mean_E_top1": 0.07339449541284404,
+      "mean_P_top1": 0.0,
+      "monitor_nodes_file": "monitor_nodes_degree_N20.json",
+      "n_features": 18,
+      "loc_enabled_ratio_test": 0.38412698412698415
+    }
+  ],
+  "meta": {
+    "created_at": "2026-03-20T12:37:34",
+    "models": [
+      "hydraulic_inverse",
+      "gru_only"
+    ],
+    "seeds": [
+      42
+    ],
+    "split_mode": "scenario",
+    "n_holdout_nodes": 10
+  }
+}

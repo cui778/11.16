@@ -1,0 +1,54 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "HS1316585",
+    "HS1313025",
+    "HS1313835",
+    "MH0201710",
+    "HS1314477",
+    "HS2003111",
+    "HS1316721",
+    "HS1313402",
+    "HS1313298",
+    "HS1316202",
+    "HS1330842",
+    "HS1313167",
+    "HS1313640",
+    "HS1316267",
+    "HS1311887",
+    "HS1313487",
+    "HS2003013",
+    "HS1316835",
+    "HS1316676",
+    "HS1313959",
+    "HS1311284",
+    "HS1313044",
+    "HS1308324",
+    "MH0242303"
+  ],
+  "strategy": "overlap_controlled_balanced",
+  "n": 25,
+  "protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "control-variable Chapter-5 probe; fixed budget and fixed candidate-monitor overlap"
+  },
+  "objective_meta": {
+    "mode": "balanced",
+    "fixed_overlap_target": 12,
+    "overlap_anchor_strategy": "degree",
+    "probe_budget_role": "mainline discrimination before full budget sweep"
+  },
+  "layout_metrics": {
+    "direct": 12,
+    "near": 37,
+    "far": 1,
+    "mean_hop": 1.04,
+    "max_hop": 3.0,
+    "overlap_count": 12,
+    "monitor_dispersion_mean_hop": 6.417582417582418,
+    "monitor_redundancy_mean_jaccard": 0.16395930077248758,
+    "global_mean_hop": 1.188976377952756
+  }
+}

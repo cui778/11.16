@@ -1,0 +1,58 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "HS1316585",
+    "HS1313025",
+    "HS1313835",
+    "MH0201710",
+    "HS2003111",
+    "HS1314477",
+    "HS1316721",
+    "HS1313402",
+    "HS1313298",
+    "HS1316202",
+    "HS1330842",
+    "HS1313618",
+    "HS1311339",
+    "HS1313925",
+    "HS1313167",
+    "HS1313487",
+    "HS1316302",
+    "HS1316835",
+    "HS1311284",
+    "HS1314769",
+    "HS1316676",
+    "HS1308324",
+    "HS1313044",
+    "MH0201597"
+  ],
+  "strategy": "candidate_observability",
+  "n": 25,
+  "frozen_protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "defect matrix fixed; only monitor layout changes"
+  },
+  "objective_meta": {
+    "direct": 15,
+    "near": 34,
+    "far": 1,
+    "mean_hop": 0.94,
+    "max_hop": 3.0,
+    "max_candidate_overlap": 15
+  },
+  "layout_metrics": {
+    "direct": 15,
+    "near": 34,
+    "far": 1,
+    "mean_hop": 0.94,
+    "max_hop": 3.0,
+    "overlap_count": 15,
+    "monitor_dispersion_mean_hop": 12.526666666666667,
+    "monitor_redundancy_mean_jaccard": 0.015628306878306877,
+    "signature_mean_nn": 2.5236668586730957,
+    "signature_min_nn": 0.3333333432674408,
+    "signature_p10_nn": 0.8000000715255737
+  }
+}

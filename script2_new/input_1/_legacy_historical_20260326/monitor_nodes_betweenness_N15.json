@@ -1,0 +1,25 @@
+{
+  "monitor_nodes": [
+    "HS1313402",
+    "HS1306904",
+    "HS1318293",
+    "HS1306601",
+    "HS1313391",
+    "HS1313794",
+    "HS1313205",
+    "HS1313803",
+    "HS2003013",
+    "HS1306571",
+    "HS1313835",
+    "HS1324403",
+    "HS1313044",
+    "MH0101924",
+    "MH0100292"
+  ],
+  "strategy": "betweenness",
+  "n": 15,
+  "generated_at": "2026-03-18T21:12:48",
+  "candidate_nodes_file": "candidate_nodes_new.json",
+  "adj_file": "adj_matrix.npy",
+  "node_list_file": "node_list.json"
+}

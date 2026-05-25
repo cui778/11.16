@@ -1,0 +1,70 @@
+{
+  "checkpoint": "E:\\11.16\\script2_new\\outputs\\model_checkpoints\\best_model_process_diagnosis_hydraulic_inverse_deepattn_time_gated_node_sensor_v2e_dense_ie_residual8_scenario_seed42.pth",
+  "subdir": "time_gated_node_sensor_v2e_dense_ie",
+  "model_type": "hydraulic_inverse_deepattn",
+  "split_mode": "scenario",
+  "seed": 42,
+  "features": [
+    "depth_residual",
+    "total_outflow_residual",
+    "pollut_NH4_residual",
+    "pollut_TSSs_residual",
+    "depth_residual_rel",
+    "total_outflow_residual_rel",
+    "pollut_NH4_residual_rel",
+    "pollut_TSSs_residual_rel"
+  ],
+  "best_on_val": {
+    "n_samples": 648,
+    "mrr": 0.4261009438039511,
+    "top1": 0.3256172839506173,
+    "top3": 0.41203703703703703,
+    "top5": 0.48302469135802467,
+    "top10": 0.7592592592592593,
+    "top20": 0.8966049382716049,
+    "n_clusters": 6,
+    "cluster_topm": 2,
+    "score_mode": "max",
+    "tau": 2.0,
+    "c_value": 0.1,
+    "candidate_onehot": true,
+    "embedding_dim": 16,
+    "use_type_probs": true,
+    "reranker_kind": "mlp",
+    "mlp_hidden": "64,32",
+    "mlp_alpha": 0.0001,
+    "train_cluster_samples": 2718,
+    "cluster_sizes": "[32, 7, 3, 4, 3, 1]"
+  },
+  "test_with_best_val_setting": {
+    "n_samples": 483,
+    "mrr": 0.4799499420540057,
+    "top1": 0.39751552795031053,
+    "top3": 0.453416149068323,
+    "top5": 0.5217391304347826,
+    "top10": 0.7412008281573499,
+    "top20": 0.8964803312629399
+  },
+  "test_by_type": {
+    "E": {
+      "n_samples": 207,
+      "mrr": 0.4067812923648164,
+      "top1": 0.3188405797101449,
+      "top3": 0.37681159420289856,
+      "top5": 0.41545893719806765
+    },
+    "I": {
+      "n_samples": 276,
+      "mrr": 0.5348264293208977,
+      "top1": 0.45652173913043476,
+      "top3": 0.5108695652173914,
+      "top5": 0.6014492753623188
+    }
+  },
+  "candidate_onehot": true,
+  "embedding_dim": 16,
+  "use_type_probs": true,
+  "reranker_kind": "mlp",
+  "mlp_hidden": "64,32",
+  "mlp_alpha": 0.0001
+}

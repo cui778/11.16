@@ -1,0 +1,5 @@
+variant,mrr,top1,top3,top5,notes
+obsaware_25node_mainline_reranker,0.7068,0.6273,0.7143,0.7743,current obsaware chapter-1 rebased line
+fullnode_teacher_upper_bound,0.9959,0.9917,1.0000,1.0000,full-node privileged upper bound
+masked_fullgraph_student_no_distill,0.9472,0.9048,0.9917,1.0000,128-node graph with 25-node observed mask
+masked_fullgraph_student_with_distill,0.9423,0.8965,0.9876,0.9917,teacher-student logits distillation

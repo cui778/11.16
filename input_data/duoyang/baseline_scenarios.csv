@@ -1,0 +1,11 @@
+baseline_id,baseline_name,baseline_type,dwf_pattern_type,dwf_global_scale,dwf_node_noise_std,has_rain,infiltration_background_level,comment
+1,B2_noise_01,B2_noise,workday,1.00,0.05,0,none,轻微噪声 (≈±5%)
+2,B2_noise_02,B2_noise,workday,1.00,0.05,0,none,轻微噪声 (≈±5%) 不同随机种子
+3,B2_noise_03,B2_noise,workday,1.00,0.10,0,none,中等噪声 (≈±10%)
+4,B2_noise_04,B2_noise,workday,1.00,0.10,0,none,中等噪声 (≈±10%) 不同随机种子
+5,B2_noise_05,B2_noise,workday,1.00,0.15,0,none,稍大噪声 (≈±15%)
+6,B2_noise_06,B2_noise,workday,1.00,0.15,0,none,稍大噪声 (≈±15%) 不同随机种子
+7,B2_noise_07,B2_noise,workday,0.90,0.10,0,none,整体流量偏低 (×0.9)+10%噪声
+8,B2_noise_08,B2_noise,workday,1.10,0.10,0,none,整体流量偏高 (×1.1)+10%噪声
+9,B2_noise_09,B2_noise,workday,0.95,0.05,0,none,略低+轻噪声
+10,B2_noise_10,B2_noise,workday,1.05,0.05,0,none,略高+轻噪声

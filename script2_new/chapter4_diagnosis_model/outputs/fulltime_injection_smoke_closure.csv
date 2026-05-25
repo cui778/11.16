@@ -1,0 +1,18 @@
+item,value,comment
+fulltime_matrix,defect_matrix_diverse_ie_v4_formal_conservative420_fulltime_seed42.csv,Independent full-time matrix generated from formal IE420
+temporal_protocol,fulltime_injection,start_hour=0 and duration_h=48
+fulltime_matrix_rows,420,Same number of defect scenarios as formal IE420
+I_rows,250,Same as formal IE420
+E_rows,170,Same as formal IE420
+I_unique_nodes,50,Same as formal IE420
+E_unique_nodes,34,Same as formal IE420
+smoke_output_dir,fulltime_full_ie_v4_formal_conservative420_seed42_smoke5,Smoke extraction only
+smoke_time_gated,false,Extracted without --time-gated
+smoke_max_scenarios,5,Baseline plus first 5 defect scenarios
+smoke_scenario_count,6,Baseline + 5 defects
+smoke_unique_node_count,128,Full graph extraction
+smoke_sample_interval_minutes,10,Same as formal dataset
+smoke_unique_times_per_scenario,287,From scenario_summary.csv
+smoke_records_per_scenario,36736,128 nodes x 287 time points
+smoke_residual_file,node_timeseries_with_residuals.parquet,Residual features generated
+full_420_extraction_status,not_completed,Timed out after 1 hour and produced no full output directory

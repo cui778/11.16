@@ -1,0 +1,122 @@
+{
+  "mrr": 0.3878114975154237,
+  "top1": 0.3128415300546448,
+  "top3": 0.3825136612021858,
+  "top5": 0.4344262295081967,
+  "active_acc": 0.7338624338624339,
+  "active_period_recall": 0.35382513661202186,
+  "detection_latency_mean": 4.611111111111111,
+  "event_level_top1": 0.3111111111111111,
+  "event_level_top3": 0.37777777777777777,
+  "event_level_top5": 0.4666666666666667,
+  "seed": 42,
+  "subdir": "time_gated_node_sensor_v2_rebuild",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 211,
+      "n_windows": 8862,
+      "n_defect_nodes": 45,
+      "loc_enabled": 3122,
+      "loc_enabled_ratio": 0.3522906793048973
+    },
+    "val": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 32,
+      "loc_enabled": 612,
+      "loc_enabled_ratio": 0.3238095238095238
+    },
+    "test": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 29,
+      "loc_enabled": 732,
+      "loc_enabled_ratio": 0.3873015873015873
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "HS1313205"
+    ],
+    "test_only_defect_nodes_sample": [
+      "HS1316643"
+    ]
+  },
+  "config_snapshot": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "soft_label_sigma": 1.0,
+    "train_with_full_graph": false,
+    "use_time_pos_encoding": true,
+    "use_trend_feature": false,
+    "dataset_active_overlap_threshold": 0.5,
+    "dataset_transition_overlap_threshold": 0.0,
+    "dataset_active_signal_quantile": 0.95,
+    "dataset_transition_signal_quantile": 0.9,
+    "lambda_type": 0.0,
+    "lambda_loc": 1.0,
+    "loc_loss_mode": "soft",
+    "loc_soft_weight": 0.5,
+    "lambda_rank": 0.0,
+    "rank_margin": 0.1,
+    "lambda_balance": 0.0,
+    "hydraulic_attention_max_hops": 0,
+    "hydraulic_observed_source_only": false,
+    "model_type": "hydraulic_inverse_deepattn",
+    "time_hidden_dim": 128,
+    "spatial_hidden_dim": 256,
+    "num_time_layers": 1,
+    "num_spatial_layers": 2,
+    "n_features": 8,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file_config": "monitor_nodes_degree_N25.json",
+    "monitor_nodes_file_dataset": "e:\\11.16\\script2_new\\input_1\\monitor_nodes_degree_N25.json",
+    "monitor_node_count_dataset": 25,
+    "strict_monitor_only_dataset": true,
+    "training_data_subdir": "time_gated_node_sensor_v2_rebuild",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated_node_sensor_v2_rebuild\\node_timeseries_with_residuals.parquet",
+    "split_mode": "scenario",
+    "dataset_manifest": {
+      "base_inp_path": "e:\\11.16\\input_data\\2_tuned_v3_merged1.inp",
+      "defect_csv_path": "e:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+      "output_dir": "e:\\11.16\\script2_new\\training_data_new\\time_gated_node_sensor_v2_rebuild",
+      "sample_interval_minutes": 10,
+      "max_scenarios": null,
+      "time_gated": true,
+      "key_nodes_only": false,
+      "strict_monitor_only": true,
+      "monitor_node_count": 25,
+      "monitor_nodes_file": "e:\\11.16\\script2_new\\input_1\\monitor_nodes_degree_N25.json",
+      "node_timeseries_file": "e:\\11.16\\script2_new\\training_data_new\\time_gated_node_sensor_v2_rebuild\\node_timeseries.parquet",
+      "scenario_summary_file": "e:\\11.16\\script2_new\\training_data_new\\time_gated_node_sensor_v2_rebuild\\scenario_summary.csv",
+      "scenario_count": 301,
+      "unique_node_count": 25
+    }
+  },
+  "by_type_top1": {
+    "I": 0.23255813953488372,
+    "E": 0.3165137614678899,
+    "P": 0.47058823529411764
+  },
+  "seen_nodes": {
+    "n": 720,
+    "mrr": 0.39256925774453916,
+    "top1": 0.31805555555555554,
+    "top3": 0.3888888888888889
+  },
+  "unseen_nodes": {
+    "n": 12,
+    "mrr": 0.10234580234580236,
+    "top1": 0.0,
+    "top3": 0.0
+  }
+}

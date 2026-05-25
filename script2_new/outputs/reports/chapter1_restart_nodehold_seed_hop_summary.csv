@@ -1,0 +1,4 @@
+﻿seed,n_train_nodes,n_holdout_nodes,train_mean_monitor_hop,holdout_mean_monitor_hop
+42,40,10,1.75,2.6
+7,40,10,1.975,1.7
+123,40,10,1.775,2.5

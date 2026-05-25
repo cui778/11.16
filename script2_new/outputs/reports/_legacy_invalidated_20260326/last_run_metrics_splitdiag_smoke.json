@@ -1,0 +1,40 @@
+{
+  "mrr": 0.42157330267521304,
+  "top1": 0.31129476584022037,
+  "top3": 0.4476584022038568,
+  "top5": 0.5385674931129476,
+  "seed": 42,
+  "subdir": "time_gated",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 210,
+      "n_windows": 8820,
+      "n_defect_nodes": 45,
+      "loc_enabled": 3158,
+      "loc_enabled_ratio": 0.3580498866213152
+    },
+    "val": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 29,
+      "loc_enabled": 582,
+      "loc_enabled_ratio": 0.30793650793650795
+    },
+    "test": {
+      "n_scenarios": 45,
+      "n_windows": 1890,
+      "n_defect_nodes": 28,
+      "loc_enabled": 726,
+      "loc_enabled_ratio": 0.38412698412698415
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "HS1313205"
+    ],
+    "test_only_defect_nodes_sample": [
+      "HS1316643"
+    ]
+  }
+}

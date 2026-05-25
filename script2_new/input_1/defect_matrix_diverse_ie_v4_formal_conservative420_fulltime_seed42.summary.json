@@ -1,0 +1,14 @@
+{
+  "source_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+  "output_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_fulltime_seed42.csv",
+  "temporal_protocol": "fulltime_injection",
+  "start_hour": 0.0,
+  "duration_h": 48.0,
+  "n_rows": 420,
+  "i_rows": 250,
+  "e_rows": 170,
+  "active_unique_nodes": 50,
+  "i_unique_nodes": 50,
+  "e_unique_nodes": 34,
+  "note": "This is a true full-time injection matrix. It should be used with extract_timeseries.py without --time-gated."
+}

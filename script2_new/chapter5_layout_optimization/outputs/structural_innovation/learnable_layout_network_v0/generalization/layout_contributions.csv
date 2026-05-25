@@ -1,0 +1,11 @@
+﻿method,preset,quality_score,selected_count
+candidate_observability,generalization,0.4810677766799927,25
+degree,generalization,0.4656843841075897,25
+identifiability_driven,generalization,0.4037157893180847,25
+overlap_controlled_balanced,generalization,0.4481301009654999,25
+overlap_controlled_candidate_focus,generalization,0.4575422704219818,25
+two_stage_balanced_layout_v1,generalization,0.44389036297798157,25
+two_stage_balanced_layout_v2,generalization,0.4436051547527313,25
+two_stage_generalization_balanced_layout_v3,generalization,0.3884705901145935,25
+two_stage_generalization_balanced_layout_v3_1,generalization,0.4106370806694031,25
+two_stage_generalization_balanced_layout_v3_1a,generalization,0.40751805901527405,25

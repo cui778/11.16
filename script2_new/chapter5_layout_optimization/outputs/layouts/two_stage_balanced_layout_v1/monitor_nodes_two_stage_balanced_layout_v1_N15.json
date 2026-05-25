@@ -1,0 +1,59 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "HS1316267",
+    "MH0242782",
+    "HS1313025",
+    "MH0241587",
+    "HS1314477",
+    "HS1313402",
+    "HS1316721",
+    "HS1316415",
+    "HS1313597",
+    "MH0201597",
+    "HS1344902",
+    "HS2003111",
+    "HS1313487",
+    "HS1316563"
+  ],
+  "strategy": "two_stage_balanced_layout_v1",
+  "n": 15,
+  "representative_pool_file": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\representative_pools\\two_stage_balanced_layout_v1\\representative_pool_two_stage_balanced_layout_v1_N15.json",
+  "protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "control-variable Chapter-5 layout study; only monitor layout changes"
+  },
+  "objective_meta": {
+    "stage1": "joint topology-response k-medoids compression",
+    "stage2": "greedy plus local swap",
+    "compression_ratio": 1.4,
+    "similarity_topology_weight": 0.55,
+    "similarity_response_weight": 0.45,
+    "topology_tau": 3.0,
+    "selected_representative_pool_size": 21
+  },
+  "layout_metrics": {
+    "direct": 11,
+    "near": 28,
+    "far": 11,
+    "mean_hop": 1.88,
+    "max_hop": 10.0,
+    "overlap_count": 11,
+    "monitor_dispersion_mean_hop": 13.4,
+    "monitor_redundancy_mean_jaccard": 0.010105820105820106,
+    "signature_mean_nn": 1.557602047920227,
+    "signature_min_nn": 0.04143097996711731,
+    "signature_p10_nn": 0.06650422513484955,
+    "objective_total": 0.520721604697554,
+    "objective_candidate_observability": 0.5,
+    "objective_candidate_separability": 0.5879489492275087,
+    "objective_global_coverage": 0.5507649183273315,
+    "objective_key_structure": 0.6628594994544983,
+    "objective_redundancy_penalty": 0.18938090115785597,
+    "representative_pool_size": 21,
+    "representative_pool_candidate_overlap": 14,
+    "key_node_count": 19
+  }
+}

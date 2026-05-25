@@ -1,0 +1,55 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "HS1316585",
+    "HS1313025",
+    "HS1313835",
+    "MH0201710",
+    "HS2003111",
+    "HS1314477",
+    "HS1313402",
+    "HS1316721",
+    "HS1313298",
+    "HS1316202",
+    "MH0242782",
+    "HS1330842",
+    "HS1313618",
+    "HS1311339",
+    "HS1313925",
+    "HS1313205",
+    "HS1313471",
+    "HS1316814",
+    "HS1344261",
+    "HS1311288",
+    "HS1344902",
+    "HS2003015",
+    "HS1306471",
+    "HS1306554"
+  ],
+  "strategy": "observability_aware",
+  "n": 25,
+  "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+  "node_list_file": "E:\\11.16\\script2_new\\input_1\\node_list.json",
+  "graph_features_file": "E:\\11.16\\script2_new\\input_1\\graph_path_features.npz",
+  "exclude_nodes": [
+    "1",
+    "MH0100819"
+  ],
+  "objective": {
+    "primary": "maximize number of candidate nodes within 2 hops of at least one monitor",
+    "secondary": "increase direct coverage and reduce mean candidate-monitor hop",
+    "hop_utility": {
+      "0": 6.0,
+      "1": 4.0,
+      "2": 3.0,
+      "3": 0.5,
+      ">3": 0.0
+    }
+  },
+  "observability_summary": {
+    "direct": 25,
+    "near": 25,
+    "far": 0,
+    "mean_hop": 0.78
+  }
+}

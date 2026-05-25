@@ -1,0 +1,25 @@
+{
+  "monitor_nodes": [
+    "1",
+    "HS1314477",
+    "HS1308324",
+    "HS1316530",
+    "HS1316207",
+    "HS1316202",
+    "HS1314512",
+    "HS1316177",
+    "HS1314505",
+    "HS1308302",
+    "MH0100819",
+    "HS1308301",
+    "HS1314769",
+    "HS2003014",
+    "HS2003013"
+  ],
+  "strategy": "downstream",
+  "n": 15,
+  "generated_at": "2026-03-18T21:12:49",
+  "candidate_nodes_file": "candidate_nodes_new.json",
+  "adj_file": "adj_matrix.npy",
+  "node_list_file": "node_list.json"
+}

@@ -1,0 +1,89 @@
+{
+  "mrr": 0.7718366775812651,
+  "top1": 0.6645056726094003,
+  "top3": 0.8492706645056726,
+  "top5": 0.9311183144246353,
+  "seed": 42,
+  "subdir": "time_gated",
+  "defect_csv": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse.csv",
+  "split_diag": {
+    "train": {
+      "n_scenarios": 149,
+      "n_windows": 6258,
+      "n_defect_nodes": 32,
+      "loc_enabled": 2177,
+      "loc_enabled_ratio": 0.3478747203579418
+    },
+    "val": {
+      "n_scenarios": 32,
+      "n_windows": 1344,
+      "n_defect_nodes": 20,
+      "loc_enabled": 536,
+      "loc_enabled_ratio": 0.39880952380952384
+    },
+    "test": {
+      "n_scenarios": 86,
+      "n_windows": 3612,
+      "n_defect_nodes": 14,
+      "loc_enabled": 1234,
+      "loc_enabled_ratio": 0.3416389811738649
+    },
+    "val_defect_nodes_subset_train": false,
+    "test_defect_nodes_subset_train": false,
+    "val_only_defect_nodes_sample": [
+      "HS1316643"
+    ],
+    "test_only_defect_nodes_sample": [
+      "HS1306571",
+      "HS1306904",
+      "HS1311288",
+      "HS1311339",
+      "HS1313298",
+      "HS1313597",
+      "HS1313925",
+      "HS1344263",
+      "HS1344920",
+      "HS2003046"
+    ]
+  },
+  "config_snapshot": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0005,
+    "dropout": 0.2,
+    "patience": 10,
+    "num_epochs": 50,
+    "batch_size": 32,
+    "sequence_length": 36,
+    "window_stride": 6,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "soft_label_sigma": 1.0,
+    "lambda_type": 0.0,
+    "model_type": "gru_only",
+    "time_hidden_dim": 128,
+    "spatial_hidden_dim": 256,
+    "num_time_layers": 1,
+    "num_spatial_layers": 2,
+    "n_features": 27,
+    "candidate_nodes_file": "candidate_nodes_new.json",
+    "monitor_nodes_file": "monitor_nodes_degree_N25.json",
+    "node_timeseries_file": "E:\\11.16\\script2_new\\training_data_new\\time_gated\\node_timeseries_with_residuals.parquet"
+  },
+  "by_type_top1": {
+    "I": 0.6799007444168734,
+    "E": 0.6304347826086957,
+    "P": 0.7253218884120172
+  },
+  "seen_nodes": {
+    "n": 0,
+    "mrr": 0.0,
+    "top1": 0.0,
+    "top3": 0.0
+  },
+  "unseen_nodes": {
+    "n": 1234,
+    "mrr": 0.7718366728264183,
+    "top1": 0.6645056726094003,
+    "top3": 0.8492706645056726
+  }
+}
