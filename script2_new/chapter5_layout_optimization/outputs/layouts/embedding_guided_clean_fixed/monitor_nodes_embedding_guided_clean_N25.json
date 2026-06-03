@@ -1,0 +1,63 @@
+{
+  "monitor_nodes": [
+    "HS2003014",
+    "HS1311349",
+    "MH0201710",
+    "HS1317102",
+    "HS2003046",
+    "HS1314512",
+    "MH0242298",
+    "HS1306471",
+    "HS1344166",
+    "HS1314477",
+    "HS1330826",
+    "HS1316563",
+    "HS2003085",
+    "HS1316707",
+    "HS1316532",
+    "MH0100819",
+    "HS1316207",
+    "HS1316417",
+    "HS2003125",
+    "HS1313140",
+    "HS1306601",
+    "YS2003067",
+    "HS1316445",
+    "1",
+    "HS1324403"
+  ],
+  "strategy": "embedding_guided_clean",
+  "n": 25,
+  "frozen_protocol": {
+    "source_data": "ie420_plus_normal20_v1",
+    "seed": 42,
+    "selection_uses_train_split_only": true,
+    "selection_rule": "max_min_diversity_on_l2_normalized_node_embeddings",
+    "evaluation_protocol": "chapter5_sparse_observation_scenario_seed42"
+  },
+  "objective_meta": {
+    "checkpoint": "E:\\11.16\\script2_new\\outputs\\model_checkpoints\\best_model_48h_control_ie420_normal20_raw_plus_residual_loc0p5_degree_N25_s42.pth",
+    "encoder_model_type_resolved": "hydraulic_inverse_deepattn",
+    "device": "cuda:0",
+    "teacher_subdir": "ie420_plus_normal20_v1",
+    "seed": 42,
+    "sequence_length": 24,
+    "window_stride": 6,
+    "train_windows_used": 13596,
+    "embedding_shape": [
+      128,
+      256
+    ],
+    "full_monitors": "E:\\11.16\\script2_new\\input_1\\monitor_nodes_full_N128.json"
+  },
+  "layout_metrics": {
+    "direct": 10,
+    "near": 21,
+    "far": 19,
+    "mean_hop": 2.56,
+    "max_hop": 15.0,
+    "overlap_count": 10,
+    "monitor_dispersion_mean_hop": 12.756666666666666,
+    "monitor_redundancy_mean_jaccard": 0.09276077626077625
+  }
+}

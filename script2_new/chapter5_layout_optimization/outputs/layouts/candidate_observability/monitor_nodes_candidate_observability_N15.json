@@ -1,0 +1,48 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "HS1316585",
+    "HS1313025",
+    "HS1313835",
+    "MH0201710",
+    "HS2003111",
+    "HS1314477",
+    "HS1316721",
+    "HS1313402",
+    "HS1313676",
+    "HS1316445",
+    "HS1313167",
+    "HS1316267",
+    "HS1330826",
+    "HS1313640"
+  ],
+  "strategy": "candidate_observability",
+  "n": 15,
+  "frozen_protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "defect matrix fixed; only monitor layout changes"
+  },
+  "objective_meta": {
+    "direct": 9,
+    "near": 33,
+    "far": 8,
+    "mean_hop": 1.52,
+    "max_hop": 5.0,
+    "max_candidate_overlap": 9
+  },
+  "layout_metrics": {
+    "direct": 9,
+    "near": 33,
+    "far": 8,
+    "mean_hop": 1.52,
+    "max_hop": 5.0,
+    "overlap_count": 9,
+    "monitor_dispersion_mean_hop": 13.095238095238095,
+    "monitor_redundancy_mean_jaccard": 0.010748299319727891,
+    "signature_mean_nn": 1.0336666107177734,
+    "signature_min_nn": 0.0,
+    "signature_p10_nn": 0.0
+  }
+}

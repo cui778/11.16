@@ -1,0 +1,10 @@
+dataset_id,relative_path,dataset_type,status,scenario_count,normal_count,i_count,e_count,baseline_count,unique_node_count,records_per_scenario,time_points,sampling_interval_min,defect_csv,parquet_timeseries_gb,parquet_residuals_gb,paper_usage,notes
+1,time_gated_full_ie_v4_formal_conservative420_seed42,IE420 time-gated defect mother,formal,421,0,250,170,1,128,36736,287,10,defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv,1.1,2.6,chapter3_main,IE420 defect mother data
+2,normal_multibaseline_v2_seedset20,normal condition layer,formal,20,20,0,0,0,128,36736,287,10,,0.059,0.177,chapter3_main,20 normal perturbation scenarios
+3,ie420_plus_normal20_v1,formal training combination,formal,441,20,250,170,1,128,36736,287,10,defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv,1.1,2.8,chapter4_ch5_main,official training dataset for chapters 4 and 5
+4,ie420_plus_normal_multibaseline_v1_seedset10,old seedset10 combination,frozen_legacy,431,10,250,170,1,128,36736,287,10,defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv,1.1,2.7,internal_only,replaced by normal20
+5,ie420_plus_persistent84_plus_normal20_v1,persistent mixed,frozen_legacy,525,20,300,204,1,128,36736,287,10,defect_matrix_mixed_ie420_persistent84_v1.csv,1.3,3.4,internal_only,contains persistent defect scenarios
+6,normal_multibaseline_v1_seedset10,old normal layer,frozen_legacy,10,10,0,0,0,128,36736,287,10,,0.031,0.093,internal_only,replaced by seedset20
+7,persistent_ie_fullwindow_v1_seed42,persistent 84 scenarios,frozen_legacy,84,0,50,34,0,128,36736,287,10,,0.213,0.622,internal_only,persistent defect exploration
+8,fulltime_full_ie_v4_formal_conservative420_seed42,fulltime version,frozen_legacy,0,0,0,0,0,0,0,0,0,,0,0,internal_only,directory empty - never generated
+9,fulltime_full_ie_v4_formal_conservative420_seed42_smoke5,smoke test,debug,6,0,5,0,1,128,36736,287,10,defect_matrix_diverse_ie_v4_formal_conservative420_fulltime_seed42.csv,0.014,0.035,internal_only,fulltime smoke test with 5 scenarios

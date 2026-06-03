@@ -1,0 +1,49 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "MH0201710",
+    "HS1316563",
+    "HS1313835",
+    "HS1313402"
+  ],
+  "strategy": "two_stage_balanced_layout_v1",
+  "n": 5,
+  "representative_pool_file": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\representative_pools\\two_stage_balanced_layout_v1\\representative_pool_two_stage_balanced_layout_v1_N5.json",
+  "protocol": {
+    "candidate_nodes_file": "E:\\11.16\\script2_new\\input_1\\candidate_nodes_new.json",
+    "defect_matrix_file": "E:\\11.16\\script2_new\\input_1\\defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv",
+    "formal_data_dir": "E:\\11.16\\script2_new\\training_data_new\\time_gated_full_ie_v4_formal_conservative420_seed42",
+    "note": "control-variable Chapter-5 layout study; only monitor layout changes"
+  },
+  "objective_meta": {
+    "stage1": "joint topology-response k-medoids compression",
+    "stage2": "greedy plus local swap",
+    "compression_ratio": 1.4,
+    "similarity_topology_weight": 0.55,
+    "similarity_response_weight": 0.45,
+    "topology_tau": 3.0,
+    "selected_representative_pool_size": 7
+  },
+  "layout_metrics": {
+    "direct": 5,
+    "near": 13,
+    "far": 32,
+    "mean_hop": 5.42,
+    "max_hop": 15.0,
+    "overlap_count": 5,
+    "monitor_dispersion_mean_hop": 13.8,
+    "monitor_redundancy_mean_jaccard": 0.025,
+    "signature_mean_nn": 0.386576771736145,
+    "signature_min_nn": 0.00313079752959311,
+    "signature_p10_nn": 0.008484960533678532,
+    "objective_total": 0.24837243424578115,
+    "objective_candidate_observability": 0.23999999463558197,
+    "objective_candidate_separability": 0.19461548457645017,
+    "objective_global_coverage": 0.2861408591270447,
+    "objective_key_structure": 0.5459920167922974,
+    "objective_redundancy_penalty": 0.20175610721111298,
+    "representative_pool_size": 7,
+    "representative_pool_candidate_overlap": 7,
+    "key_node_count": 19
+  }
+}

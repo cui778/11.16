@@ -1,0 +1,30 @@
+script_id,filename,location,role,status,dependencies,output_datasets,notes
+1,build_formal_ie_conservative_matrix.py,prep/,IE420 defect matrix construction,core,defect_matrix.py;inp_parser.py,defect_matrix_diverse_ie_v4_formal_conservative420_seed42.csv,formal entry point for IE420 matrix
+2,build_ie420_normal20_control_dataset.py,prep/,formal combination dataset builder,core,build_48h_restructured_datasets.py;dataset_build_utils.py,ie420_plus_normal20_v1,formal entry point - builds official training dataset
+3,build_48h_restructured_datasets.py,prep/,shared infrastructure (normal dataset builder),shared_infrastructure,,normal_multibaseline_v1_seedset10;persistent_ie_fullwindow_v1_seed42;ie420_plus_normal_multibaseline_v1_seedset10,exports build_normal_dataset; _write_manifest; _write_summary
+4,dataset_build_utils.py,prep/,shared utility functions,core,,,_infer_ie_defect_csv extracted from mixed script
+5,build_candidates.py,prep/,candidate node set construction,core,,candidate_nodes_new.json,formal utility
+6,build_defect_matrix_v2.py,prep/,defect matrix v2 construction,core,,defect_matrix_v2.csv,formal utility
+7,build_graph.py,prep/,graph construction,core,,graph data,formal utility
+8,build_graph_features.py,prep/,graph feature extraction,core,,graph features,formal utility
+9,extract_timeseries.py,prep/,time series extraction,core,,time series data,formal utility
+10,residual_features.py,prep/,residual feature computation,core,,residual features,formal utility
+11,inp_parser.py,prep/,SWMM INP file parser,core,,parsed INP data,formal utility
+12,defect_matrix.py,prep/,defect matrix utilities,core,,defect matrix helpers,formal utility
+13,validate_node_sets.py,prep/,node set validation,core,,validation results,formal utility
+14,build_monitors.py,prep/,monitor node construction,core,,monitor nodes,formal utility
+15,build_e_boost_matrix.py,prep/,E-boost matrix,legacy_support,,E-boost matrix,curriculum learning exploration
+16,build_e_curriculum_matrix.py,prep/,E-curriculum matrix,legacy_support,,E-curriculum matrix,curriculum learning exploration
+17,build_ie_curriculum_v3_matrix.py,prep/,IE curriculum v3 matrix,legacy_support,,IE curriculum v3,curriculum learning exploration
+18,build_fulltime_ie_matrix_from_formal.py,prep/,fulltime IE matrix from formal,legacy_support,,fulltime matrix,fulltime variant exploration
+19,build_topology_robustness_inputs.py,prep/,topology robustness inputs,legacy_support,,robustness inputs,topology exploration
+20,analyze_temporal_spatial_features.py,prep/,temporal/spatial feature analysis,legacy_support,,analysis results,exploratory analysis
+21,build_balanced_observability_monitors.py,prep/,balanced observability monitors,legacy_support,,monitor data,monitor exploration
+22,build_observability_aware_monitors.py,prep/,observability-aware monitors,legacy_support,,monitor data,monitor exploration
+23,repair_monitor_only_dataset.py,prep/,monitor-only dataset repair,legacy_support,,repaired dataset,data repair utility
+24,build_persistent_ie_matrix.py,chapter3_data_generation/legacy_exploration/scripts/,persistent IE matrix,legacy,defect_matrix.py,persistent matrices,archived to legacy_exploration/scripts
+25,build_mixed_persistent_training_dataset.py,chapter3_data_generation/legacy_exploration/scripts/,mixed persistent training dataset,legacy,build_48h_restructured_datasets.py,mixed datasets,archived to legacy_exploration/scripts
+26,plot_validate_persistent_normal.py,chapter3_data_generation/legacy_exploration/scripts/,persistent normal validation plot,legacy,,validation plots,archived to legacy_exploration/scripts
+27,summarize_mixed_persistent_results.py,chapter3_data_generation/legacy_exploration/scripts/,mixed persistent results summary,legacy,,summary reports,archived to legacy_exploration/scripts
+28,summarize_persistent_sampling_sweep.py,chapter3_data_generation/legacy_exploration/scripts/,persistent sampling sweep summary,legacy,,sweep reports,archived to legacy_exploration/scripts
+29,diagnose_worst_localization_scenarios.py,chapter3_data_generation/legacy_exploration/scripts/,worst localization diagnosis,legacy,,diagnosis reports,archived to legacy_exploration/scripts

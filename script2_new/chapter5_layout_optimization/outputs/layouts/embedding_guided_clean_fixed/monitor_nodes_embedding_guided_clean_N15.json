@@ -1,0 +1,35 @@
+{
+  "monitor_nodes": [
+    "MH0201710",
+    "HS1314268",
+    "HS1314512",
+    "HS1306554",
+    "HS1306471",
+    "HS1311475",
+    "HS2003014",
+    "HS1311288",
+    "HS1344261",
+    "HS1308301",
+    "HS1344166",
+    "HS1316677",
+    "MH0242303",
+    "HS1316334",
+    "HS1316417"
+  ],
+  "strategy": "embedding_guided_clean",
+  "n": 15,
+  "frozen_protocol": {
+    "source_data": "time_gated_full_ie_v4_formal_conservative420_seed42",
+    "seed": 42,
+    "selection_uses_train_split_only": true,
+    "selection_rule": "max_min_diversity_on_l2_normalized_node_embeddings"
+  },
+  "layout_metrics": {
+    "direct": 6,
+    "near": 18,
+    "far": 26,
+    "mean_hop": 4.86,
+    "max_hop": 15,
+    "overlap_count": 6
+  }
+}
