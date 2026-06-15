@@ -92,7 +92,12 @@ python prep/residual_features.py
 python train/check_labels.py
 
 # 训练
-python E:\11.16\script2_new\chapter5_layout_optimization\scripts\train_learnable_layout_network.py
+# 第4章/固定布局诊断模型训练入口
+python script2_new/scripts/train_privileged_teacher_student.py \
+  --student-model-type hydraulic_inverse_deepattn \
+  --student-monitors script2_new/input_1/monitor_nodes_degree_N25.json \
+  --split-mode scenario \
+  --seed 42
 ```
 
 从项目根目录运行也可（需能解析到 `script2_new` 的 config）：
@@ -113,7 +118,12 @@ python E:\11.16\script2_new\chapter5_layout_optimization\scripts\train_learnable
 4. **prep/extract_timeseries.py** → 生成 `training_data_*/node_timeseries.parquet`
 5. **prep/residual_features.py** → 生成 `node_timeseries_with_residuals.parquet`
 6. **train/check_labels.py** → 检查标签与覆盖率
-7. **E:\11.16\script2_new\chapter5_layout_optimization\scripts\train_learnable_layout_network.py* → 训练并保存模型到 `model_checkpoints/`
+7. # 第4章/固定布局诊断模型训练入口
+python script2_new/scripts/train_privileged_teacher_student.py \
+  --student-model-type hydraulic_inverse_deepattn \
+  --student-monitors script2_new/input_1/monitor_nodes_degree_N25.json \
+  --split-mode scenario \
+  --seed 42
 
 ---
 
