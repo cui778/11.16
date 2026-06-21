@@ -37,6 +37,19 @@ E:\11.16\script2_new\scripts\train_privileged_teacher_student.py
 
 该脚本同时被第5章使用，不移动。
 
+## 方法消融实验
+
+```text
+脚本：chapter4_diagnosis_model/scripts/run_ch4_method_ablation.py
+后台启动：chapter4_diagnosis_model/scripts/start_ch4_method_ablation_detached.ps1
+协议：chapter4_diagnosis_model/plans/CH4_METHOD_ABLATION_PROTOCOL.md
+输出：chapter4_diagnosis_model/outputs/formal_method_ablation/
+```
+
+方法消融包含 DeepAttn 层数、路径先验和 Hydraulic-Inverse-LSTM
+时间编码器对照。旧脚本在未显式传入层数时仍保持历史的至少3层
+DeepAttn 行为。
+
 ## 正式 checkpoint
 
 文件名前缀：`ch1_fullgraph_degree_ie420_*`

@@ -1,0 +1,10 @@
+dataset_id,relative_path,dataset_type,status,paper_usage,notes
+1,time_gated_full_ie_v4_formal_conservative420_seed42,IE420 time-gated defect mother,formal,chapter3_main,IE420 defect mother data
+2,normal_multibaseline_v2_seedset20,normal condition layer,formal,chapter3_main,20 normal perturbation scenarios
+3,ie420_plus_normal20_v1,formal training combination,formal,chapter4_ch5_main,official training and evaluation dataset
+4,_legacy_exploration/ie420_plus_normal_multibaseline_v1_seedset10,old seedset10 combination,legacy,internal_only,replaced by normal20
+5,_legacy_exploration/ie420_plus_persistent84_plus_normal20_v1,persistent mixed,legacy,internal_only,contains persistent scenarios
+6,_legacy_exploration/normal_multibaseline_v1_seedset10,old normal layer,legacy,internal_only,replaced by seedset20
+7,_legacy_exploration/persistent_ie_fullwindow_v1_seed42,persistent scenarios,legacy,internal_only,persistent exploration
+8,_legacy_exploration/fulltime_full_ie_v4_formal_conservative420_seed42,empty fulltime directory,legacy,internal_only,never generated
+9,_legacy_exploration/fulltime_full_ie_v4_formal_conservative420_seed42_smoke5,fulltime smoke test,debug,internal_only,not for thesis

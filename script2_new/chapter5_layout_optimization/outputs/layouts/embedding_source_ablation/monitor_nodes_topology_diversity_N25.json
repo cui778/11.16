@@ -1,0 +1,48 @@
+{
+  "monitor_nodes": [
+    "HS1313402",
+    "HS1306471",
+    "HS2003111",
+    "HS1313290",
+    "HS1316676",
+    "HS1306554",
+    "MH0242303",
+    "HS1314769",
+    "HS1313220",
+    "MH0242782",
+    "HS1316202",
+    "HS1316467",
+    "HS1311349",
+    "HS1316344",
+    "HS1313391",
+    "MH0101924",
+    "HS2003070",
+    "1",
+    "HS1314210",
+    "HS1313044",
+    "HS1316566",
+    "MH0100292",
+    "HS1311339",
+    "HS1313083",
+    "HS1313001"
+  ],
+  "strategy": "topology_diversity",
+  "n": 25,
+  "selection_rule": "max_min_diversity_on_l2_normalized_features",
+  "feature_names": [
+    "in_degree",
+    "out_degree",
+    "total_degree",
+    "elevation",
+    "mean_reachable_hop",
+    "nearest_positive_hop",
+    "mean_pipe_length_distance"
+  ],
+  "formal_protocol": {
+    "teacher_subdir": "ie420_plus_normal20_v1",
+    "diagnosis_model": "hydraulic_inverse_deepattn",
+    "split_mode": "scenario",
+    "feature_set": "raw_plus_residual",
+    "lambda_loc": 0.5
+  }
+}

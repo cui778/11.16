@@ -1,0 +1,23 @@
+{
+  "experiments": {
+    "embedding_source_ablation": {
+      "new_runs": 2,
+      "formal_embedding_guided_result_reused": true,
+      "diagnosis_seed": 42
+    },
+    "low_budget_confirmation": {
+      "new_runs": 6,
+      "methods": [
+        "Degree",
+        "Two-stage v1",
+        "Embedding-Guided"
+      ],
+      "diagnosis_seeds": [
+        7,
+        123
+      ]
+    }
+  },
+  "total_new_runs": 8,
+  "manifest": "E:\\11.16\\script2_new\\chapter5_layout_optimization\\outputs\\targeted_supplements\\CH5_TARGETED_SUPPLEMENTS_MANIFEST.csv"
+}

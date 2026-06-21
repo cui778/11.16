@@ -108,6 +108,7 @@ class Config:
     # 模型与训练（简化，与 script2 一致即可）
     model_type: str = "hydraulic_inverse_deepattn"  # gru_gcn | hydraulic_inverse | hydraulic_inverse_deepattn
     use_flow_direction: bool = True
+    path_prior_mode: str = "full"  # full | distance_only | none
     use_propagation_delay: bool = False
     propagation_delay_velocity_mps: float = 0.5
     hydraulic_attention_max_hops: int = 0
@@ -115,6 +116,7 @@ class Config:
     spatial_hidden_dim: int = 256
     num_time_layers: int = 1
     num_spatial_layers: int = 2
+    allow_shallow_deepattn: bool = False
     dropout: float = 0.2
     learning_rate: float = 0.0003
     weight_decay: float = 5e-4

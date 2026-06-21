@@ -1,0 +1,43 @@
+{
+  "monitor_nodes": [
+    "HS1306601",
+    "HS1316302",
+    "HS1313025",
+    "HS1308259",
+    "HS1314769",
+    "HS1316677",
+    "HS1313205",
+    "HS1313865",
+    "HS1313283",
+    "HS1330826",
+    "HS1313803",
+    "HS1316835",
+    "HS1314512",
+    "HS1313965",
+    "HS1316585",
+    "HS1313676",
+    "HS1316344",
+    "HS1313343",
+    "HS1311339",
+    "MH0100334",
+    "HS1313391",
+    "HS2003070",
+    "HS1316530",
+    "HS1313001",
+    "HS2003125"
+  ],
+  "strategy": "coordinate_diversity",
+  "n": 25,
+  "selection_rule": "max_min_diversity_on_l2_normalized_features",
+  "feature_names": [
+    "x",
+    "y"
+  ],
+  "formal_protocol": {
+    "teacher_subdir": "ie420_plus_normal20_v1",
+    "diagnosis_model": "hydraulic_inverse_deepattn",
+    "split_mode": "scenario",
+    "feature_set": "raw_plus_residual",
+    "lambda_loc": 0.5
+  }
+}

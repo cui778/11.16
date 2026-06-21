@@ -1,0 +1,26 @@
+﻿method,budget,diagnosis_seed,status,metrics_file
+Degree,5,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_degree_N5_s42.json
+Degree,10,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_degree_N10_s42.json
+Degree,15,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_degree_N15_s42.json
+Degree,20,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_degree_N20_s42.json
+Degree,25,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_degree_N25_s42.json
+Betweenness,5,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_betweenness_N5_s42.json
+Betweenness,10,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_betweenness_N10_s42.json
+Betweenness,15,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_betweenness_N15_s42.json
+Betweenness,20,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_betweenness_N20_s42.json
+Betweenness,25,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_48h_control_ie420_normal20_raw_plus_residual_loc0p5_betweenness_N25_s42.json
+Cand-Obs,5,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_candidate_observability_N5_normal20_rawres_loc0p5_s42.json
+Cand-Obs,10,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_candidate_observability_N10_normal20_rawres_loc0p5_s42.json
+Cand-Obs,15,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_candidate_observability_N15_normal20_rawres_loc0p5_s42.json
+Cand-Obs,20,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_candidate_observability_N20_normal20_rawres_loc0p5_s42.json
+Cand-Obs,25,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_candidate_observability_N25_normal20_rawres_loc0p5_s42.json
+Two-stage v1,5,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_two_stage_balanced_layout_v1_N5_normal20_rawres_loc0p5_s42.json
+Two-stage v1,10,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_two_stage_balanced_layout_v1_N10_normal20_rawres_loc0p5_s42.json
+Two-stage v1,15,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_two_stage_balanced_layout_v1_N15_normal20_rawres_loc0p5_s42.json
+Two-stage v1,20,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_two_stage_balanced_layout_v1_N20_normal20_rawres_loc0p5_s42.json
+Two-stage v1,25,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_two_stage_balanced_layout_v1_N25_normal20_rawres_loc0p5_s42.json
+Embedding-Guided,5,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_embedding_guided_clean_new_N5_normal20_rawres_loc0p5_s42.json
+Embedding-Guided,10,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_embedding_guided_clean_new_N10_normal20_rawres_loc0p5_s42.json
+Embedding-Guided,15,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_embedding_guided_clean_new_N15_normal20_rawres_loc0p5_s42.json
+Embedding-Guided,20,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_embedding_guided_clean_new_N20_normal20_rawres_loc0p5_s42.json
+Embedding-Guided,25,42,done,E:\11.16\script2_new\outputs\reports\last_run_metrics_ch5_fixed_embedding_guided_clean_new_N25_normal20_rawres_loc0p5_s42.json

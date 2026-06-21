@@ -543,11 +543,13 @@ def build_config_snapshot(config, split_diag: dict) -> dict:
         'scene_topk': getattr(config, 'scene_topk', 5),
         'hydraulic_attention_max_hops': getattr(config, 'hydraulic_attention_max_hops', 0),
         'hydraulic_observed_source_only': getattr(config, 'hydraulic_observed_source_only', False),
+        'path_prior_mode': getattr(config, 'path_prior_mode', 'full'),
         'model_type': config.model_type,
         'time_hidden_dim': config.time_hidden_dim,
         'spatial_hidden_dim': config.spatial_hidden_dim,
         'num_time_layers': config.num_time_layers,
         'num_spatial_layers': config.num_spatial_layers,
+        'allow_shallow_deepattn': getattr(config, 'allow_shallow_deepattn', False),
         'n_features': len(config.selected_features),
         'candidate_nodes_file': os.path.basename(config.candidate_nodes_file),
         'monitor_nodes_file_config': os.path.basename(config.monitor_nodes_file),
@@ -835,6 +837,8 @@ def main():
         num_nodes=num_nodes,
         dropout=config.dropout,
     )
+    if config.model_type.startswith('hydraulic_inverse_deepattn'):
+        model_kw['allow_shallow_deepattn'] = getattr(config, 'allow_shallow_deepattn', False)
     if config.model_type in {
         'hydraulic_inverse',
         'hydraulic_inverse_ctx',
@@ -857,6 +861,7 @@ def main():
         model_kw['graph_features_dict'] = graph_features_dict
         logger.info(f"  已加载图路径特征: {graph_path_file}")
         model_kw['use_flow_direction'] = getattr(config, 'use_flow_direction', True)
+        model_kw['path_prior_mode'] = getattr(config, 'path_prior_mode', 'full')
         model_kw['use_propagation_delay'] = getattr(config, 'use_propagation_delay', False)
         model_kw['propagation_delay_velocity_mps'] = getattr(config, 'propagation_delay_velocity_mps', 0.5)
         model_kw['attention_max_hops'] = getattr(config, 'hydraulic_attention_max_hops', 0)

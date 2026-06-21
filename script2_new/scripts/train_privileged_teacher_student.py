@@ -181,11 +181,16 @@ def _create_model(cfg: Config, dataset, device: torch.device):
         num_nodes=num_nodes,
         dropout=cfg.dropout,
     )
+    if cfg.model_type.startswith("hydraulic_inverse_deepattn"):
+        model_kw["allow_shallow_deepattn"] = getattr(
+            cfg, "allow_shallow_deepattn", False
+        )
     if cfg.model_type in HYDRAULIC_MODEL_TYPES:
         npz = np.load(cfg.graph_path_features_file)
         graph_features_dict = {k: npz[k] for k in npz.files}
         model_kw["graph_features_dict"] = graph_features_dict
         model_kw["use_flow_direction"] = getattr(cfg, "use_flow_direction", True)
+        model_kw["path_prior_mode"] = getattr(cfg, "path_prior_mode", "full")
         model_kw["use_propagation_delay"] = getattr(cfg, "use_propagation_delay", False)
         model_kw["propagation_delay_velocity_mps"] = getattr(cfg, "propagation_delay_velocity_mps", 0.5)
         model_kw["attention_max_hops"] = getattr(cfg, "hydraulic_attention_max_hops", 0)
@@ -382,6 +387,16 @@ def main():
         default="process_diagnosis_hydraulic_inverse_deepattn_time_gated_full_v2e_dense_ie_truefull_residual8_scenario_seed42",
     )
     parser.add_argument("--student-model-type", default="hydraulic_inverse_deepattn")
+    parser.add_argument("--num-spatial-layers", type=int, default=None)
+    parser.add_argument(
+        "--path-prior-mode",
+        default="full",
+        choices=["full", "distance_only", "none"],
+        help=(
+            "Path values exposed to hydraulic attention. Reachability masking "
+            "is retained for every mode."
+        ),
+    )
     parser.add_argument("--num-epochs", type=int, default=25)
     parser.add_argument("--lambda-loc", type=float, default=None)
     parser.add_argument("--lambda-kd", type=float, default=0.7)
@@ -445,6 +460,12 @@ def main():
     student_cfg = copy.deepcopy(teacher_cfg)
     student_cfg.monitor_nodes_file = os.path.normpath(args.student_monitors)
     student_cfg.model_type = str(args.student_model_type).strip()
+    if args.num_spatial_layers is not None:
+        if int(args.num_spatial_layers) < 1:
+            parser.error("--num-spatial-layers must be >= 1")
+        student_cfg.num_spatial_layers = int(args.num_spatial_layers)
+        student_cfg.allow_shallow_deepattn = True
+    student_cfg.path_prior_mode = str(args.path_prior_mode)
     student_cfg.selected_features = _features_for_set(args.feature_set)
     student_cfg.num_epochs = int(args.num_epochs)
     student_cfg.dataset_persistent_train_sample_ratio = float(args.persistent_train_sample_ratio)
@@ -667,6 +688,13 @@ def main():
                     "best_val_mrr": best_metric,
                     "teacher_checkpoint": teacher_ckpt_str,
                     "student_monitor_nodes_file": student_cfg.monitor_nodes_file,
+                    "student_model_type": student_cfg.model_type,
+                    "num_spatial_layers": int(student_cfg.num_spatial_layers),
+                    "resolved_num_spatial_layers": int(
+                        getattr(student_model, "deep_num_layers", student_cfg.num_spatial_layers)
+                    ),
+                    "allow_shallow_deepattn": bool(student_cfg.allow_shallow_deepattn),
+                    "path_prior_mode": str(student_cfg.path_prior_mode),
                     "split_diag": train_diag,
                 },
                 str(artifact_paths["checkpoint"]),
@@ -702,6 +730,12 @@ def main():
     test_metrics["lambda_loc"] = float(student_cfg.lambda_loc)
     test_metrics["temperature"] = float(args.temperature)
     test_metrics["feature_set"] = str(args.feature_set)
+    test_metrics["num_spatial_layers"] = int(student_cfg.num_spatial_layers)
+    test_metrics["resolved_num_spatial_layers"] = int(
+        getattr(student_model, "deep_num_layers", student_cfg.num_spatial_layers)
+    )
+    test_metrics["allow_shallow_deepattn"] = bool(student_cfg.allow_shallow_deepattn)
+    test_metrics["path_prior_mode"] = str(student_cfg.path_prior_mode)
     test_metrics["active_threshold"] = None if args.active_threshold is None else float(args.active_threshold)
     test_metrics["scene_threshold_arg"] = None if args.scene_threshold is None else float(args.scene_threshold)
     test_metrics["scene_score_mode_arg"] = str(args.scene_score_mode)
